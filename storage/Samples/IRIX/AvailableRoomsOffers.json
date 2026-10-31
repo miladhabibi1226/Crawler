@@ -1,0 +1,85 @@
+{
+    "_links": {
+        "self": {
+            "href": "https://www.ebookingcenter.com/tbs/reseller/api/hotels/v1/search/results/0681fb9c-7446-41ec-bc30-885c41b14afb/hotels/834441/offers"
+        }
+    },
+    "id": "834441",
+    "name": "TEST HOTEL",
+    "offers": [
+        {
+            "boardBasis": [
+                {
+                    "code": "BB",
+                    "price": {
+                        "currency": "USD",
+                        "value": 6.15
+                    }
+                }
+            ],
+            "id": "28b41f6c263f64bec0411f9ebfedbd15",
+            "minPrice": {
+                "currency": "USD",
+                "value": 6.15
+            },
+            "nonRefundable": [
+                {
+                    "code": "refundable",
+                    "price": {
+                        "currency": "USD",
+                        "value": 6.15
+                    }
+                }
+            ],
+            "packages": [
+                {
+                    "complete": true,
+                    "packageCode": "0",
+                    "packageRooms": [
+                        {
+                            "occupancy": {
+                                "adults": 1,
+                                "childrenAges": []
+                            },
+                            "packageRoomCode": "0",
+                            "roomReferences": [
+                                {
+                                    "roomCode": 0,
+                                    "roomToken": "eyJyb29tQ29kZSI6IjAiLCJvcHRpb25JbmRleCI6MCwib2NjdXBhbmN5SW5kZXgiOjB9.833c412d894bf0071165f5ed26fecbaf6c12f0ad",
+                                    "selected": true
+                                }
+                            ]
+                        }
+                    ],
+                    "packageToken": "eyJob3RlbCI6IjgzNDQ0MSIsIm9mZmVyIjoiMjhiNDFmNmMyNjNmNjRiZWMwNDExZjllYmZlZGJkMTUiLCJwYWNrYWdlQ29kZSI6IjAifQ==.f4742ea16c4f8f768a78f782323455abd213a262",
+                    "price": {
+                        "selling": {
+                            "currency": "USD",
+                            "value": 6.15
+                        }
+                    }
+                }
+            ],
+            "recommended": false,
+            "rooms": [
+                {
+                    "board": null,
+                    "boardBasis": "BB",
+                    "index": "0",
+                    "info": " Rate: Bed &amp; Breakfast. ",
+                    "name": "Single - Standard Room",
+                    "nonRefundable": false,
+                    "price": {
+                        "selling": {
+                            "currency": "USD",
+                            "value": 6.15
+                        }
+                    },
+                    "rateTags": null,
+                    "status": "OK"
+                }
+            ],
+            "specialDeal": false
+        }
+    ]
+}

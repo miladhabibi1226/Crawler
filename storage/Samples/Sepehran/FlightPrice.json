@@ -1,0 +1,184 @@
+{
+    "0": {
+        "markup": 0
+    },
+    "1": {
+        "markup": 0
+    },
+    "status": "success",
+    "err": [
+        {
+            "code": 0,
+            "msg": ""
+        }
+    ],
+    "adult": {
+        "fare": 221.69,
+        "tax": 28.81,
+        "fee": 0,
+        "markup": 0,
+        "ftm": 250.5,
+        "count": "3",
+        "total": 751.5
+    },
+    "child": {
+        "fare": 176.69,
+        "tax": 27.31,
+        "fee": 0,
+        "markup": 0,
+        "ftm": 204,
+        "count": "2",
+        "total": 408
+    },
+    "inf": {
+        "fare": 117.95,
+        "tax": 20.05,
+        "fee": 0,
+        "markup": 0,
+        "ftm": 138,
+        "count": "2",
+        "total": 276
+    },
+    "total": 1435.5,
+    "discount": 0,
+    "discounts": {
+        "ADT": 0,
+        "CHD": 0,
+        "INF": 0
+    },
+    "total_markup": 0,
+    "outbound": {
+        "detail": {
+            "adult": {
+                "fare": 141,
+                "tax": 9,
+                "fee": 0,
+                "markup": 0,
+                "ftm": 150,
+                "count": "3",
+                "total": 450,
+                "additional_fee": []
+            },
+            "child": {
+                "fare": 116,
+                "tax": 8,
+                "fee": 0,
+                "markup": 0,
+                "ftm": 124,
+                "count": "2",
+                "total": 248,
+                "additional_fee": []
+            },
+            "inf": {
+                "fare": 64,
+                "tax": 5,
+                "fee": 0,
+                "markup": 0,
+                "ftm": 69,
+                "count": "2",
+                "total": 138,
+                "additional_fee": []
+            }
+        }
+    },
+    "return": {
+        "detail": {
+            "adult": {
+                "fare": 80.69,
+                "tax": 19.81,
+                "fee": 0,
+                "markup": 0,
+                "ftm": 100.5,
+                "count": "3",
+                "total": 301.5,
+                "additional_fee": []
+            },
+            "child": {
+                "fare": 60.69,
+                "tax": 19.31,
+                "fee": 0,
+                "markup": 0,
+                "ftm": 80,
+                "count": "2",
+                "total": 160,
+                "additional_fee": []
+            },
+            "inf": {
+                "fare": 53.95,
+                "tax": 15.05,
+                "fee": 0,
+                "markup": 0,
+                "ftm": 69,
+                "count": "2",
+                "total": 138,
+                "additional_fee": []
+            }
+        }
+    },
+    "currency": "USD",
+    "flights": [
+        {
+            "ref_number": "815a097759a07adadb024d4b266183ad",
+            "capacity": 9,
+            "flight_type": "Nonstop",
+            "description": "",
+            "plans": [],
+            "flight_details": {
+                "flight_number": "7300",
+                "class": "G",
+                "cabin": "Y",
+                "operator": "Scheduled",
+                "airline": "IS",
+                "airline_operating": "IS",
+                "airplane": "Boieng 737",
+                "source": "41",
+                "airline_name": "سپهران"
+            },
+            "departure": {
+                "location_code": "MHD",
+                "date": "2024-02-18",
+                "time": "12:00:00"
+            },
+            "arrival": {
+                "location_code": "NJF",
+                "date": "2024-02-18",
+                "time": "14:00:00"
+            },
+            "baggages": [],
+            "duration": "02:00:00",
+            "stop": []
+        },
+        {
+            "ref_number": "1713de91ff5a0c5f3a70d9e7f52617f8",
+            "capacity": 9,
+            "flight_type": "Nonstop",
+            "description": "",
+            "plans": [],
+            "flight_details": {
+                "flight_number": "7500",
+                "class": "G",
+                "cabin": "Y",
+                "operator": "Scheduled",
+                "airline": "IS",
+                "airline_operating": "IS",
+                "airplane": "Boieng 737",
+                "source": "41",
+                "airline_name": "سپهران"
+            },
+            "departure": {
+                "location_code": "NJF",
+                "date": "2024-02-20",
+                "time": "09:30:00"
+            },
+            "arrival": {
+                "location_code": "MHD",
+                "date": "2024-02-20",
+                "time": "11:00:00"
+            },
+            "baggages": [],
+            "duration": "01:30:00",
+            "stop": []
+        }
+    ],
+    "services": []
+}

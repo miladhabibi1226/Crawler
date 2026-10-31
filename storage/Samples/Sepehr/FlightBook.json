@@ -1,0 +1,31 @@
+{
+    "Pnr": "X3T4GS",
+    "Passengers": [
+        {
+            "FirstName": "REBEKAH",
+            "LastName": "ESTRADA",
+            "DepartureSegment": {
+                "TicketNumber": 1395678,
+                "FlightNumber": "2223",
+                "FlightDate": "2021-09-30 13:00",
+                "OriginIataCode": "THR",
+                "DestinationIataCode": "MHD",
+                "Supplier": null
+            },
+            "ReturningSegment": null
+        },
+        {
+            "FirstName": "TAMARA",
+            "LastName": "DAWSON",
+            "DepartureSegment": {
+                "TicketNumber": 1395679,
+                "FlightNumber": "2223",
+                "FlightDate": "2021-09-30 13:00",
+                "OriginIataCode": "THR",
+                "DestinationIataCode": "MHD",
+                "Supplier": null
+            },
+            "ReturningSegment": null
+        }
+    ]
+}

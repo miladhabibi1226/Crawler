@@ -1,0 +1,207 @@
+{
+    "HasMoreResult": false,
+    "Success": true,
+    "PricedItineraries": {
+        "PricedItinerary": [
+            {
+                "AirItinerary": {
+                    "OriginDestinationOptions": [
+                        {
+                            "FlightSegment": [
+                                {
+                                    "FlightDuration": "03:00",
+                                    "DepartureAirport": {
+                                        "LocationCode": "IST",
+                                        "Terminal": "Istanbul"
+                                    },
+                                    "ArrivalAirport": {
+                                        "LocationCode": "IKA",
+                                        "Terminal": "Tehran"
+                                    },
+                                    "OperatingAirline": {
+                                        "Code": "B9"
+                                    },
+                                    "Equipment": {
+                                        "AirEquipType": "Airbus A310"
+                                    },
+                                    "MarketingAirline": {
+                                        "Code": "B9"
+                                    },
+                                    "BookingClassAvails": [
+                                        {
+                                            "ResBookDesigCode": "M26",
+                                            "ResBookDesigQuantity": 5,
+                                            "RPH": "149098",
+                                            "AvailablePTC": null,
+                                            "ResBookDesigCabinCode": "Y",
+                                            "FareBasis": null
+                                        }
+                                    ],
+                                    "DepartureDateTime": "2023-05-28 10:00",
+                                    "ArrivalDateTime": "2023-05-28 13:30",
+                                    "DepartureDate": "2023-05-28",
+                                    "DepartureTime": "10:00",
+                                    "ArrivalDate": "2023-05-28",
+                                    "ArrivalTime": "13:30",
+                                    "FlightNumber": "694",
+                                    "ResBookDesigCode": "M26",
+                                    "RPH": "149098",
+                                    "FreeBaggages": [
+                                        {
+                                            "PassengerType": "ADL",
+                                            "Quantity": "30",
+                                            "Unit": "KG"
+                                        },
+                                        {
+                                            "PassengerType": "CHD",
+                                            "Quantity": "30",
+                                            "Unit": "KG"
+                                        },
+                                        {
+                                            "PassengerType": "INF",
+                                            "Quantity": "10",
+                                            "Unit": "KG"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "RefNumber": "149098",
+                            "DirectionId": 0,
+                            "ElapsedTime": 0,
+                            "CabinClass": null
+                        }
+                    ],
+                    "OriginDestinationCombinations": []
+                },
+                "AirItineraryPricingInfo": {
+                    "ItinTotalFare": {
+                        "BaseFare": {
+                            "Amount": 9420000,
+                            "CurrencyCode": null,
+                            "DecimalPlaces": 0
+                        },
+                        "MarkupFare": {
+                            "Amount": 0,
+                            "CurrencyCode": null,
+                            "DecimalPlaces": 0
+                        },
+                        "TotalFare": {
+                            "Amount": 20000000,
+                            "CurrencyCode": null,
+                            "DecimalPlaces": 0
+                        }
+                    },
+                    "PTC_FareBreakdowns": [
+                        {
+                            "PassengerTypeQuantity": {
+                                "Code": "ADL",
+                                "Quantity": 1
+                            },
+                            "PassengerFare": {
+                                "BaseFare": {
+                                    "Amount": 4710000,
+                                    "CurrencyCode": null,
+                                    "DecimalPlaces": 0
+                                },
+                                "MarkupFare": {
+                                    "Amount": 0,
+                                    "CurrencyCode": null,
+                                    "DecimalPlaces": 0
+                                },
+                                "Taxes": {
+                                    "Tax": [
+                                        {
+                                            "Name": "UN",
+                                            "Amount": 5290000
+                                        }
+                                    ]
+                                },
+                                "Fees": null,
+                                "TotalFare": {
+                                    "Amount": 10000000,
+                                    "CurrencyCode": null,
+                                    "DecimalPlaces": 0
+                                }
+                            },
+                            "TicketDesignators": null,
+                            "FareInfo": null
+                        },
+                        {
+                            "PassengerTypeQuantity": {
+                                "Code": "CHD",
+                                "Quantity": 1
+                            },
+                            "PassengerFare": {
+                                "BaseFare": {
+                                    "Amount": 4004000,
+                                    "CurrencyCode": null,
+                                    "DecimalPlaces": 0
+                                },
+                                "MarkupFare": {
+                                    "Amount": 0,
+                                    "CurrencyCode": null,
+                                    "DecimalPlaces": 0
+                                },
+                                "Taxes": {
+                                    "Tax": [
+                                        {
+                                            "Name": "UN",
+                                            "Amount": 5290000
+                                        }
+                                    ]
+                                },
+                                "Fees": null,
+                                "TotalFare": {
+                                    "Amount": 9294000,
+                                    "CurrencyCode": null,
+                                    "DecimalPlaces": 0
+                                }
+                            },
+                            "TicketDesignators": null,
+                            "FareInfo": null
+                        },
+                        {
+                            "PassengerTypeQuantity": {
+                                "Code": "INF",
+                                "Quantity": 1
+                            },
+                            "PassengerFare": {
+                                "BaseFare": {
+                                    "Amount": 471000,
+                                    "CurrencyCode": null,
+                                    "DecimalPlaces": 0
+                                },
+                                "MarkupFare": {
+                                    "Amount": 0,
+                                    "CurrencyCode": null,
+                                    "DecimalPlaces": 0
+                                },
+                                "Taxes": {
+                                    "Tax": [
+                                        {
+                                            "Name": "UN",
+                                            "Amount": 0
+                                        }
+                                    ]
+                                },
+                                "Fees": null,
+                                "TotalFare": {
+                                    "Amount": 471000,
+                                    "CurrencyCode": null,
+                                    "DecimalPlaces": 0
+                                }
+                            },
+                            "TicketDesignators": null,
+                            "FareInfo": null
+                        }
+                    ]
+                },
+                "Currency": "IRR",
+                "ProviderType": "Faranegar",
+                "SequenceNumber": 1
+            }
+        ]
+    },
+    "Version": 0,
+    "Message": null
+}

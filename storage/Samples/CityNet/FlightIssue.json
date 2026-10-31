@@ -1,0 +1,47 @@
+{
+    "Items": [
+        {
+            "Success": true,
+            "Items": {
+                "TravelerInfo": {
+                    "AirTraveler": [
+                        {
+                            "Gender": "Male",
+                            "Document": {
+                                "DocID": "0011557508",
+                                "ExpireDate": "2022-08-25 00:00:00",
+                                "InnerDocType": "Passport",
+                                "DocIssueCountry": "IR"
+                            },
+                            "PersonId": 119133,
+                            "BirthDate": "1967-11-28 00:00:00",
+                            "NationalId": "0011557508",
+                            "PersonName": {
+                                "Surname": "SANFORD",
+                                "GivenName": "MEGHAN",
+                                "NamePrefix": "MR"
+                            },
+                            "Nationality": "IR",
+                            "PassengerId": 95022,
+                            "PassengerTypeCode": "ADT",
+                            "TicketNumber": [
+                                "100441",
+                                "100442"
+                            ],
+                            "ReferenceId": "1YHBLHHH"
+                        }
+                    ]
+                },
+                "AirItinerary": {
+                    "SessionId": "1b7778b7-24ad-493d-879e-d4f342b09a78",
+                    "CombinationId": 2,
+                    "RecommendationId": 0,
+                    "SubsystemId": 48,
+                    "SubsystemName": "flightInventory",
+                    "pnr": "1YHBLHHH",
+                    "Eticket": "100441"
+                }
+            }
+        }
+    ]
+}

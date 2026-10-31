@@ -1,0 +1,21 @@
+{
+    "total": 0,
+    "message": "Success",
+    "description": "Success",
+    "data": {
+        "contact": {},
+        "price": {
+            "total": 0,
+            "base": 0,
+            "taxes": 0,
+            "currency": ""
+        },
+        "commission": {
+            "type": "",
+            "amount": 0,
+            "currency": "",
+            "ref": 0,
+            "ref_value": ""
+        }
+    }
+}

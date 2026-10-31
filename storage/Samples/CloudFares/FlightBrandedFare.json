@@ -1,0 +1,164 @@
+{
+    "total": 1,
+    "message": "Success",
+    "description": "Success",
+    "data": [
+        {
+            "supply_provider": "G9+2",
+            "label": "Bahrain International Airport - Sharjah International Airport",
+            "brand_result_id": "b96715b0-244b-4db4-adf4-c2bc5e388d26",
+            "brand_legs": [
+                {
+                    "brand_id": "b7a1b120-38c8-4c73-a28a-d25db2d9d299",
+                    "universal_key": null,
+                    "title": "Basic",
+                    "service_keys": [
+                        "ae641675-fe7e-4f3b-a238-b011f9027e56",
+                        "jsessionid:demo302155~3FCA3E038BAE7C63C14DCFC6A35F5FD4.aeromart-demo14-g9-service-app-2155"
+                    ],
+                    "brand_images": null,
+                    "price": {
+                        "total": 134.75,
+                        "base": 2.72,
+                        "taxes": 132.03,
+                        "currency": "USD"
+                    },
+                    "commission": {
+                        "type": "",
+                        "amount": 0,
+                        "currency": "",
+                        "ref": 0,
+                        "ref_value": ""
+                    },
+                    "ancillary_service": {
+                        "available_baggage": true,
+                        "available_meal": true,
+                        "available_seat": true
+                    },
+                    "service_charge": null,
+                    "fare_services": [
+                        {
+                            "Title": "10 Kg Carry-on Baggage",
+                            "Description": "",
+                            "InclusionType": "included"
+                        }
+                    ],
+                    "fare_segments": [
+                        {
+                            "title": "Bahrain International Airport - Sharjah International Airport",
+                            "segment_ref": "519534e3-7b26-46a6-bd1b-e0e74b3e83c7",
+                            "fare_base": "BAH/TerminalX-SHJ/Terminal1",
+                            "class": {
+                                "service": "Economy",
+                                "booking": "Y",
+                                "seats_available": 197,
+                                "fare_basis": ""
+                            }
+                        }
+                    ],
+                    "brand_tier": "0"
+                },
+                {
+                    "brand_id": "f08e4766-c571-4795-b677-b85d3dc4ca07",
+                    "universal_key": null,
+                    "title": "Ultimate",
+                    "service_keys": [
+                        "ae641675-fe7e-4f3b-a238-b011f9027e56",
+                        "jsessionid:demo302155~3FCA3E038BAE7C63C14DCFC6A35F5FD4.aeromart-demo14-g9-service-app-2155"
+                    ],
+                    "brand_images": null,
+                    "price": {
+                        "total": 352.28,
+                        "base": 220.25,
+                        "taxes": 132.03,
+                        "currency": "USD"
+                    },
+                    "commission": {
+                        "type": "",
+                        "amount": 0,
+                        "currency": "",
+                        "ref": 0,
+                        "ref_value": ""
+                    },
+                    "ancillary_service": {
+                        "available_baggage": true,
+                        "available_meal": true,
+                        "available_seat": true
+                    },
+                    "service_charge": null,
+                    "fare_services": [
+                        {
+                            "Title": "",
+                            "Description": "",
+                            "InclusionType": "included"
+                        }
+                    ],
+                    "fare_segments": [
+                        {
+                            "title": "Bahrain International Airport - Sharjah International Airport",
+                            "segment_ref": "ce5b32ae-3137-48df-b903-fd1487eacd4b",
+                            "fare_base": "BAH/TerminalX-SHJ/Terminal1",
+                            "class": {
+                                "service": "Economy",
+                                "booking": "Y",
+                                "seats_available": 197,
+                                "fare_basis": ""
+                            }
+                        }
+                    ],
+                    "brand_tier": "1"
+                },
+                {
+                    "brand_id": "aa1fc89f-6779-47d0-9a9b-4a19afb560ff",
+                    "universal_key": null,
+                    "title": "Extra",
+                    "service_keys": [
+                        "ae641675-fe7e-4f3b-a238-b011f9027e56",
+                        "jsessionid:demo302155~3FCA3E038BAE7C63C14DCFC6A35F5FD4.aeromart-demo14-g9-service-app-2155"
+                    ],
+                    "brand_images": null,
+                    "price": {
+                        "total": 406.66,
+                        "base": 274.63,
+                        "taxes": 132.03,
+                        "currency": "USD"
+                    },
+                    "commission": {
+                        "type": "",
+                        "amount": 0,
+                        "currency": "",
+                        "ref": 0,
+                        "ref_value": ""
+                    },
+                    "ancillary_service": {
+                        "available_baggage": true,
+                        "available_meal": true,
+                        "available_seat": true
+                    },
+                    "service_charge": null,
+                    "fare_services": [
+                        {
+                            "Title": "",
+                            "Description": "",
+                            "InclusionType": "included"
+                        }
+                    ],
+                    "fare_segments": [
+                        {
+                            "title": "Bahrain International Airport - Sharjah International Airport",
+                            "segment_ref": "9c3dec69-3af5-44ef-be4f-13dd12789ac2",
+                            "fare_base": "BAH/TerminalX-SHJ/Terminal1",
+                            "class": {
+                                "service": "Economy",
+                                "booking": "Y",
+                                "seats_available": 197,
+                                "fare_basis": ""
+                            }
+                        }
+                    ],
+                    "brand_tier": "2"
+                }
+            ]
+        }
+    ]
+}

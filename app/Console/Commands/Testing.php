@@ -1,0 +1,146 @@
+<?php
+
+namespace App\Console\Commands;
+
+use Illuminate\Console\Command;
+use MatinUtils\NodeTracker\Models\Booking;
+use App\TravelServices\Handler;
+use App\Jobs\SepehranSchedule;
+use MatinUtils\NodeTracker\Models\FlightBuffer;
+use MatinUtils\NodeTracker\PriceInfo;
+use MatinUtils\NodeTracker\Models\SupplierService;
+use MatinUtils\NodeTracker\Models\Api;
+use MatinUtils\NodeTracker\Models\Seller;
+
+class Testing extends Command
+{
+    protected $signature = 'temp';
+
+    public function handle()
+    {
+
+        switchNode(1);
+        $s = SupplierService::whereSupplier(types('supplierBrand','ITours'))->first();
+        $s = Seller::whereSupplierServiceId(20)->first();
+        $s = Api::find(15);
+        dd($s);
+        $b = Booking::find(5199);
+        lugWarning(__METHOD__, [$b->price_info]);
+        dump(PriceInfo::version($b->price_info));
+        dump("1-getSellerCurrency");
+        dump(PriceInfo::getSellerCurrency($b->price_info));
+        dump("2-getBuyerCurrency");
+        dump(PriceInfo::getBuyerCurrency($b->price_info));
+        dump("3-getMarketplaceCurrency");
+        dump(PriceInfo::getMarketplaceCurrency($b->price_info));
+        // dump("4-getGatewayCurrency");
+        // dump(PriceInfo::getGatewayCurrency($b->price_info));
+        dump("5-getNodeExchangeId");
+        dump(PriceInfo::getNodeExchangeId($b->price_info));
+        dump("6-getMarketplaceExchangeId");
+        dump(PriceInfo::getMarketplaceExchangeId($b->price_info));
+        dump("7-getBuyerExchangeId");
+        dump(PriceInfo::getBuyerExchangeId($b->price_info));
+        dump("8-getSellerExchangeId");
+        dump(PriceInfo::getSellerExchangeId($b->price_info));
+        // dump("9-getGatewayExchangeId");
+        // dump(PriceInfo::getGatewayExchangeId($b->price_info));
+        dump("10-getSellerExchangeRate");
+        dump(PriceInfo::getSellerExchangeRate($b->price_info));
+        dump("11-getBuyerExchangeRate");
+        dump(PriceInfo::getBuyerExchangeRate($b->price_info));
+        dump("12-getNodeExchangeRate");
+        dump(PriceInfo::getNodeExchangeRate($b->price_info));
+        // dump("13-getGatewayExchangeRate");
+        // dump(PriceInfo::getGatewayExchangeRate($b->price_info));
+        dump("14-getNodePrice");
+        dump(PriceInfo::getNodePrice($b->price_info));
+        dump("15-getBuyerPrice");
+        dump(PriceInfo::getBuyerPrice($b->price_info));
+        dump("16-getMarketplacePrice");
+        dump(PriceInfo::getMarketplacePrice($b->price_info));
+        dump("17-getSellerPrice bySellerCurrency");
+        dump(PriceInfo::getSellerPrice($b->price_info, 'bySellerCurrency'));
+        dump("18-getSellerPrice byNodeCurrency");
+        dump(PriceInfo::getSellerPrice($b->price_info, 'byNodeCurrency'));
+        // dump("19-getGatewayAmount");
+        // dump(PriceInfo::getGatewayAmount($b->price_info));
+        // dump("20-getGatewaySubChargePercent");
+        // dump(PriceInfo::getGatewaySubChargePercent($b->price_info));
+        // dump("21-getGatewaySubChargeAmount");
+        // dump(PriceInfo::getGatewaySubChargeAmount($b->price_info));
+        // dump("22-getGatewayFinalAmount");
+        // dump(PriceInfo::getGatewayFinalAmount($b->price_info));
+        dump("23-getBasePrice byNodeCurrency");
+        dump(PriceInfo::getBasePrice($b->price_info,'byNodeCurrency'));
+        dump("24-getBasePrice bySellerCurrency");
+        dump(PriceInfo::getBasePrice($b->price_info,'bySellerCurrency'));
+        dump("25-getTotalMargin");
+        dump(PriceInfo::getTotalMargin($b->price_info));
+        dump("26-getSellerMargin booking");
+        dump(PriceInfo::getSellerMargin($b->price_info,'booking'));
+        dump("27-getSellerMargin search");
+        dump(PriceInfo::getSellerMargin($b->price_info,'search'));
+        dump("28-getSellerBasePrice byNodeCurrency");
+        dump(PriceInfo::getSellerBasePrice($b->price_info,'byNodeCurrency'));
+        dump("29-getSellerBasePrice bySellerCurrency");
+        dump(PriceInfo::getSellerBasePrice($b->price_info,'bySellerCurrency'));
+        dump("30-getSellerExtraPrice byNodeCurrency");
+        dump(PriceInfo::getSellerExtraPrice($b->price_info,'byNodeCurrency'));
+        dump("31-getSellerExtraPrice bySellerCurrency");
+        dump(PriceInfo::getSellerExtraPrice($b->price_info,'bySellerCurrency'));
+        dump("32-getSellerNetPrice byNodeCurrency");
+        dump(PriceInfo::getSellerNetPrice($b->price_info,'byNodeCurrency'));
+        dump("33-getSellerNetPrice bySellerCurrency");
+        dump(PriceInfo::getSellerNetPrice($b->price_info,'bySellerCurrency'));
+        dump("34-getBasicRuleExceptionConditions");
+        dump(PriceInfo::getBasicRuleExceptionConditions($b->price_info));
+        dump("35-getSellerExceptionConditions");
+        dump(PriceInfo::getSellerExceptionConditions($b->price_info));
+        dump("36-passengerCount");
+        dump(PriceInfo::passengerCount($b->price_info));
+        dump("37-getFinaPrice");
+        dump(PriceInfo::getFinaPrice($b->price_info));
+        dump("38-getMarginSource fix");
+        dump(PriceInfo::getMarginSource($b->price_info, 'fix'));
+        dump("39-getMarginSource base");
+        dump(PriceInfo::getMarginSource($b->price_info, 'base'));
+        dump("40-getMarginSource total");
+        dump(PriceInfo::getMarginSource($b->price_info, 'total'));
+        dump("41-getBasicRuleSource fix");
+        dump(PriceInfo::getBasicRuleSource($b->price_info, 'fix'));
+        dump("42-getBasicRuleSource base");
+        dump(PriceInfo::getBasicRuleSource($b->price_info, 'base'));
+        dump("43-getBasicRuleSource total");
+        dump(PriceInfo::getBasicRuleSource($b->price_info, 'total'));
+        dump("44-getRuleId search marginException");
+        dump(PriceInfo::getRuleId($b->price_info, 'marginException', 'search'));
+        dump("45-getRuleId search basicRule");
+        dump(PriceInfo::getRuleId($b->price_info, 'basicRule', 'search'));
+        dump("46-getRuleId search basicRuleException");
+        dump(PriceInfo::getRuleId($b->price_info, 'basicRuleException', 'search'));
+        dump("47-getRuleId booking marginException");
+        dump(PriceInfo::getRuleId($b->price_info, 'marginException', 'booking'));
+        dump("48-getRuleId booking basicRule");
+        dump(PriceInfo::getRuleId($b->price_info, 'basicRule', 'booking'));
+        dump("49-getRuleId booking basicRuleException");
+        dump(PriceInfo::getRuleId($b->price_info, 'basicRuleException', 'booking'));
+        dump("50-getSearchExchangeIds");
+        dump(PriceInfo::getSearchExchangeIds($b->price_info));
+        dump("51-getBuyerGroupId");
+        dump(PriceInfo::getBuyerGroupId($b->price_info));
+        dump("52-marginExceptionIsApplied");
+        dump(PriceInfo::marginExceptionIsApplied($b->price_info));
+        dump("53-appliedMargin");
+        dump(PriceInfo::appliedMargin($b->price_info));
+        dump("54-basicRuleIsApplied");
+        dump(PriceInfo::basicRuleIsApplied($b->price_info));
+        dump("55-basicRuleExceptionIsApplied");
+        dump(PriceInfo::basicRuleExceptionIsApplied($b->price_info));
+        dump("56-getBasicRuleInfo");
+        dump(PriceInfo::getBasicRuleInfo($b->price_info));
+        dump("57-appliedSellingRule");
+        dump(PriceInfo::appliedSellingRule($b->price_info));
+        
+    }
+}

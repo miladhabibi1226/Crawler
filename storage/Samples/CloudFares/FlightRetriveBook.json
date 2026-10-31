@@ -1,0 +1,209 @@
+{
+    "total": 0,
+    "message": "Success",
+    "description": "Success",
+    "data": {
+        "supply_provider": "IQ",
+        "payment_type": "wallet",
+        "payment_status": "paid",
+        "contact": {
+            "first_name": "First_name",
+            "last_name": "Last_name",
+            "email": "yaldez.1991@gmail.com",
+            "phone": "9647800010330"
+        },
+        "pnr": "2708U1",
+        "booking_reference": "R7LRNU",
+        "external_booking_reference": "IA073R7LRNU00",
+        "status": "ticket",
+        "price": {
+            "total": 521.18,
+            "base": 477,
+            "taxes": 44.18,
+            "currency": "USD"
+        },
+        "commission": {
+            "type": "",
+            "amount": 0,
+            "currency": "",
+            "ref": 0,
+            "ref_value": ""
+        },
+        "latest_ticketing_time": "2025-02-12 00:00:00",
+        "transaction_id": 8,
+        "passengers": [
+            {
+                "bookRef": "2708U1",
+                "systemTNO": "0732404283297",
+                "ticketNo": "0732404283297",
+                "title": "MR",
+                "firstName": "SARA",
+                "lastName": "GARCIA",
+                "dob": "1968-03-10",
+                "type": "ADT",
+                "gender": "M",
+                "price": 521.18,
+                "base": 477,
+                "tax": 44.18,
+                "currency": "USD",
+                "national": "IQ",
+                "documentType": "passport",
+                "documentNo": "AW495304",
+                "documentExpiryDate": "2026-04-12",
+                "countryResidence": "IQ"
+            }
+        ],
+        "segments": [
+            {
+                "from": {
+                    "code": "IST",
+                    "name": "Istanbul Airport",
+                    "is_main": false,
+                    "city_code": "IST",
+                    "city_name": "",
+                    "country_name": "",
+                    "longitude": "",
+                    "latitude": "",
+                    "utc": "",
+                    "timezone": "",
+                    "type": "airport"
+                },
+                "to": {
+                    "code": "EBL",
+                    "name": "Erbil International Airport",
+                    "is_main": false,
+                    "city_code": "",
+                    "city_name": "",
+                    "country_name": "",
+                    "longitude": "",
+                    "latitude": "",
+                    "utc": "",
+                    "timezone": "",
+                    "type": "airport"
+                },
+                "group": 0,
+                "connection": 0,
+                "departure": {
+                    "formated_time": "2025-02-12 13:30:00",
+                    "timestamp": 0,
+                    "original": ""
+                },
+                "arrival": {
+                    "formated_time": "2025-02-12 15:00:00",
+                    "timestamp": 0,
+                    "original": ""
+                },
+                "airline": {
+                    "code": "IA",
+                    "name": "Iraqi Airways",
+                    "logo": "https://www.gstatic.com/flights/airline_logos/70px/IA.png"
+                },
+                "flight_time": "",
+                "flight_number": "230",
+                "distance": "",
+                "eTicketability": "",
+                "equipment": "",
+                "change_of_plane": false,
+                "participant_level": "",
+                "link_availability": "",
+                "polled_availability_option": "",
+                "optional_services_indicator": "",
+                "availability_source": "",
+                "availability_display_type": "",
+                "provider_code": "",
+                "uapi_segment_ref": "",
+                "plane": "",
+                "duration": 0,
+                "class": {
+                    "service": "Economy",
+                    "booking": "Y",
+                    "seats_available": 0,
+                    "fare_basis": ""
+                },
+                "fare_info": null,
+                "baggage": {
+                    "units": "",
+                    "amount": 0
+                },
+                "bound": "outbound",
+                "terminal": ""
+            },
+            {
+                "from": {
+                    "code": "EBL",
+                    "name": "Erbil International Airport",
+                    "is_main": false,
+                    "city_code": "",
+                    "city_name": "",
+                    "country_name": "",
+                    "longitude": "",
+                    "latitude": "",
+                    "utc": "",
+                    "timezone": "",
+                    "type": "airport"
+                },
+                "to": {
+                    "code": "DXB",
+                    "name": "Dubai International Airport",
+                    "is_main": false,
+                    "city_code": "DXB",
+                    "city_name": "",
+                    "country_name": "",
+                    "longitude": "",
+                    "latitude": "",
+                    "utc": "",
+                    "timezone": "",
+                    "type": "airport"
+                },
+                "group": 0,
+                "connection": 0,
+                "departure": {
+                    "formated_time": "2025-02-13 08:00:00",
+                    "timestamp": 0,
+                    "original": ""
+                },
+                "arrival": {
+                    "formated_time": "2025-02-13 11:30:00",
+                    "timestamp": 0,
+                    "original": ""
+                },
+                "airline": {
+                    "code": "IA",
+                    "name": "Iraqi Airways",
+                    "logo": "https://www.gstatic.com/flights/airline_logos/70px/IA.png"
+                },
+                "flight_time": "",
+                "flight_number": "107",
+                "distance": "",
+                "eTicketability": "",
+                "equipment": "",
+                "change_of_plane": false,
+                "participant_level": "",
+                "link_availability": "",
+                "polled_availability_option": "",
+                "optional_services_indicator": "",
+                "availability_source": "",
+                "availability_display_type": "",
+                "provider_code": "",
+                "uapi_segment_ref": "",
+                "plane": "",
+                "duration": 0,
+                "class": {
+                    "service": "Economy",
+                    "booking": "Y",
+                    "seats_available": 0,
+                    "fare_basis": ""
+                },
+                "fare_info": null,
+                "baggage": {
+                    "units": "",
+                    "amount": 0
+                },
+                "bound": "outbound",
+                "terminal": ""
+            }
+        ],
+        "book_date": "2025-02-11",
+        "ticket_date": "2025-02-11 22:31:20"
+    }
+}

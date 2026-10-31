@@ -1,0 +1,608 @@
+{
+    "Success": true,
+    "Error": null,
+    "CheckIn": "2022-09-24T00:00:00",
+    "CheckOut": "2022-09-26T00:00:00",
+    "PricedItineraries": [
+        {
+            "FareSourceCode": "63666635303737383663303834383136386539616233346366326137643932362635312633353232343038",
+            "Offer": null,
+            "NonRefundable": true,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 714.16,
+            "Rooms": [
+                {
+                    "RoomId": "579308",
+                    "Name": "Single Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "1 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579308",
+                    "Name": "Single Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "1 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [],
+            "Remarks": [],
+            "Amenities": [
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "32633035633638623066346134343837613961326237396462393066346134652635312633353232343038",
+            "Offer": null,
+            "NonRefundable": true,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 741.52,
+            "Rooms": [
+                {
+                    "RoomId": "579308",
+                    "Name": "Single Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "1 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579308",
+                    "Name": "Single Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "1 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [],
+            "Remarks": [],
+            "Amenities": [
+                "Free Breakfast",
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "36656239343337373062623734326362623433316161303939316134633761332635312633353232343038",
+            "Offer": null,
+            "NonRefundable": true,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 765.40,
+            "Rooms": [
+                {
+                    "RoomId": "579309",
+                    "Name": "Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579309",
+                    "Name": "Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [],
+            "Remarks": [],
+            "Amenities": [
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "61663231393962326132656134333537613165346538393266616235616337652635312633353232343038",
+            "Offer": null,
+            "NonRefundable": true,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 792.72,
+            "Rooms": [
+                {
+                    "RoomId": "579309",
+                    "Name": "Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579309",
+                    "Name": "Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [],
+            "Remarks": [],
+            "Amenities": [
+                "Free Breakfast",
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "30313536643839636333386234363762613262373766346432613032666263352635312633353232343038",
+            "Offer": null,
+            "NonRefundable": false,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 793.52,
+            "Rooms": [
+                {
+                    "RoomId": "579308",
+                    "Name": "Single Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "1 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579308",
+                    "Name": "Single Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "1 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [
+                {
+                    "Amount": 203.38,
+                    "FromDate": "2022-09-21T02:29:00+04:30"
+                },
+                {
+                    "Amount": 793.52,
+                    "FromDate": "2022-09-25T01:29:00+03:30"
+                }
+            ],
+            "Remarks": [],
+            "Amenities": [
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "37623238646235643636376434666265613633653331626232323938363439652635312633353232343038",
+            "Offer": null,
+            "NonRefundable": true,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 820.08,
+            "Rooms": [
+                {
+                    "RoomId": "579312",
+                    "Name": "Superior Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579312",
+                    "Name": "Superior Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [],
+            "Remarks": [],
+            "Amenities": [
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "37643039656564666563373034356336616465333364376530306131376439642635312633353232343038",
+            "Offer": null,
+            "NonRefundable": false,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 823.88,
+            "Rooms": [
+                {
+                    "RoomId": "579308",
+                    "Name": "Single Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "1 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579308",
+                    "Name": "Single Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "1 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [
+                {
+                    "Amount": 210.97,
+                    "FromDate": "2022-09-21T02:29:00+04:30"
+                },
+                {
+                    "Amount": 823.88,
+                    "FromDate": "2022-09-25T01:29:00+03:30"
+                }
+            ],
+            "Remarks": [],
+            "Amenities": [
+                "Free Breakfast",
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "36633366303066353839376134333263393236393133633362376666333533302635312633353232343038",
+            "Offer": null,
+            "NonRefundable": true,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 847.40,
+            "Rooms": [
+                {
+                    "RoomId": "579312",
+                    "Name": "Superior Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579312",
+                    "Name": "Superior Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [],
+            "Remarks": [],
+            "Amenities": [
+                "Free Breakfast",
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "35326665666562363033336134323661626362363864633231623330656165642635312633353232343038",
+            "Offer": null,
+            "NonRefundable": false,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 850.44,
+            "Rooms": [
+                {
+                    "RoomId": "579309",
+                    "Name": "Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579309",
+                    "Name": "Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [
+                {
+                    "Amount": 217.61,
+                    "FromDate": "2022-09-21T02:29:00+04:30"
+                },
+                {
+                    "Amount": 850.44,
+                    "FromDate": "2022-09-25T01:29:00+03:30"
+                }
+            ],
+            "Remarks": [],
+            "Amenities": [
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "37393737376339323830653734363536613631613732376234623935623734642635312633353232343038",
+            "Offer": null,
+            "NonRefundable": false,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 880.84,
+            "Rooms": [
+                {
+                    "RoomId": "579309",
+                    "Name": "Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579309",
+                    "Name": "Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [
+                {
+                    "Amount": 225.21,
+                    "FromDate": "2022-09-21T02:29:00+04:30"
+                },
+                {
+                    "Amount": 880.84,
+                    "FromDate": "2022-09-25T01:29:00+03:30"
+                }
+            ],
+            "Remarks": [],
+            "Amenities": [
+                "Free Breakfast",
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "39653863613232313836303634353164613932396461326236356139363261352635312633353232343038",
+            "Offer": null,
+            "NonRefundable": false,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 911.20,
+            "Rooms": [
+                {
+                    "RoomId": "579312",
+                    "Name": "Superior Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579312",
+                    "Name": "Superior Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Room Only",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [
+                {
+                    "Amount": 232.80,
+                    "FromDate": "2022-09-21T02:29:00+04:30"
+                },
+                {
+                    "Amount": 911.20,
+                    "FromDate": "2022-09-25T01:29:00+03:30"
+                }
+            ],
+            "Remarks": [],
+            "Amenities": [
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        },
+        {
+            "FareSourceCode": "32643364383032363762376534323431393533666633616432343466303832662635312633353232343038",
+            "Offer": null,
+            "NonRefundable": false,
+            "HotelId": 26840,
+            "PaymentDeadline": "2021-05-07T14:45:35.9876346",
+            "Currency": "USD",
+            "AvailableRoom": 5,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 941.56,
+            "Rooms": [
+                {
+                    "RoomId": "579312",
+                    "Name": "Superior Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                },
+                {
+                    "RoomId": "579312",
+                    "Name": "Superior Double or Twin Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Free Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "2 TwinBed",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [
+                {
+                    "Amount": 240.39,
+                    "FromDate": "2022-09-21T02:29:00+04:30"
+                },
+                {
+                    "Amount": 941.56,
+                    "FromDate": "2022-09-25T01:29:00+03:30"
+                }
+            ],
+            "Remarks": [],
+            "Amenities": [
+                "Free Breakfast",
+                "Free Wifi"
+            ],
+            "IsReserveOffline": false,
+            "HotelRefundType": "0",
+            "PricedItineraryTransfers": []
+        }
+    ]
+}

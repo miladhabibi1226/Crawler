@@ -1,0 +1,6 @@
+{
+    "data": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJPVEEiLCJqdGkiOiI3MDQxMjA1OS1mMTE5LWRlODAtYjgzNi1jOWU2OTE1Mzg2NjciLCJpc3MiOiJkb3RSRVogQVBJIn0.6zCBHEa-4amHecF9QkDPDfQeDQcT8ih6HCcJI9Pr69A",
+        "idleTimeoutInMinutes": 15
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "destination": {
+        "city": {
+            "id": 51570
+        }
+    },
+    "checkIn": "2023-07-12",
+    "checkOut": "2023-07-15",
+    "occupancy": {
+        "leaderNationality": 1,
+        "rooms": [
+            {
+                "adults": 1,
+                "childrenAges": []
+            }
+        ]
+    },
+    "language": "en_GB",
+    "sellingChannel": "B2B",
+    "availableOnly": true
+}

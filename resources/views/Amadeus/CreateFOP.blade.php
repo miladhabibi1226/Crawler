@@ -1,0 +1,24 @@
+<FOP_CreateFormOfPayment>
+    <transactionContext>
+        <transactionDetails>
+            <code>FP</code>
+        </transactionDetails>
+    </transactionContext>
+    <fopGroup>
+        <fopReference></fopReference>
+        <mopDescription>
+            <fopSequenceNumber>
+                <sequenceDetails>
+                    <number>1</number>
+                </sequenceDetails>
+            </fopSequenceNumber>
+            <mopDetails>
+                <fopPNRDetails>
+                    <fopDetails>
+                        <fopCode>CASH</fopCode>
+                    </fopDetails>
+                </fopPNRDetails>
+            </mopDetails>
+        </mopDescription>
+    </fopGroup>
+</FOP_CreateFormOfPayment>

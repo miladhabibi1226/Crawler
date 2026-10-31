@@ -1,0 +1,79 @@
+{
+    "status": "success",
+    "err": [
+        {
+            "code": 0,
+            "msg": ""
+        }
+    ],
+    "refrence_id": 71279,
+    "flights": {
+        "outbound": {
+            "flight_number": "7300",
+            "departure_airport": "MHD",
+            "arrival_airport": "NJF",
+            "departure_date": "2024-02-18",
+            "class": "G",
+            "departure_time": "12:00:00",
+            "arrival_date": "2024-02-18",
+            "arrival_time": "14:00:00",
+            "airline_name": "سپهران",
+            "operating_airline": "IS",
+            "marketing_airline": "IS"
+        },
+        "return": {
+            "flight_number": "7500",
+            "departure_airport": "NJF",
+            "arrival_airport": "MHD",
+            "departure_date": "2024-02-20",
+            "class": "G",
+            "departure_time": "09:30:00",
+            "arrival_date": "2024-02-20",
+            "arrival_time": "11:00:00",
+            "airline_name": "سپهران",
+            "operating_airline": "IS",
+            "marketing_airline": "IS"
+        }
+    },
+    "payment": {
+        "total_markup": 0,
+        "discount": 0,
+        "total": 1435.5,
+        "adult": {
+            "total": 751.5,
+            "count": 6,
+            "fee": 0,
+            "tax": 28.81,
+            "fare": 221.69
+        },
+        "child": {
+            "total": 408,
+            "count": 4,
+            "fee": 0,
+            "tax": 27.31,
+            "fare": 176.69
+        },
+        "infant": {
+            "total": 276,
+            "count": 4,
+            "fee": 0,
+            "tax": 20.05,
+            "fare": 117.95
+        },
+        "currency": "USD",
+        "outbound": {
+            "markup": 0
+        },
+        "return": {
+            "markup": 0
+        },
+        "service_fee": 0,
+        "seat_fee": 0,
+        "additional_fee": 0
+    },
+    "services": [],
+    "seats": [
+        "",
+        ""
+    ]
+}

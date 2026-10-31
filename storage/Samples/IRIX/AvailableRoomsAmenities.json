@@ -1,0 +1,25 @@
+{
+    "hotelId": 834441,
+    "language": "EN",
+    "name": "",
+    "address": null,
+    "roomDescription": "",
+    "locationDescription": "",
+    "locationDescriptionSource": null,
+    "facilitiesDescription": "Satellite TV, Air conditioned rooms, Room service, Minibar, Heating, Bar, Lift, Modem, Internet access, Breakfast room, Social lounges",
+    "facilitiesDescriptionSource": null,
+    "descriptionShort": "",
+    "descriptionShortSource": null,
+    "descriptionFull": "",
+    "descriptionFullSource": null,
+    "essentialInformation": "",
+    "essentialInformationSource": null,
+    "_links": {
+        "self": {
+            "href": "https://www.ebookingcenter.com/tbs/reseller/api/mapping/v1/hotels/834441/descriptions"
+        },
+        "hotel": {
+            "href": "https://www.ebookingcenter.com/tbs/reseller/api/mapping/v1/hotels/834441/details"
+        }
+    }
+}

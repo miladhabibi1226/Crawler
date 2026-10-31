@@ -1,0 +1,51 @@
+{
+    "status": "Success",
+    "err": {
+        "code": 0,
+        "msg": ""
+    },
+    "rules": [
+        {
+            "DepartureAirport": "MHD",
+            "ArrivalAirport": "NJF",
+            "FareRules": [
+                {
+                    "title": "refundRule",
+                    "value": ""
+                }
+            ],
+            "refundRuleArray": [
+                {
+                    "title": "up to 72 Hours  prior to departure",
+                    "penalty": "20",
+                    "title_id": "23"
+                },
+                {
+                    "title": "up to 48 Hours  prior to departure",
+                    "penalty": "25",
+                    "title_id": "15"
+                },
+                {
+                    "title": "up to 24 Hours  prior to departure",
+                    "penalty": "30",
+                    "title_id": "8"
+                },
+                {
+                    "title": "up to 12 Hours  prior to departure",
+                    "penalty": "35",
+                    "title_id": "12"
+                },
+                {
+                    "title": "From 12 Hours befor departure until departure",
+                    "penalty": "40",
+                    "title_id": "13"
+                },
+                {
+                    "title": "NoShow",
+                    "penalty": "80",
+                    "title_id": "24"
+                }
+            ]
+        }
+    ]
+}

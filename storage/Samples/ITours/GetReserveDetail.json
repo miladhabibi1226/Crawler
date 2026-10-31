@@ -1,0 +1,471 @@
+{
+    "result": {
+        "reserveStatus": "Pending",
+        "pnrCode": "BJIYMT",
+        "pnrId": 25185,
+        "bookedDateTime": "2021-05-03T11:37:00",
+        "airItinerary": {
+            "originDestinationOptions": [
+                {
+                    "journeyDuration": "11:10:00",
+                    "numberOfStop": 1,
+                    "flightSegments": [
+                        {
+                            "flightNumber": "5411",
+                            "departureDateTime": "2021-05-27T03:00:00",
+                            "arrivalDateTime": "2021-05-27T05:00:00",
+                            "resBookDesigCode": "E",
+                            "arrivalAirport": {
+                                "locationCode": "AUH",
+                                "terminalID": "1",
+                                "locationName": "Abu Dhabi Intl",
+                                "countryName": "United Arab Emirates",
+                                "cityName": "Abu Dhabi"
+                            },
+                            "departureAirport": {
+                                "locationCode": "XNB",
+                                "terminalID": null,
+                                "locationName": "Dubai Bus Station",
+                                "countryName": "United Arab Emirates",
+                                "cityName": "Dubai"
+                            },
+                            "marketingAirline": {
+                                "code": "EY",
+                                "name": "Etihad Airways",
+                                "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Etihad Airways.png"
+                            },
+                            "operatingAirline": {
+                                "code": "EY",
+                                "name": "Etihad Airways",
+                                "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Etihad Airways.png"
+                            },
+                            "airEquipType": "BUS",
+                            "statusCode": null,
+                            "flightDuration": "02:00:00",
+                            "fareBasis": [
+                                {
+                                    "fareBasisCode": "E2TH2AE",
+                                    "bookingCode": "E",
+                                    "passengerType": "ADT"
+                                },
+                                {
+                                    "fareBasisCode": "E2TH2AECH",
+                                    "bookingCode": "E",
+                                    "passengerType": "CHD"
+                                },
+                                {
+                                    "fareBasisCode": "E2TH2AEIN",
+                                    "bookingCode": "E",
+                                    "passengerType": "INF"
+                                }
+                            ],
+                            "baggageInformation": [
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "ADT"
+                                },
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "CHD"
+                                },
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "INF"
+                                }
+                            ],
+                            "extraBaggageInformation": null,
+                            "handBagInformation": null,
+                            "cabinClass": {
+                                "name": "Economy",
+                                "code": "Y"
+                            },
+                            "isOutbound": true,
+                            "stopTime": "04:30:00"
+                        },
+                        {
+                            "flightNumber": "97",
+                            "departureDateTime": "2021-05-27T09:30:00",
+                            "arrivalDateTime": "2021-05-27T13:10:00",
+                            "resBookDesigCode": "E",
+                            "arrivalAirport": {
+                                "locationCode": "IST",
+                                "terminalID": null,
+                                "locationName": "Istanbul Airport",
+                                "countryName": "Turkey",
+                                "cityName": "Istanbul"
+                            },
+                            "departureAirport": {
+                                "locationCode": "AUH",
+                                "terminalID": "3",
+                                "locationName": "Abu Dhabi Intl",
+                                "countryName": "United Arab Emirates",
+                                "cityName": "Abu Dhabi"
+                            },
+                            "marketingAirline": {
+                                "code": "EY",
+                                "name": "Etihad Airways",
+                                "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Etihad Airways.png"
+                            },
+                            "operatingAirline": {
+                                "code": "EY",
+                                "name": "Etihad Airways",
+                                "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Etihad Airways.png"
+                            },
+                            "airEquipType": "789",
+                            "statusCode": null,
+                            "flightDuration": "04:40:00",
+                            "fareBasis": [
+                                {
+                                    "fareBasisCode": "E2TH2AE",
+                                    "bookingCode": "E",
+                                    "passengerType": "ADT"
+                                },
+                                {
+                                    "fareBasisCode": "E2TH2AECH",
+                                    "bookingCode": "E",
+                                    "passengerType": "CHD"
+                                },
+                                {
+                                    "fareBasisCode": "E2TH2AEIN",
+                                    "bookingCode": "E",
+                                    "passengerType": "INF"
+                                }
+                            ],
+                            "baggageInformation": [
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "ADT"
+                                },
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "CHD"
+                                },
+                                {
+                                    "baggageAllowance": 10,
+                                    "unitType": "KG",
+                                    "passengerType": "INF"
+                                }
+                            ],
+                            "extraBaggageInformation": null,
+                            "handBagInformation": null,
+                            "cabinClass": {
+                                "name": "Economy",
+                                "code": "Y"
+                            },
+                            "isOutbound": true,
+                            "stopTime": "00:00:00"
+                        }
+                    ]
+                },
+                {
+                    "journeyDuration": "15:45:00",
+                    "numberOfStop": 1,
+                    "flightSegments": [
+                        {
+                            "flightNumber": "96",
+                            "departureDateTime": "2021-05-29T14:40:00",
+                            "arrivalDateTime": "2021-05-29T20:00:00",
+                            "resBookDesigCode": "E",
+                            "arrivalAirport": {
+                                "locationCode": "AUH",
+                                "terminalID": "3",
+                                "locationName": "Abu Dhabi Intl",
+                                "countryName": "United Arab Emirates",
+                                "cityName": "Abu Dhabi"
+                            },
+                            "departureAirport": {
+                                "locationCode": "IST",
+                                "terminalID": null,
+                                "locationName": "Istanbul Airport",
+                                "countryName": "Turkey",
+                                "cityName": "Istanbul"
+                            },
+                            "marketingAirline": {
+                                "code": "EY",
+                                "name": "Etihad Airways",
+                                "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Etihad Airways.png"
+                            },
+                            "operatingAirline": {
+                                "code": "EY",
+                                "name": "Etihad Airways",
+                                "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Etihad Airways.png"
+                            },
+                            "airEquipType": "789",
+                            "statusCode": null,
+                            "flightDuration": "04:20:00",
+                            "fareBasis": [
+                                {
+                                    "fareBasisCode": "E2TH2AE",
+                                    "bookingCode": "E",
+                                    "passengerType": "ADT"
+                                },
+                                {
+                                    "fareBasisCode": "E2TH2AECH",
+                                    "bookingCode": "E",
+                                    "passengerType": "CHD"
+                                },
+                                {
+                                    "fareBasisCode": "E2TH2AEIN",
+                                    "bookingCode": "E",
+                                    "passengerType": "INF"
+                                }
+                            ],
+                            "baggageInformation": [
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "ADT"
+                                },
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "CHD"
+                                },
+                                {
+                                    "baggageAllowance": 10,
+                                    "unitType": "KG",
+                                    "passengerType": "INF"
+                                }
+                            ],
+                            "extraBaggageInformation": null,
+                            "handBagInformation": null,
+                            "cabinClass": {
+                                "name": "Economy",
+                                "code": "Y"
+                            },
+                            "isOutbound": false,
+                            "stopTime": "09:25:00"
+                        },
+                        {
+                            "flightNumber": "5414",
+                            "departureDateTime": "2021-05-30T05:25:00",
+                            "arrivalDateTime": "2021-05-30T07:25:00",
+                            "resBookDesigCode": "E",
+                            "arrivalAirport": {
+                                "locationCode": "XNB",
+                                "terminalID": null,
+                                "locationName": "Dubai Bus Station",
+                                "countryName": "United Arab Emirates",
+                                "cityName": "Dubai"
+                            },
+                            "departureAirport": {
+                                "locationCode": "AUH",
+                                "terminalID": "1",
+                                "locationName": "Abu Dhabi Intl",
+                                "countryName": "United Arab Emirates",
+                                "cityName": "Abu Dhabi"
+                            },
+                            "marketingAirline": {
+                                "code": "EY",
+                                "name": "Etihad Airways",
+                                "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Etihad Airways.png"
+                            },
+                            "operatingAirline": {
+                                "code": "EY",
+                                "name": "Etihad Airways",
+                                "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Etihad Airways.png"
+                            },
+                            "airEquipType": "BUS",
+                            "statusCode": null,
+                            "flightDuration": "02:00:00",
+                            "fareBasis": [
+                                {
+                                    "fareBasisCode": "E2TH2AE",
+                                    "bookingCode": "E",
+                                    "passengerType": "ADT"
+                                },
+                                {
+                                    "fareBasisCode": "E2TH2AECH",
+                                    "bookingCode": "E",
+                                    "passengerType": "CHD"
+                                },
+                                {
+                                    "fareBasisCode": "E2TH2AEIN",
+                                    "bookingCode": "E",
+                                    "passengerType": "INF"
+                                }
+                            ],
+                            "baggageInformation": [
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "ADT"
+                                },
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "CHD"
+                                },
+                                {
+                                    "baggageAllowance": 0,
+                                    "unitType": "KG",
+                                    "passengerType": "INF"
+                                }
+                            ],
+                            "extraBaggageInformation": null,
+                            "handBagInformation": null,
+                            "cabinClass": {
+                                "name": "Economy",
+                                "code": "Y"
+                            },
+                            "isOutbound": false,
+                            "stopTime": "00:00:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        "passengers": [
+            {
+                "firstName": "REZA",
+                "lastName": "MOHAMMADI",
+                "title": true,
+                "code": "ADT",
+                "ticketNumber": null,
+                "passportNumber": null,
+                "passportExpireDate": "2021-05-03T11:37:00",
+                "birthDate": "2004-09-13T00:00:00",
+                "passengerId": 37384
+            },
+            {
+                "firstName": "SARA",
+                "lastName": "HOSEINI",
+                "title": false,
+                "code": "ADT",
+                "ticketNumber": null,
+                "passportNumber": null,
+                "passportExpireDate": "2021-05-03T11:37:00",
+                "birthDate": "2005-09-28T00:00:00",
+                "passengerId": 37385
+            },
+            {
+                "firstName": "SOHEIL",
+                "lastName": "NASERI",
+                "title": true,
+                "code": "CHD",
+                "ticketNumber": null,
+                "passportNumber": null,
+                "passportExpireDate": "2021-05-03T11:37:00",
+                "birthDate": "2012-09-03T00:00:00",
+                "passengerId": 37386
+            },
+            {
+                "firstName": "SOHEILA",
+                "lastName": "NASERI",
+                "title": true,
+                "code": "CHD",
+                "ticketNumber": null,
+                "passportNumber": null,
+                "passportExpireDate": "2021-05-03T11:37:00",
+                "birthDate": "2012-04-03T00:00:00",
+                "passengerId": 37387
+            },
+            {
+                "firstName": "BAHRAM",
+                "lastName": "SALEHIA",
+                "title": true,
+                "code": "INF",
+                "ticketNumber": null,
+                "passportNumber": null,
+                "passportExpireDate": "2021-05-03T11:37:00",
+                "birthDate": "2020-08-14T00:00:00",
+                "passengerId": 37388
+            },
+            {
+                "firstName": "BAHRAM",
+                "lastName": "SALEHI",
+                "title": true,
+                "code": "INF",
+                "ticketNumber": null,
+                "passportNumber": null,
+                "passportExpireDate": "2021-05-03T11:37:00",
+                "birthDate": "2020-07-14T00:00:00",
+                "passengerId": 37389
+            }
+        ],
+        "reserver": {
+            "userId": null,
+            "firstName": "john",
+            "lastName": "doe",
+            "email": "matintest@gmail.com",
+            "phoneNumber": "9111111111",
+            "username": "matintest@gmail.com",
+            "faxNumber": null,
+            "telNumber": null,
+            "gender": false,
+            "countryCallingCode": null
+        },
+        "providerName": "Sabre",
+        "currency": "USD",
+        "flightFare": {
+            "baseFare": 642,
+            "totalTaxes": 728,
+            "totalFare": 1370,
+            "totalFee": 0,
+            "extraBaggage": 0,
+            "totalFareWithExtraBaggage": 0
+        },
+        "passengersFare": [
+            {
+                "passengerTypeQuantity": {
+                    "code": "ADT",
+                    "quantity": 2
+                },
+                "fare": {
+                    "baseFare": 128,
+                    "totalTaxes": 162,
+                    "totalFare": 290,
+                    "totalFee": 0,
+                    "extraBaggage": 0,
+                    "totalFareWithExtraBaggage": 0
+                }
+            },
+            {
+                "passengerTypeQuantity": {
+                    "code": "CHD",
+                    "quantity": 2
+                },
+                "fare": {
+                    "baseFare": 128,
+                    "totalTaxes": 162,
+                    "totalFare": 290,
+                    "totalFee": 0,
+                    "extraBaggage": 0,
+                    "totalFareWithExtraBaggage": 0
+                }
+            },
+            {
+                "passengerTypeQuantity": {
+                    "code": "INF",
+                    "quantity": 2
+                },
+                "fare": {
+                    "baseFare": 66,
+                    "totalTaxes": 40,
+                    "totalFare": 106,
+                    "totalFee": 0,
+                    "extraBaggage": 0,
+                    "totalFareWithExtraBaggage": 0
+                }
+            }
+        ],
+        "paymentBeforePNR": false,
+        "isTicketed": false,
+        "isDomestic": false,
+        "isBookNowRequested": false,
+        "isOutSidePNR": false,
+        "airTripType": "RoundTrip",
+        "pnrStatus": "Made",
+        "hasExtraBaggage": false
+    },
+    "targetUrl": null,
+    "success": true,
+    "error": null,
+    "unAuthorizedRequest": false,
+    "__abp": true
+}

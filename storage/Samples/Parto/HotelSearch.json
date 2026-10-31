@@ -1,0 +1,88 @@
+{
+    "Success": true,
+    "Error": null,
+    "CheckIn": "2024-02-14T00:00:00",
+    "CheckOut": "2024-02-16T00:00:00",
+    "PricedItineraries": [
+        {
+            "FareSourceCode": "",
+            "Offer": "",
+            "Promotion": null,
+            "NonRefundable": false,
+            "HotelId": 1485,
+            "PaymentDeadline": "2023-12-20T11:59:32.2211917+03:30",
+            "Currency": "IRR",
+            "AvailableRoom": null,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 38400000.00,
+            "Rooms": [
+                {
+                    "RoomId": null,
+                    "Name": "Double Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": null,
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [],
+            "Remarks": [],
+            "Amenities": [],
+            "IsReserveOffline": true,
+            "IsBlockout": false,
+            "IsMinStayNight": false,
+            "MinStayNight": 0,
+            "IsMaxStayNight": false,
+            "MaxStayNight": 0,
+            "IsFixStayNight": false,
+            "FixStayNight": 0,
+            "HotelRefundType": "RefundOnRequest",
+            "PricedItineraryTransfers": [],
+            "HotelPricedItineraryMetaDatas": []
+        },
+        {
+            "FareSourceCode": "",
+            "Offer": null,
+            "Promotion": null,
+            "NonRefundable": false,
+            "HotelId": 885,
+            "PaymentDeadline": "2023-12-20T11:59:32.2211917+03:30",
+            "Currency": "IRR",
+            "AvailableRoom": 1,
+            "PlainTextCancellationPolicy": null,
+            "NetRate": 39000000.00,
+            "Rooms": [
+                {
+                    "RoomId": null,
+                    "Name": "Single Room",
+                    "AdultCount": 1,
+                    "ChildCount": 0,
+                    "ChildAges": null,
+                    "MealType": "Breakfast",
+                    "SharingBedding": false,
+                    "BedGroups": "single",
+                    "HotelRoomEarlyCheckin": null,
+                    "HotelRoomLateCheckout": null
+                }
+            ],
+            "CancellationPolicies": [],
+            "Remarks": [],
+            "Amenities": [],
+            "IsReserveOffline": true,
+            "IsBlockout": false,
+            "IsMinStayNight": false,
+            "MinStayNight": 0,
+            "IsMaxStayNight": false,
+            "MaxStayNight": 0,
+            "IsFixStayNight": false,
+            "FixStayNight": 0,
+            "HotelRefundType": "Offline",
+            "PricedItineraryTransfers": [],
+            "HotelPricedItineraryMetaDatas": []
+        }
+    ]
+}

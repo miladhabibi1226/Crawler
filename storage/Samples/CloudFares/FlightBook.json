@@ -1,0 +1,202 @@
+{
+    "total": 0,
+    "message": "Success",
+    "description": "Success",
+    "data": {
+        "trace_id": "KmDdE87oD1LMtk2C",
+        "supply_provider": "IQ",
+        "contact": {
+            "first_name": "First_name",
+            "last_name": "Last_name",
+            "email": "yaldez.1991@gmail.com",
+            "phone": "9647800010330"
+        },
+        "pnr": "2708U1",
+        "booking_reference": "R7LRNU",
+        "status": "book",
+        "price": {
+            "total": 521.18,
+            "base": 477,
+            "taxes": 44.18,
+            "currency": "USD"
+        },
+        "commission": {
+            "type": "",
+            "amount": 0,
+            "currency": "",
+            "ref": 0,
+            "ref_value": ""
+        },
+        "latest_ticketing_time": "2025-02-12 00:00:00",
+        "passengers": [
+            {
+                "bookRef": "2708U1",
+                "title": "MR",
+                "firstName": "SARA",
+                "lastName": "GARCIA",
+                "dob": "1968-03-10",
+                "type": "ADT",
+                "gender": "M",
+                "price": 521.18,
+                "base": 477,
+                "tax": 44.18,
+                "currency": "USD",
+                "national": "IQ",
+                "documentType": "passport",
+                "documentNo": "AW495304",
+                "documentExpiryDate": "2026-04-12",
+                "countryResidence": "IQ"
+            }
+        ],
+        "segments": [
+            {
+                "from": {
+                    "code": "IST",
+                    "name": "",
+                    "is_main": false,
+                    "city_code": "",
+                    "city_name": "",
+                    "country_name": "",
+                    "longitude": "",
+                    "latitude": "",
+                    "utc": "",
+                    "timezone": "",
+                    "type": ""
+                },
+                "to": {
+                    "code": "EBL",
+                    "name": "",
+                    "is_main": false,
+                    "city_code": "",
+                    "city_name": "",
+                    "country_name": "",
+                    "longitude": "",
+                    "latitude": "",
+                    "utc": "",
+                    "timezone": "",
+                    "type": ""
+                },
+                "group": 0,
+                "connection": 0,
+                "departure": {
+                    "formated_time": "2025-02-12 13:30:00",
+                    "timestamp": 1739367000,
+                    "original": "2025-02-12T13:30:00"
+                },
+                "arrival": {
+                    "formated_time": "2025-02-12 15:00:00",
+                    "timestamp": 1739372400,
+                    "original": "2025-02-12T15:00:00"
+                },
+                "airline": {
+                    "code": "IA",
+                    "name": "Iraqi Airways",
+                    "logo": "https://www.gstatic.com/flights/airline_logos/70px/IA.png"
+                },
+                "flight_time": "90m",
+                "flight_number": "230",
+                "distance": "",
+                "eTicketability": "Yes",
+                "equipment": "737",
+                "change_of_plane": false,
+                "participant_level": "",
+                "link_availability": "DOS1",
+                "polled_availability_option": "",
+                "optional_services_indicator": "",
+                "availability_source": "",
+                "availability_display_type": "Available",
+                "provider_code": "IQ",
+                "uapi_segment_ref": "a827147c-45a6-4bd4-b273-bd03f8ca2e93",
+                "plane": "737",
+                "duration": 90,
+                "class": {
+                    "service": "Economy",
+                    "booking": "Y",
+                    "seats_available": 9,
+                    "fare_basis": "YOW"
+                },
+                "fare_info": null,
+                "baggage": {
+                    "units": "",
+                    "amount": 0
+                },
+                "bound": "",
+                "terminal": "TerminalX"
+            },
+            {
+                "from": {
+                    "code": "EBL",
+                    "name": "",
+                    "is_main": false,
+                    "city_code": "",
+                    "city_name": "",
+                    "country_name": "",
+                    "longitude": "",
+                    "latitude": "",
+                    "utc": "",
+                    "timezone": "",
+                    "type": ""
+                },
+                "to": {
+                    "code": "DXB",
+                    "name": "",
+                    "is_main": false,
+                    "city_code": "",
+                    "city_name": "",
+                    "country_name": "",
+                    "longitude": "",
+                    "latitude": "",
+                    "utc": "",
+                    "timezone": "",
+                    "type": ""
+                },
+                "group": 1,
+                "connection": 0,
+                "departure": {
+                    "formated_time": "2025-02-13 08:00:00",
+                    "timestamp": 1739433600,
+                    "original": "2025-02-13T08:00:00"
+                },
+                "arrival": {
+                    "formated_time": "2025-02-13 11:30:00",
+                    "timestamp": 1739446200,
+                    "original": "2025-02-13T11:30:00"
+                },
+                "airline": {
+                    "code": "IA",
+                    "name": "Iraqi Airways",
+                    "logo": "https://www.gstatic.com/flights/airline_logos/70px/IA.png"
+                },
+                "flight_time": "210m",
+                "flight_number": "107",
+                "distance": "",
+                "eTicketability": "Yes",
+                "equipment": "737",
+                "change_of_plane": false,
+                "participant_level": "",
+                "link_availability": "DOS2",
+                "polled_availability_option": "",
+                "optional_services_indicator": "",
+                "availability_source": "",
+                "availability_display_type": "Available",
+                "provider_code": "IQ",
+                "uapi_segment_ref": "8d48c4d2-b5a3-45ea-91b9-fd212aa3490e",
+                "plane": "737",
+                "duration": 210,
+                "class": {
+                    "service": "Economy",
+                    "booking": "Y",
+                    "seats_available": 9,
+                    "fare_basis": "YOW"
+                },
+                "fare_info": null,
+                "baggage": {
+                    "units": "",
+                    "amount": 0
+                },
+                "bound": "",
+                "terminal": "TerminalX"
+            }
+        ]
+    }
+}

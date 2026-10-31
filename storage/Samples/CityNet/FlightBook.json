@@ -1,0 +1,142 @@
+{
+    "BookId": "f45187aa-e09f-4a67-8cbb-f2afca3fe4d8",
+    "ContractInfo": {
+        "ContractNo": 3123,
+        "Amount": 20283240,
+        "Currency": "IRR"
+    },
+    "Items": [
+        {
+            "Success": true,
+            "Items": {
+                "AirReservation": {
+                    "BookingReferenceID": {
+                        "TicketTimeLimit": "2022-08-22T17:06:30",
+                        "TicketType": "LockingOnly"
+                    },
+                    "Ticketing": {
+                        "type": "Lock",
+                        "ID_Context": "GHFWR"
+                    }
+                },
+                "AirItineraryPricingInfo": {
+                    "ItinTotalFare": {
+                        "BaseFare": 18588480,
+                        "TotalFare": 20182240,
+                        "TotalCommission": 182240,
+                        "TotalTax": 1776000,
+                        "ServiceTax": 0,
+                        "Original": 18224000,
+                        "Currency": "IRR",
+                        "Commission": 182240
+                    },
+                    "PTC_FareBreakdowns": [
+                        {
+                            "PassengerFare": {
+                                "BaseFare": 9180000,
+                                "TotalFare": 10090000,
+                                "Commission": 90000,
+                                "ServiceTax": 0,
+                                "Taxes": 1000000,
+                                "Original": 9000000,
+                                "Currency": "IRR"
+                            },
+                            "PassengerTypeQuantity": {
+                                "Code": "ADT",
+                                "Quantity": 1
+                            }
+                        },
+                        {
+                            "PassengerFare": {
+                                "BaseFare": 9408480,
+                                "TotalFare": 10092240,
+                                "Commission": 92240,
+                                "ServiceTax": 0,
+                                "Taxes": 776000,
+                                "Original": 9224000,
+                                "Currency": "IRR"
+                            },
+                            "PassengerTypeQuantity": {
+                                "Code": "CHD",
+                                "Quantity": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            "AirItinerary": {
+                "SessionId": "c0c20ffd-2ccf-4e6b-ba57-77f2ea41d742",
+                "CombinationId": 3,
+                "RecommendationId": 0,
+                "SubsystemId": 57,
+                "SubsystemName": "iranAirTour"
+            }
+        },
+        {
+            "Success": true,
+            "Items": {
+                "AirReservation": {
+                    "BookingReferenceID": {
+                        "TicketTimeLimit": "2022-08-22T17:06:31",
+                        "TicketType": "LockingOnly"
+                    },
+                    "Ticketing": {
+                        "type": "Lock",
+                        "ID_Context": "QRX11"
+                    }
+                },
+                "AirItineraryPricingInfo": {
+                    "ItinTotalFare": {
+                        "BaseFare": 102000,
+                        "TotalFare": 101000,
+                        "TotalCommission": 1000,
+                        "TotalTax": 0,
+                        "ServiceTax": 0,
+                        "Original": 100000,
+                        "Currency": "IRR",
+                        "Commission": 1000
+                    },
+                    "PTC_FareBreakdowns": [
+                        {
+                            "PassengerFare": {
+                                "BaseFare": 51000,
+                                "TotalFare": 50500,
+                                "Commission": 500,
+                                "ServiceTax": 0,
+                                "Taxes": 0,
+                                "Original": 50000,
+                                "Currency": "IRR"
+                            },
+                            "PassengerTypeQuantity": {
+                                "Code": "ADT",
+                                "Quantity": 1
+                            }
+                        },
+                        {
+                            "PassengerFare": {
+                                "BaseFare": 51000,
+                                "TotalFare": 50500,
+                                "Commission": 500,
+                                "ServiceTax": 0,
+                                "Taxes": 0,
+                                "Original": 50000,
+                                "Currency": "IRR"
+                            },
+                            "PassengerTypeQuantity": {
+                                "Code": "CHD",
+                                "Quantity": 1
+                            }
+                        }
+                    ]
+                }
+            },
+            "AirItinerary": {
+                "SessionId": "c0c20ffd-2ccf-4e6b-ba57-77f2ea41d742",
+                "CombinationId": 1,
+                "RecommendationId": 0,
+                "SubsystemId": 57,
+                "SubsystemName": "iranAirTour"
+            }
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "ClientBalance": 26342651490.00,
+    "Error": null,
+    "MealTypeServices": [],
+    "PricedItinerary": {
+        "AirItineraryPricingInfo": {
+            "FareInfoes": [],
+            "FareType": 2,
+            "ItinTotalFare": {
+                "BaseFare": 37530995.00,
+                "Currency": "IRR",
+                "ServiceTax": 0.0,
+                "TotalCommission": 0.0,
+                "TotalFare": 49042495.00,
+                "TotalTax": 11511500.00
+            },
+            "PtcFareBreakdown": [
+                {
+                    "PassengerFare": {
+                        "BaseFare": 37530995.00,
+                        "Commission": 0.0,
+                        "Currency": "IRR",
+                        "PriceCitizen": 0.0,
+                        "ServiceTax": 0.0,
+                        "Taxes": [
+                            {
+                                "Amount": 11511500.00,
+                                "Currency": "IRR"
+                            }
+                        ],
+                        "TotalFare": 49042495.00
+                    },
+                    "PassengerTypeQuantity": {
+                        "PassengerType": 1,
+                        "Quantity": 1
+                    }
+                }
+            ]
+        },
+        "CustomerAddressMaxLength": 200,
+        "DirectionInd": 1,
+        "FareFamily": null,
+        "FareSourceCode": "37356566326161633138653534636564623239336364396461303235333261362633333526373137363236303835",
+        "HasAmenities": false,
+        "HasFareFamilies": false,
+        "IsDestinationAddressMandatory": false,
+        "IsMealServiceMandatory": false,
+        "IsPassportIssueDateMandatory": false,
+        "IsPassportMandatory": true,
+        "IsPassportNameWithSpace": false,
+        "IsSeatServiceMandatory": false,
+        "NonRefundableType": 0,
+        "OriginDestinationOptions": [
+            {
+                "ConnectionTimePerMinute": 0,
+                "FlightSegments": [
+                    {
+                        "ArrivalAirportLocationCode": "DXB",
+                        "ArrivalDateTime": "2024-03-28T02:10:00",
+                        "Baggage": "0 KG",
+                        "CabinClassCode": 1,
+                        "ConnectionTimePerMinute": 0,
+                        "DepartureAirportLocationCode": "SAW",
+                        "DepartureDateTime": "2024-03-27T20:40:00",
+                        "FlightAmenities": null,
+                        "FlightNumber": "740",
+                        "IsCharter": false,
+                        "IsReturn": false,
+                        "JourneyDuration": "04:30",
+                        "JourneyDurationPerMinute": 270,
+                        "MarketingAirlineCode": "PC",
+                        "OperatingAirline": {
+                            "Code": "PC",
+                            "Equipment": null,
+                            "FlightNumber": "740"
+                        },
+                        "ResBookDesigCode": "G",
+                        "SeatsRemaining": 9,
+                        "StopQuantity": 0,
+                        "TechnicalStops": []
+                    }
+                ],
+                "JourneyDurationPerMinute": 270
+            }
+        ],
+        "PricedItineraryNationality": 0,
+        "RefundMethod": 0,
+        "ValidatingAirlineCode": "PC"
+    },
+    "SeatServices": [],
+    "Services": [],
+    "Success": true
+}

@@ -1,0 +1,156 @@
+{
+    "result": {
+        "officeId": "YY0B",
+        "ticketInformation": [
+            "VALIDATING CARRIER - DY",
+            "BAG ALLOWANCE     -OSLCDG-NIL/DY",
+            "1STCHECKED BAG FEE-OSLCDG-*/DY",
+            "*BAGGAGE ALLOWANCES/FEES UNKNOWN - CONTACT DY",
+            "2NDCHECKED BAG FEE-OSLCDG-*/DY",
+            "*BAGGAGE ALLOWANCES/FEES UNKNOWN - CONTACT DY",
+            "CARRY ON ALLOWANCE",
+            "OSLCDG-01P/DY",
+            "01/UP TO 34 LINEAR INCHES/85 LINEAR CENTIMETERS",
+            "CARRY ON CHARGES",
+            "OSLCDG-DY-CARRY ON FEES UNKNOWN-CONTACT CARRIER",
+            "ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON",
+            "FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/",
+            "CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./",
+            "05JUN DEPARTURE DATE-----LAST DAY TO PURCHASE 17AUG/1259"
+        ],
+        "baggagesInformation": "NA",
+        "flightSegments": [
+            {
+                "isPast": false,
+                "ticketTimeLimit": null,
+                "airlineRefId": "DCDY*PGT5XA",
+                "flightNumber": "1494",
+                "departureDateTime": "2022-06-05T08:40:00",
+                "arrivalDateTime": "2022-06-05T11:05:00",
+                "resBookDesigCode": "X",
+                "arrivalAirport": {
+                    "locationCode": "CDG",
+                    "terminalID": "1",
+                    "locationName": "Charles De Gaulle",
+                    "countryName": "France",
+                    "cityName": "Paris"
+                },
+                "departureAirport": {
+                    "locationCode": "OSL",
+                    "terminalID": null,
+                    "locationName": "Oslo Airport Gardermoen",
+                    "countryName": "Norway",
+                    "cityName": "Oslo"
+                },
+                "marketingAirline": {
+                    "code": "DY",
+                    "name": "Norwegian Air Shuttle A.S.",
+                    "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Norwegian Air Shuttle A.S..png"
+                },
+                "operatingAirline": {
+                    "code": "DY",
+                    "name": "Norwegian Air Shuttle A.S.",
+                    "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Norwegian Air Shuttle A.S..png"
+                },
+                "airEquipType": "73H",
+                "statusCode": "HK",
+                "flightDuration": "02:25:00",
+                "fareBasis": [
+                    {
+                        "fareBasisCode": "XLF",
+                        "bookingCode": null,
+                        "passengerType": "ADT"
+                    }
+                ],
+                "baggageInformation": [
+                    {
+                        "baggageAllowance": 0,
+                        "unitType": "N",
+                        "passengerType": "ADT"
+                    }
+                ],
+                "extraBaggageInformation": [],
+                "handBagInformation": null,
+                "cabinClass": {
+                    "name": "ECONOMY",
+                    "code": "Y"
+                },
+                "isOutbound": true,
+                "stopTime": "00:00:00"
+            }
+        ],
+        "passengerFare": [
+            {
+                "fareCalculation": "OSL DY PAR27.70NUC27.70END ROE8.663892",
+                "passengerType": "ADT",
+                "equivalentFare": 240.0,
+                "baseFareCurrencyCode": "NOK",
+                "baseFare": 7530000.0,
+                "taxes": [
+                    {
+                        "amount": 5930000.0,
+                        "code": "TotalTax",
+                        "name": null
+                    }
+                ],
+                "fess": null,
+                "extraBaggage": 0.0,
+                "commission": 0.0,
+                "thirdPartyCommission": 0.0,
+                "totalFare": 13460000.0,
+                "totalFareWithExtraBaggage": 0.0
+            }
+        ],
+        "itinTotalFare": {
+            "equivalentFare": 240.0,
+            "baseFareCurrencyCode": "NOK",
+            "baseFare": 7530000.0,
+            "taxes": [
+                {
+                    "amount": 5930000.0,
+                    "code": "TotalTax",
+                    "name": "TotalTax"
+                }
+            ],
+            "fess": null,
+            "extraBaggage": 0.0,
+            "commission": 0.0,
+            "thirdPartyCommission": 0.0,
+            "totalFare": 13460000.0,
+            "totalFareWithExtraBaggage": 0.0
+        },
+        "passengers": [
+            {
+                "ticketNumber": "3289235437446",
+                "firstName": "JUSTINE",
+                "lastName": "DELGADO",
+                "code": "ADT",
+                "gender": false,
+                "email": "HAVYTYPIL@MAILINATOR.COM",
+                "birthDate": "1972-03-05T00:00:00",
+                "passportNumber": null,
+                "passportExpireDate": null,
+                "nationalId": null,
+                "passengerId": null,
+                "extraBaggageAmount": 0,
+                "isExtraBaggageApplied": false
+            }
+        ],
+        "pnrStatus": "Issued",
+        "pnrCode": "LGEYMY",
+        "key": "0025562581905239560253",
+        "validatingCarrier": "DY",
+        "fareType": "Publish",
+        "reserveId": 109385,
+        "supplierId": 2,
+        "currencyCode": "IRR",
+        "isOutSidePNR": false,
+        "reserveStatus": "Issued",
+        "hasExtraBaggage": false
+    },
+    "targetUrl": null,
+    "success": true,
+    "error": null,
+    "unAuthorizedRequest": false,
+    "__abp": true
+}

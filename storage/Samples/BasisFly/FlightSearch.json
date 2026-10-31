@@ -1,0 +1,629 @@
+{
+    "Status": true,
+    "ErrorMessage": null,
+    "FlightProposals": [
+        {
+            "FlightGroup": [
+                {
+                    "Origin": "SAW",
+                    "Destination": "IKA",
+                    "Duration": "5h 45m",
+                    "NumberOfStops": 1.0,
+                    "DepartureDate": "2024-04-18",
+                    "DepartureTime": "20:50",
+                    "ArrivalTime": "03:05",
+                    "ArrivalDate": "2024-04-19",
+                    "isSystemFlight": "true",
+                    "RoutesInfo": [
+                        {
+                            "FlightNumber": "7252",
+                            "AirlineCode": "TK",
+                            "DepartureDate": "2024-04-18",
+                            "DepartureTime": "20:50",
+                            "ArrivalDate": "2024-04-18",
+                            "ArrivalTime": "22:00",
+                            "Duration": "1h 10m",
+                            "OriginAirport": "SAW",
+                            "DestinationAirport": "ESB",
+                            "Class": "Economy",
+                            "ClassCode": "Y",
+                            "SegmentId": 1
+                        },
+                        {
+                            "FlightNumber": "7880",
+                            "AirlineCode": "TK",
+                            "DepartureDate": "2024-04-18",
+                            "DepartureTime": "23:55",
+                            "ArrivalDate": "2024-04-19",
+                            "ArrivalTime": "03:05",
+                            "Duration": "2h 40m",
+                            "OriginAirport": "ESB",
+                            "DestinationAirport": "IKA",
+                            "Class": "Economy",
+                            "ClassCode": "Y",
+                            "SegmentId": 2
+                        }
+                    ],
+                    "Class": "Economy",
+                    "AvailableSeats": "9"
+                }
+            ],
+            "PriceInfo": {
+                "BaseFare": "9110000",
+                "Tax": "26697000",
+                "providerFare": "232585200",
+                "TotalCommission": "268392200",
+                "Commission": "0",
+                "Total": "268392200",
+                "Currency": "IRR",
+                "PassengerFare": [
+                    {
+                        "passengerType": "Adult",
+                        "Count": 1,
+                        "Unit": "267010800",
+                        "BaseFare": "8175000",
+                        "Tax": "26697000",
+                        "providerFare": "232138800",
+                        "Total": "267010800",
+                        "Commission": "0",
+                        "TotalCommission": "267010800",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Child",
+                        "Count": 0,
+                        "Unit": "267010800",
+                        "BaseFare": "0",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "0",
+                        "Commission": "0",
+                        "TotalCommission": "0",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Infant",
+                        "Count": 1,
+                        "Unit": "1381400",
+                        "BaseFare": "935000",
+                        "Tax": "0",
+                        "providerFare": "446400",
+                        "Total": "1381400",
+                        "Commission": "0",
+                        "TotalCommission": "1381400",
+                        "Currency": "IRR"
+                    }
+                ]
+            },
+            "Baggages": [
+                {
+                    "SegmentId": 1,
+                    "Baggage": "20",
+                    "Unit": "KG",
+                    "Description": "ADT20 KG"
+                },
+                {
+                    "SegmentId": 2,
+                    "Baggage": "20",
+                    "Unit": "KG",
+                    "Description": "ADT20 KG"
+                }
+            ],
+            "FlightId": "NjYxYjk5NDU1NGY5ZGZjMWJjNGYzZTc4XzBfMQ=="
+        },
+        {
+            "FlightGroup": [
+                {
+                    "Origin": "SAW",
+                    "Destination": "IKA",
+                    "Duration": "5h 45m",
+                    "NumberOfStops": 1.0,
+                    "DepartureDate": "2024-04-18",
+                    "DepartureTime": "23:50",
+                    "ArrivalTime": "06:05",
+                    "ArrivalDate": "2024-04-19",
+                    "isSystemFlight": "true",
+                    "RoutesInfo": [
+                        {
+                            "FlightNumber": "7262",
+                            "AirlineCode": "TK",
+                            "DepartureDate": "2024-04-18",
+                            "DepartureTime": "23:50",
+                            "ArrivalDate": "2024-04-19",
+                            "ArrivalTime": "01:00",
+                            "Duration": "1h 10m",
+                            "OriginAirport": "SAW",
+                            "DestinationAirport": "ESB",
+                            "Class": "Economy",
+                            "ClassCode": "Y",
+                            "SegmentId": 1
+                        },
+                        {
+                            "FlightNumber": "7890",
+                            "AirlineCode": "TK",
+                            "DepartureDate": "2024-04-19",
+                            "DepartureTime": "02:55",
+                            "ArrivalDate": "2024-04-19",
+                            "ArrivalTime": "06:05",
+                            "Duration": "2h 40m",
+                            "OriginAirport": "ESB",
+                            "DestinationAirport": "IKA",
+                            "Class": "Economy",
+                            "ClassCode": "Y",
+                            "SegmentId": 2
+                        }
+                    ],
+                    "Class": "Economy",
+                    "AvailableSeats": "9"
+                }
+            ],
+            "PriceInfo": {
+                "BaseFare": "9565600",
+                "Tax": "28031800",
+                "providerFare": "244214400",
+                "TotalCommission": "281811800",
+                "Commission": "0",
+                "Total": "281811800",
+                "Currency": "IRR",
+                "PassengerFare": [
+                    {
+                        "passengerType": "Adult",
+                        "Count": 1,
+                        "Unit": "280361300",
+                        "BaseFare": "8583800",
+                        "Tax": "28031800",
+                        "providerFare": "243745700",
+                        "Total": "280361300",
+                        "Commission": "0",
+                        "TotalCommission": "280361300",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Child",
+                        "Count": 0,
+                        "Unit": "280361300",
+                        "BaseFare": "0",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "0",
+                        "Commission": "0",
+                        "TotalCommission": "0",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Infant",
+                        "Count": 1,
+                        "Unit": "1450500",
+                        "BaseFare": "981800",
+                        "Tax": "0",
+                        "providerFare": "468700",
+                        "Total": "1450500",
+                        "Commission": "0",
+                        "TotalCommission": "1450500",
+                        "Currency": "IRR"
+                    }
+                ]
+            },
+            "Baggages": [
+                {
+                    "SegmentId": 1,
+                    "Baggage": "20",
+                    "Unit": "KG",
+                    "Description": "ADT20 KG"
+                },
+                {
+                    "SegmentId": 2,
+                    "Baggage": "20",
+                    "Unit": "KG",
+                    "Description": "ADT20 KG"
+                }
+            ],
+            "FlightId": "NjYxYjk5NDU1NGY5ZGZjMWJjNGYzZTc4XzFfMQ=="
+        },
+        {
+            "FlightGroup": [
+                {
+                    "Origin": "SAW",
+                    "Destination": "IKA",
+                    "Duration": "5h 45m",
+                    "NumberOfStops": 1.0,
+                    "DepartureDate": "2024-04-18",
+                    "DepartureTime": "02:50",
+                    "ArrivalTime": "09:05",
+                    "ArrivalDate": "2024-04-18",
+                    "isSystemFlight": "true",
+                    "RoutesInfo": [
+                        {
+                            "FlightNumber": "7272",
+                            "AirlineCode": "TK",
+                            "DepartureDate": "2024-04-18",
+                            "DepartureTime": "02:50",
+                            "ArrivalDate": "2024-04-18",
+                            "ArrivalTime": "04:00",
+                            "Duration": "1h 10m",
+                            "OriginAirport": "SAW",
+                            "DestinationAirport": "ESB",
+                            "Class": "Economy",
+                            "ClassCode": "Y",
+                            "SegmentId": 1
+                        },
+                        {
+                            "FlightNumber": "7900",
+                            "AirlineCode": "TK",
+                            "DepartureDate": "2024-04-18",
+                            "DepartureTime": "05:55",
+                            "ArrivalDate": "2024-04-18",
+                            "ArrivalTime": "09:05",
+                            "Duration": "2h 40m",
+                            "OriginAirport": "ESB",
+                            "DestinationAirport": "IKA",
+                            "Class": "Economy",
+                            "ClassCode": "Y",
+                            "SegmentId": 2
+                        }
+                    ],
+                    "Class": "Economy",
+                    "AvailableSeats": "9"
+                }
+            ],
+            "PriceInfo": {
+                "BaseFare": "10021000",
+                "Tax": "29366700",
+                "providerFare": "255843700",
+                "TotalCommission": "295231400",
+                "Commission": "0",
+                "Total": "295231400",
+                "Currency": "IRR",
+                "PassengerFare": [
+                    {
+                        "passengerType": "Adult",
+                        "Count": 1,
+                        "Unit": "293711800",
+                        "BaseFare": "8992500",
+                        "Tax": "29366700",
+                        "providerFare": "255352600",
+                        "Total": "293711800",
+                        "Commission": "0",
+                        "TotalCommission": "293711800",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Child",
+                        "Count": 0,
+                        "Unit": "293711800",
+                        "BaseFare": "0",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "0",
+                        "Commission": "0",
+                        "TotalCommission": "0",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Infant",
+                        "Count": 1,
+                        "Unit": "1519600",
+                        "BaseFare": "1028500",
+                        "Tax": "0",
+                        "providerFare": "491100",
+                        "Total": "1519600",
+                        "Commission": "0",
+                        "TotalCommission": "1519600",
+                        "Currency": "IRR"
+                    }
+                ]
+            },
+            "Baggages": [
+                {
+                    "SegmentId": 1,
+                    "Baggage": "20",
+                    "Unit": "KG",
+                    "Description": "ADT20 KG"
+                },
+                {
+                    "SegmentId": 2,
+                    "Baggage": "20",
+                    "Unit": "KG",
+                    "Description": "ADT20 KG"
+                }
+            ],
+            "FlightId": "NjYxYjk5NDU1NGY5ZGZjMWJjNGYzZTc4XzJfMQ=="
+        },
+        {
+            "FlightGroup": [
+                {
+                    "Origin": "IST",
+                    "Destination": "IKA",
+                    "Duration": "3h 10m",
+                    "NumberOfStops": 0.0,
+                    "DepartureDate": "2024-04-18",
+                    "DepartureTime": "21:15",
+                    "ArrivalTime": "00:45",
+                    "ArrivalDate": "2024-04-19",
+                    "isSystemFlight": "false",
+                    "RoutesInfo": [
+                        {
+                            "FlightNumber": "115",
+                            "AirlineCode": "W5",
+                            "DepartureDate": "2024-04-18",
+                            "DepartureTime": "21:15",
+                            "ArrivalDate": "2024-04-19",
+                            "ArrivalTime": "00:45",
+                            "Duration": "3h 10m",
+                            "OriginAirport": "IST",
+                            "DestinationAirport": "IKA",
+                            "Class": "Economy",
+                            "ClassCode": "Y",
+                            "SegmentId": 1
+                        }
+                    ],
+                    "Class": "Economy",
+                    "AvailableSeats": "9"
+                }
+            ],
+            "PriceInfo": {
+                "BaseFare": "44950000",
+                "Tax": "0",
+                "providerFare": "0",
+                "TotalCommission": "44950000",
+                "Commission": "0",
+                "Total": "44950000",
+                "Currency": "IRR",
+                "PassengerFare": [
+                    {
+                        "passengerType": "Adult",
+                        "Count": 1,
+                        "Unit": "40000000",
+                        "BaseFare": "40000000",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "40000000",
+                        "Commission": "0",
+                        "TotalCommission": "40000000",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Child",
+                        "Count": 0,
+                        "Unit": "40000000",
+                        "BaseFare": "0",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "0",
+                        "Commission": "0",
+                        "TotalCommission": "0",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Infant",
+                        "Count": 1,
+                        "Unit": "4950000",
+                        "BaseFare": "4950000",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "4950000",
+                        "Commission": "0",
+                        "TotalCommission": "4950000",
+                        "Currency": "IRR"
+                    }
+                ]
+            },
+            "Baggages": [
+                {
+                    "SegmentId": 1,
+                    "Baggage": "5",
+                    "Unit": "KG",
+                    "Description": ""
+                }
+            ],
+            "FlightId": "NjYxYjk5NDU1NGY5ZGZjMWJjNGYzZTc4XzNfMA=="
+        },
+        {
+            "FlightGroup": [
+                {
+                    "Origin": "IST",
+                    "Destination": "IKA",
+                    "Duration": "3h 10m",
+                    "NumberOfStops": 0.0,
+                    "DepartureDate": "2024-04-18",
+                    "DepartureTime": "00:15",
+                    "ArrivalTime": "03:45",
+                    "ArrivalDate": "2024-04-18",
+                    "isSystemFlight": "false",
+                    "RoutesInfo": [
+                        {
+                            "FlightNumber": "125",
+                            "AirlineCode": "W5",
+                            "DepartureDate": "2024-04-18",
+                            "DepartureTime": "00:15",
+                            "ArrivalDate": "2024-04-18",
+                            "ArrivalTime": "03:45",
+                            "Duration": "3h 10m",
+                            "OriginAirport": "IST",
+                            "DestinationAirport": "IKA",
+                            "Class": "Economy",
+                            "ClassCode": "Y",
+                            "SegmentId": 1
+                        }
+                    ],
+                    "Class": "Economy",
+                    "AvailableSeats": "9"
+                }
+            ],
+            "PriceInfo": {
+                "BaseFare": "47197500",
+                "Tax": "0",
+                "providerFare": "0",
+                "TotalCommission": "47197500",
+                "Commission": "0",
+                "Total": "47197500",
+                "Currency": "IRR",
+                "PassengerFare": [
+                    {
+                        "passengerType": "Adult",
+                        "Count": 1,
+                        "Unit": "42000000",
+                        "BaseFare": "42000000",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "42000000",
+                        "Commission": "0",
+                        "TotalCommission": "42000000",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Child",
+                        "Count": 0,
+                        "Unit": "42000000",
+                        "BaseFare": "0",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "0",
+                        "Commission": "0",
+                        "TotalCommission": "0",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Infant",
+                        "Count": 1,
+                        "Unit": "5197500",
+                        "BaseFare": "5197500",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "5197500",
+                        "Commission": "0",
+                        "TotalCommission": "5197500",
+                        "Currency": "IRR"
+                    }
+                ]
+            },
+            "Baggages": [
+                {
+                    "SegmentId": 1,
+                    "Baggage": "5",
+                    "Unit": "KG",
+                    "Description": ""
+                }
+            ],
+            "FlightId": "NjYxYjk5NDU1NGY5ZGZjMWJjNGYzZTc4XzRfMA=="
+        },
+        {
+            "FlightGroup": [
+                {
+                    "Origin": "IST",
+                    "Destination": "IKA",
+                    "Duration": "3h 10m",
+                    "NumberOfStops": 0.0,
+                    "DepartureDate": "2024-04-18",
+                    "DepartureTime": "03:15",
+                    "ArrivalTime": "06:45",
+                    "ArrivalDate": "2024-04-18",
+                    "isSystemFlight": "false",
+                    "RoutesInfo": [
+                        {
+                            "FlightNumber": "135",
+                            "AirlineCode": "W5",
+                            "DepartureDate": "2024-04-18",
+                            "DepartureTime": "03:15",
+                            "ArrivalDate": "2024-04-18",
+                            "ArrivalTime": "06:45",
+                            "Duration": "3h 10m",
+                            "OriginAirport": "IST",
+                            "DestinationAirport": "IKA",
+                            "Class": "Economy",
+                            "ClassCode": "Y",
+                            "SegmentId": 1
+                        }
+                    ],
+                    "Class": "Economy",
+                    "AvailableSeats": "9"
+                }
+            ],
+            "PriceInfo": {
+                "BaseFare": "49445000",
+                "Tax": "0",
+                "providerFare": "0",
+                "TotalCommission": "49445000",
+                "Commission": "0",
+                "Total": "49445000",
+                "Currency": "IRR",
+                "PassengerFare": [
+                    {
+                        "passengerType": "Adult",
+                        "Count": 1,
+                        "Unit": "44000000",
+                        "BaseFare": "44000000",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "44000000",
+                        "Commission": "0",
+                        "TotalCommission": "44000000",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Child",
+                        "Count": 0,
+                        "Unit": "44000000",
+                        "BaseFare": "0",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "0",
+                        "Commission": "0",
+                        "TotalCommission": "0",
+                        "Currency": "IRR"
+                    },
+                    {
+                        "passengerType": "Infant",
+                        "Count": 1,
+                        "Unit": "5445000",
+                        "BaseFare": "5445000",
+                        "Tax": "0",
+                        "providerFare": "0",
+                        "Total": "5445000",
+                        "Commission": "0",
+                        "TotalCommission": "5445000",
+                        "Currency": "IRR"
+                    }
+                ]
+            },
+            "Baggages": [
+                {
+                    "SegmentId": 1,
+                    "Baggage": "5",
+                    "Unit": "KG",
+                    "Description": ""
+                }
+            ],
+            "FlightId": "NjYxYjk5NDU1NGY5ZGZjMWJjNGYzZTc4XzVfMA=="
+        }
+    ],
+    "dictionaries": {
+        "location": {
+            "IST": {
+                "airport": "Istanbul International Airport",
+                "city": "Istanbul",
+                "country": "Turkish",
+                "cityCode": "IST"
+            },
+            "ESB": {
+                "airport": "Ankara Airport",
+                "city": "Ankara",
+                "country": "Turkish",
+                "cityCode": "ESB"
+            },
+            "IKA": {
+                "airport": "Imam Khomeini International Airport",
+                "city": "Tehran",
+                "country": "Iran",
+                "cityCode": "THR"
+            }
+        },
+        "carriers": {
+            "TK": "Turkish Airlines",
+            "W5": "Mahan Air"
+        },
+        "currency": {
+            "IRR": "IRR"
+        }
+    }
+}

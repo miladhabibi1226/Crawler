@@ -1,0 +1,53 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Body xmlns:ns1="http://www.opentravel.org/OTA/2003/05">
+        <ns1:OTA_AirPriceRS EchoToken="11868765275150-1300257933" PrimaryLangID="en-us" RetransmissionIndicator="false" SequenceNmbr="1" TransactionIdentifier="TID$1632055891201333.demo2015" Version="2006.01">
+            <ns1:PricedItineraries>
+                <ns1:PricedItinerary SequenceNumber="1">
+                    <ns1:AirItinerary>
+                        <ns1:OriginDestinationOptions>
+                            <ns1:OriginDestinationOption>
+                                <ns1:FlightSegment ArrivalDateTime="2021-09-30T18:00:00" DepartureDateTime="2021-09-30T14:00:00" FlightNumber="RB555" RPH="RB$DAM/DXB$59064$20210930140000$20210930180000" returnFlag="false">
+                                    <ns1:DepartureAirport LocationCode="DAM" Terminal="TerminalX" />
+                                    <ns1:ArrivalAirport LocationCode="DXB" />
+                                </ns1:FlightSegment>
+                            </ns1:OriginDestinationOption>
+                        </ns1:OriginDestinationOptions>
+                    </ns1:AirItinerary>
+                    <ns1:AirItineraryPricingInfo PricingSource="Published">
+                        <ns1:ItinTotalFare NegotiatedFare="false">
+                            <ns1:BaseFare Amount="350.00" CurrencyCode="USD" DecimalPlaces="2" />
+                            <ns1:TotalFare Amount="436.20" CurrencyCode="USD" DecimalPlaces="2" />
+                            <ns1:TotalEquivFare Amount="436.20" CurrencyCode="USD" DecimalPlaces="2" />
+                            <ns1:TotalFareWithCCFee Amount="436.20" CurrencyCode="USD" DecimalPlaces="2" />
+                            <ns1:TotalEquivFareWithCCFee Amount="436.20" CurrencyCode="USD" DecimalPlaces="2" />
+                        </ns1:ItinTotalFare>
+                        <ns1:PTC_FareBreakdowns>
+                            <ns1:PTC_FareBreakdown PricingSource="Published">
+                                <ns1:PassengerTypeQuantity Age="0" Code="ADT" Quantity="1" />
+                                <ns1:FareBasisCodes>
+                                    <ns1:FareBasisCode>P</ns1:FareBasisCode>
+                                </ns1:FareBasisCodes>
+                                <ns1:PassengerFare NegotiatedFare="false">
+                                    <ns1:BaseFare Amount="350.00" CurrencyCode="USD" DecimalPlaces="2" />
+                                    <ns1:Taxes>
+                                        <ns1:Tax Amount="1.00" CurrencyCode="USD" DecimalPlaces="2" TaxCode="SYSS" TaxName="Service Security Syria Airport" />
+                                        <ns1:Tax Amount="2.39" CurrencyCode="USD" DecimalPlaces="2" TaxCode="FY" TaxName="AIRPORT TAX &amp; EXIT FEE (FY)" />
+                                        <ns1:Tax Amount="2.73" CurrencyCode="USD" DecimalPlaces="2" TaxCode="ZR1" TaxName="INT ADV PAX INF(API)FEE (ZR1)" />
+                                    </ns1:Taxes>
+                                    <ns1:Fees>
+                                        <ns1:Fee Amount="80.00" CurrencyCode="USD" DecimalPlaces="2" FeeCode="YR4/YR" />
+                                        <ns1:Fee Amount="0.08" CurrencyCode="USD" DecimalPlaces="2" FeeCode="SYAT/service charge" />
+                                    </ns1:Fees>
+                                    <ns1:TotalFare Amount="436.20" CurrencyCode="USD" DecimalPlaces="2" />
+                                </ns1:PassengerFare>
+                                <ns1:TravelerRefNumber RPH="A1" />
+                            </ns1:PTC_FareBreakdown>
+                        </ns1:PTC_FareBreakdowns>
+                    </ns1:AirItineraryPricingInfo>
+                </ns1:PricedItinerary>
+            </ns1:PricedItineraries>
+            <ns1:Success />
+            <ns1:Errors />
+        </ns1:OTA_AirPriceRS>
+    </soap:Body>
+</soap:Envelope>

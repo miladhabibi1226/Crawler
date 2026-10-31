@@ -1,0 +1,25 @@
+{
+    "Success": {},
+    "Errors": null,
+    "AirReservation": {
+        "DateBooked": "2020-08-26T12:37:00.2030124Z",
+        "Status": "Sucessful",
+        "Ticketing": [
+            {
+                "TravelerRefNumber": 1,
+                "TicketDocumentNbr": 1392675
+            },
+            {
+                "TravelerRefNumber": 2,
+                "TicketDocumentNbr": 1392676
+            },
+            {
+                "TravelerRefNumber": 3,
+                "TicketDocumentNbr": 1392677
+            }
+        ],
+        "BookingReferenceID": {
+            "ID": "L3E7D8"
+        }
+    }
+}

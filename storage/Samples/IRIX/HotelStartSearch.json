@@ -1,0 +1,26 @@
+{
+    "status": "IN_PROGRESS",
+    "progress": 0,
+    "countOffers": 0,
+    "countHotels": 0,
+    "srk": "91647a6a-1e9d-458e-a8b1-9ea51ba4a737",
+    "tokens": {
+        "async": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hSZXN1bHRzS2V5IjoiOTE2NDdhNmEtMWU5ZC00NThlLWE4YjEtOWVhNTFiYTRhNzM3Iiwic2hvd1N1cHBsaWVyIjpmYWxzZSwidmlld0N1cnJlbmN5IjoiVVNEIiwic2hvd05ldFByaWNlIjp0cnVlLCJzaG93UHJpY2VDb21wb25lbnRzIjoiIiwiZnJvbSI6MTY3OTczNTE5NCwidG8iOjE2Nzk3MzUxOTcsImlhdCI6MTY3OTczNTE5NCwibmJmIjoxNjc5NzM1MTk0LCJleHAiOjE2Nzk3NzExOTQsInV1aWQiOiJkODhhOWZiZC02ZGU3LTQzMzYtYWY3My00NjE4NjJhY2ZjNDQiLCJ2IjoiZDM2N2ExOTI0OGQxNzA0M2NhODRlMDBjNjMyNjNhMjUwNzhmZGMxZSJ9.G-ic6MLyYVCTUNG8-EiTk5A86Iz9mezyIK9lodh8TxU",
+        "progress": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzaG93U3VwcGxpZXIiOmZhbHNlLCJ2aWV3Q3VycmVuY3kiOiJVU0QiLCJtIjoiZU5xVlVWMXIyekFVL1N0QjczTDFMVnQ1R2kyallkMG95L3EwbENKTE41bkFzWTFsbDR5US96N0p5VWE3amtGQm9LdkQwZUdjYzYrTnFBejYwUGViYjROOWhtWU53M053c0xudFJtZzJhN0NEKzNGK25PZlB0clU3R0pEUkpUVkhhN2c1UmtNTmVrTExhQlJMa3pYc0pTWlZtVEdSTVdiUTZpYURQRTFVRUtxZGxhVVhUbEsvMVhYbEZQaHQ3YjNXdGZTWlI1TktQM1FPWXJ3TGNVUkxtM1NQd1pEbHRlSEtvQnNYTjZzaEhEWTV3UDJaK1BlTkRGVWtXMzFyZ1JCRlZPMnBnTXJXcGRvNlh5dHVXVW1JZGlDcG1ua0czZWNmd1ZTU3A3YzJ5SFg3dlcxbmc1SzlwN3oxMUdkRzdJYTVMWU9pRzBLZlluMVpuazZuRkRlSnd3SGNOSWF1dmUzaTJObzlaQ3BMT3dvOXBwcGhUdk5KNVJYZ1dCSGFFWWJXTm5OWitrOVpFTys2M2NmUVFIeFJXV0xrWFZ3eHdqamhsNHZKSzBybkdST09tVnhRV2hCVmNMRklzZkNyV0hoT2dzOVI4RDlqTGI3LzErWGpZbkV4K05STll6K05oUklVNnFxeVdnanRSVUVWWjZUVXNtaTZIVXFkekxHUzV4amFYUU9YaGE1YUQ0ZThFTEk4RTNLUnM1R3ZFS2RtakovZzU3eTVoRmRVQ1cyVnhSUXFqNFVzQWR1eXByZ0NLMmx0aGRWYy8rN3VsY2JERlB6N1JFNm5YMFZQQkNNPSIsImlhdCI6MTY3OTczNTE5NCwibmJmIjoxNjc5NzM1MTk0LCJleHAiOjE2Nzk3NzExOTQsInV1aWQiOiIwMWZhNzAyMS1jY2UyLTQ1NTEtOWM5Mi03ODRkOTU4MTYxMGYiLCJ2IjoiZDM2N2ExOTI0OGQxNzA0M2NhODRlMDBjNjMyNjNhMjUwNzhmZGMxZSJ9.UlmaijtKsKCd1gdFD5be4cUQC8K6wN8fe4eVe9uimt0",
+        "results": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzZWFyY2hSZXN1bHRzS2V5IjoiOTE2NDdhNmEtMWU5ZC00NThlLWE4YjEtOWVhNTFiYTRhNzM3Iiwic2hvd1N1cHBsaWVyIjpmYWxzZSwidmlld0N1cnJlbmN5IjoiVVNEIiwic2hvd05ldFByaWNlIjp0cnVlLCJzaG93UHJpY2VDb21wb25lbnRzIjoiIiwiaWF0IjoxNjc5NzM1MTk0LCJuYmYiOjE2Nzk3MzUxOTQsImV4cCI6MTY3OTc3MTE5NCwidXVpZCI6IjFlOWViMTE0LWJhZjItNDliNS1hYWU3LWJkMTQ2OWFhYTU2MiIsInYiOiJkMzY3YTE5MjQ4ZDE3MDQzY2E4NGUwMGM2MzI2M2EyNTA3OGZkYzFlIn0.P6WZXVQZgntwFblKeGrGVekZOhQEYuys-k2RZFLSZnM"
+    },
+    "_links": {
+        "self": {
+            "href": "https://www.ebookingcenter.com/tbs/reseller/api/hotels/v1/search/start"
+        },
+        "async": {
+            "href": "https://www.ebookingcenter.com/tbs/reseller/api/hotels/v1/search/async/91647a6a-1e9d-458e-a8b1-9ea51ba4a737"
+        },
+        "progress": {
+            "href": "https://www.ebookingcenter.com/tbs/reseller/api/hotels/v1/search/progress"
+        },
+        "summary": {
+            "href": "https://www.ebookingcenter.com/tbs/reseller/api/hotels/v1/search/progress/summary"
+        }
+    }
+}

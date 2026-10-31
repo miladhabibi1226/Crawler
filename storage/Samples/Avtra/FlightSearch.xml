@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OTA_AirLowFareSearchRS xmlns="http://www.opentravel.org/OTA/2003/05" EchoToken="50987" TimeStamp="2021-11-15T10:33:57.858Z" Target="Test" Version="2.001" SequenceNmbr="1" PrimaryLangID="En-us">
+    <Success/>
+    <PricedItineraries>
+        <PricedItinerary SequenceNumber="1">
+            <AirItinerary>
+                <OriginDestinationOptions>
+                    <OriginDestinationOption>
+                        <FlightSegment FlightNumber="IF701" ResBookDesigCode="A10" DepartureDateTime="2021-11-17T09:00:00.000+03:00" ArrivalDateTime="2021-11-17T10:00:00.000+03:00" Duration="01:00:00" StopQuantity="0" RPH="30543">
+                            <DepartureAirport LocationCode="BGW"/>
+                            <ArrivalAirport LocationCode="EBL"/>
+                            <OperatingAirline Code="IF"/>
+                            <Equipment AirEquipType="737-700"/>
+                            <BookingClassAvails>
+                                <BookingClassAvail ResBookDesigCode="A10" ResBookDesigQuantity="9"/>
+                            </BookingClassAvails>
+                        </FlightSegment>
+                    </OriginDestinationOption>
+                    <OriginDestinationOption>
+                        <FlightSegment FlightNumber="IF702" ResBookDesigCode="A10" DepartureDateTime="2021-11-24T08:45:00.000+03:00" ArrivalDateTime="2021-11-24T09:45:00.000+03:00" Duration="01:00:00" StopQuantity="0" RPH="28866">
+                            <DepartureAirport LocationCode="EBL"/>
+                            <ArrivalAirport LocationCode="BGW"/>
+                            <OperatingAirline Code="IF"/>
+                            <Equipment AirEquipType="737-700"/>
+                            <BookingClassAvails>
+                                <BookingClassAvail ResBookDesigCode="A10" ResBookDesigQuantity="9"/>
+                            </BookingClassAvails>
+                        </FlightSegment>
+                    </OriginDestinationOption>
+                </OriginDestinationOptions>
+            </AirItinerary>
+            <AirItineraryPricingInfo>
+                <ItinTotalFare>
+                    <BaseFare CurrencyCode="USD" DecimalPlaces="2" Amount="84.80"/>
+                    <TotalFare CurrencyCode="USD" DecimalPlaces="2" Amount="129.80"/>
+                </ItinTotalFare>
+                <PTC_FareBreakdowns>
+                    <PTC_FareBreakdown>
+                        <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                        <FareBasisCodes>
+                            <FareBasisCode FlightSegmentRPH="28866" fareRPH="22250">A10O</FareBasisCode>
+                            <FareBasisCode FlightSegmentRPH="30543" fareRPH="22233">A10O</FareBasisCode>
+                        </FareBasisCodes>
+                        <PassengerFare>
+                            <BaseFare CurrencyCode="USD" DecimalPlaces="2" Amount="84.80"/>
+                            <Taxes>
+                                <Tax TaxCode="B_S_D" TaxName="BGW Dom Surcharge" CurrencyCode="USD" DecimalPlaces="2">12.0</Tax>
+                                <Tax TaxCode="BGWD1" TaxName="BGW Dom Departure Tax" CurrencyCode="USD" DecimalPlaces="2">9.0</Tax>
+                                <Tax TaxCode="E_S_D" TaxName="EBL Dom Surcharge" CurrencyCode="USD" DecimalPlaces="2">12.0</Tax>
+                                <Tax TaxCode="EBLD1" TaxName="EBL_DOMESTIC" CurrencyCode="USD" DecimalPlaces="2">12.0</Tax>
+                            </Taxes>
+                            <TotalFare CurrencyCode="USD" DecimalPlaces="2" Amount="129.80"/>
+                            <FareBaggageAllowance FlightSegmentRPH="28866" UnitOfMeasureQuantity="25" UnitOfMeasure="KG" UnitOfMeasureCode="16"/>
+                            <FareBaggageAllowance FlightSegmentRPH="30543" UnitOfMeasureQuantity="25" UnitOfMeasure="KG" UnitOfMeasureCode="16"/>
+                        </PassengerFare>
+                    </PTC_FareBreakdown>
+                </PTC_FareBreakdowns>
+                <FareInfos>
+                    <FareInfo>
+                        <RuleInfo>
+                            <ChargesRules>
+                                <VoluntaryChanges VolChangeInd="true">
+                                    <Penalty PenaltyType="REVAL_REISSUE" DepartureStatus="BEFORE" CurrencyCode="USD" Amount="20"/>
+                                </VoluntaryChanges>
+                                <VoluntaryRefunds VolChangeInd="true">
+                                    <Penalty PenaltyType="CANCEL_REFUND" DepartureStatus="BEFORE" CurrencyCode="USD" Amount="25"/>
+                                </VoluntaryRefunds>
+                            </ChargesRules>
+                        </RuleInfo>
+                        <DepartureAirport LocationCode="BGW"/>
+                        <ArrivalAirport LocationCode="EBL"/>
+                    </FareInfo>
+                    <FareInfo>
+                        <RuleInfo>
+                            <ChargesRules>
+                                <VoluntaryChanges VolChangeInd="true">
+                                    <Penalty PenaltyType="REVAL_REISSUE" DepartureStatus="BEFORE" CurrencyCode="USD" Amount="20"/>
+                                </VoluntaryChanges>
+                                <VoluntaryRefunds VolChangeInd="true">
+                                    <Penalty PenaltyType="CANCEL_REFUND" DepartureStatus="BEFORE" CurrencyCode="USD" Amount="25"/>
+                                </VoluntaryRefunds>
+                            </ChargesRules>
+                        </RuleInfo>
+                        <DepartureAirport LocationCode="EBL"/>
+                        <ArrivalAirport LocationCode="BGW"/>
+                    </FareInfo>
+                </FareInfos>
+            </AirItineraryPricingInfo>
+        </PricedItinerary>
+    </PricedItineraries>
+</OTA_AirLowFareSearchRS>

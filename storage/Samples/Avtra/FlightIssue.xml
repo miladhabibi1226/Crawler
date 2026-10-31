@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OTA_AirBookRS xmlns="http://www.opentravel.org/OTA/2003/05" EchoToken="50987" TimeStamp="2021-11-25T08:25:28.957Z" Target="Test" Version="2.001" SequenceNmbr="1" PrimaryLangID="En-us">
+    <Success/>
+    <AirReservation CreatedDateTme="2021-11-25T08:25:28.957Z">
+        <AirItinerary DirectionInd="OneWay">
+            <OriginDestinationOptions>
+                <OriginDestinationOption>
+                    <FlightSegment Status="39" FlightNumber="IF702" FareBasisCode="A10OW" ResBookDesigCode="A10" DepartureDateTime="2021-12-08T08:45:00.000+03:00" ArrivalDateTime="2021-12-08T09:45:00.000+03:00" StopQuantity="0" RPH="1555173">
+                        <DepartureAirport LocationCode="EBL" LocationName="Erbil International Airport"/>
+                        <ArrivalAirport LocationCode="BGW" LocationName="Baghdad International Airport"/>
+                        <OperatingAirline Code="IF"/>
+                        <Equipment AirEquipType="737-700"/>
+                    </FlightSegment>
+                </OriginDestinationOption>
+            </OriginDestinationOptions>
+        </AirItinerary>
+        <ArrangerInfo>
+            <CompanyInfo CompanyShortName="ALRAWDATAIN OTA" Code="ALRAWDATAINOTA"/>
+        </ArrangerInfo>
+        <PriceInfo>
+            <ItinTotalFare>
+                <TotalFare CurrencyCode="USD" DecimalPlaces="2" Amount="59.90"/>
+            </ItinTotalFare>
+            <PTC_FareBreakdowns>
+                <PTC_FareBreakdown>
+                    <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                    <FareBasisCodes>
+                        <FareBasisCode>A10OW</FareBasisCode>
+                    </FareBasisCodes>
+                    <PassengerFare>
+                        <BaseFare CurrencyCode="USD" DecimalPlaces="2" Amount="35.90"/>
+                        <Taxes>
+                            <Tax TaxCode="E_S_D" TaxName="EBL Dom Surcharge" CurrencyCode="USD" DecimalPlaces="2" Amount="12.00"/>
+                            <Tax TaxCode="EBLD1" TaxName="EBL_DOMESTIC" CurrencyCode="USD" DecimalPlaces="2" Amount="12.00"/>
+                        </Taxes>
+                        <TotalFare CurrencyCode="USD" DecimalPlaces="2" Amount="59.90"/>
+                    </PassengerFare>
+                    <FareInfo>
+                        <FareInfo FareBasisCode="A10OW">
+                            <Fare BaseAmount="35.90"/>
+                        </FareInfo>
+                    </FareInfo>
+                </PTC_FareBreakdown>
+            </PTC_FareBreakdowns>
+        </PriceInfo>
+        <TravelerInfo>
+            <AirTraveler BirthDate="1999-09-07" PassengerTypeCode="ADT" AccompaniedByInfantInd="false" TravelerNationality="IQ" Gender="F">
+                <PersonName>
+                    <NamePrefix>Ms</NamePrefix>
+                    <GivenName>Porter</GivenName>
+                    <Surname>Watkins</Surname>
+                </PersonName>
+                <TravelerRefNumber RPH="1"/>
+            </AirTraveler>
+        </TravelerInfo>
+        <ContactPerson>
+            <PersonName>
+                <GivenName>Porter</GivenName>
+                <Surname>Watkins</Surname>
+            </PersonName>
+            <Telephone PhoneNumber="(964)7633223445"/>
+            <Email>dalomid@mailinator.com</Email>
+        </ContactPerson>
+        <Fulfillment>
+            <PaymentDetails>
+                <PaymentDetail PaymentType="2">
+                    <DirectBill DirectBill_ID="ALRAWDATAINOTA">
+                        <CompanyName CompanyShortName="ALRAWDATAIN OTA" Code="ALRAWDATAINOTA" AgentType="TRVL_AGNT"/>
+                    </DirectBill>
+                    <PaymentAmount CurrencyCode="USD" DecimalPlaces="2" Amount="59.90"/>
+                </PaymentDetail>
+            </PaymentDetails>
+        </Fulfillment>
+        <Ticketing TravelerRefNumber="1" TicketDocumentNbr="0170110760214"/>
+        <BookingReferenceID Status="39" Instance="2" ID="3YCHQV" ID_Context="BookingRef"/>
+        <Offer/>
+    </AirReservation>
+</OTA_AirBookRS> 

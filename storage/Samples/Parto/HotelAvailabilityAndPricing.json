@@ -1,0 +1,57 @@
+{
+    "Success": true,
+    "Error": null,
+    "CheckIn": "2022-07-15T00:00:00",
+    "CheckOut": "2022-07-16T00:00:00",
+    "ClientBalance": 0.0,
+    "PricedItinerary": {
+        "FareSourceCode": "32643562663364323732333834386565613062306465646536366139326635622634372633353339383439",
+        "Offer": null,
+        "NonRefundable": true,
+        "HotelId": 7323,
+        "PaymentDeadline": "2021-05-15T11:51:14.3400178",
+        "Currency": "USD",
+        "AvailableRoom": 32,
+        "PlainTextCancellationPolicy": null,
+        "NetRate": 231.24,
+        "Rooms": [
+            {
+                "RoomId": "1263647",
+                "Name": "Double Standard",
+                "AdultCount": 1,
+                "ChildCount": 0,
+                "ChildAges": null,
+                "MealType": "Room Only",
+                "SharingBedding": false,
+                "BedGroups": null,
+                "HotelRoomEarlyCheckin": null,
+                "HotelRoomLateCheckout": null
+            },
+            {
+                "RoomId": "1263647",
+                "Name": "Double Standard",
+                "AdultCount": 2,
+                "ChildCount": 0,
+                "ChildAges": null,
+                "MealType": "Room Only",
+                "SharingBedding": false,
+                "BedGroups": null,
+                "HotelRoomEarlyCheckin": null,
+                "HotelRoomLateCheckout": null
+            }
+        ],
+        "CancellationPolicies": [
+            {
+                "Amount": 231.2386539400,
+                "FromDate": "2022-05-15T00:00:00+04:30"
+            }
+        ],
+        "Remarks": [
+            "  Estimated total amount of taxes & fees for this booking:10.00 Euro payable on arrival.  Check-in hour 18:00-00:00.Children share the bed with parents 1.Car park YES (with additional debit notes) 25.00 EUR Per unit/night.Due to the pandemic, many accommodation and service providers may implement processes and policies to help protect the safety of all of us. This may result in the unavailability or changes in certain services and amenities that are normally available from them. More info here https://cutt.ly/MT8BJcv (15/05/2020-30/06/2022) From January 10th to March 31st, 2022 all travelers must provide a valid certificate of vaccination or recovery to check in in all hotels and all kind of properties providing accommodation. Negative PCR tests only will not be valid for check in. (19/10/2021-31/12/2022) "
+        ],
+        "Amenities": [],
+        "IsReserveOffline": false,
+        "HotelRefundType": "0",
+        "PricedItineraryTransfers": []
+    }
+}

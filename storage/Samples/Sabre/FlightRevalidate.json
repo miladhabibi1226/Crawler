@@ -1,0 +1,672 @@
+{
+    "groupedItineraryResponse": {
+        "version": "6.6.1",
+        "messages": [
+            {
+                "severity": "Info",
+                "type": "SERVER",
+                "code": "ASE002LPSPIL127.IDM.SGDCPROD.SABRE.COM",
+                "text": "27036"
+            },
+            {
+                "severity": "Info",
+                "type": "WORKERTHREAD",
+                "code": "TRANSACTIONID",
+                "text": "6895609391882070506"
+            },
+            {
+                "severity": "Info",
+                "type": "DRE",
+                "code": "RULEID",
+                "text": "24113"
+            },
+            {
+                "severity": "Info",
+                "type": "DEFAULT",
+                "code": "RULEID",
+                "text": "24111"
+            }
+        ],
+        "statistics": {
+            "itineraryCount": 1
+        },
+        "scheduleDescs": [
+            {
+                "id": 1,
+                "frequency": "SMTWTFS",
+                "stopCount": 0,
+                "eTicketable": true,
+                "totalMilesFlown": 3012,
+                "elapsedTime": 385,
+                "departure": {
+                    "airport": "FRA",
+                    "city": "FRA",
+                    "country": "DE",
+                    "time": "14:10:00+02:00",
+                    "terminal": "1"
+                },
+                "arrival": {
+                    "airport": "DXB",
+                    "city": "DXB",
+                    "country": "AE",
+                    "time": "22:35:00+04:00",
+                    "terminal": "1"
+                },
+                "carrier": {
+                    "marketing": "LH",
+                    "marketingFlightNumber": 630,
+                    "operating": "LH",
+                    "operatingFlightNumber": 630,
+                    "equipment": {
+                        "code": "333",
+                        "typeForFirstLeg": "W",
+                        "typeForLastLeg": "W"
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "frequency": "*****F*",
+                "stopCount": 0,
+                "eTicketable": true,
+                "totalMilesFlown": 1144,
+                "elapsedTime": 195,
+                "departure": {
+                    "airport": "IST",
+                    "city": "IST",
+                    "country": "TR",
+                    "time": "06:00:00+03:00"
+                },
+                "arrival": {
+                    "airport": "FRA",
+                    "city": "FRA",
+                    "country": "DE",
+                    "time": "08:15:00+02:00",
+                    "terminal": "1"
+                },
+                "carrier": {
+                    "marketing": "LH",
+                    "marketingFlightNumber": 1305,
+                    "operating": "LH",
+                    "operatingFlightNumber": 1305,
+                    "equipment": {
+                        "code": "321",
+                        "typeForFirstLeg": "N",
+                        "typeForLastLeg": "N"
+                    }
+                }
+            }
+        ],
+        "taxDescs": [
+            {
+                "id": 1,
+                "code": "YQI",
+                "amount": 65.00,
+                "currency": "USD",
+                "description": "SERVICE FEE - CARRIER-IMPOSED MISC",
+                "publishedAmount": 65.00,
+                "publishedCurrency": "EUR",
+                "station": "FRA"
+            },
+            {
+                "id": 2,
+                "code": "YRI",
+                "amount": 19.50,
+                "currency": "USD",
+                "description": "SERVICE FEE - CARRIER-IMPOSED MISC",
+                "publishedAmount": 19.50,
+                "publishedCurrency": "EUR",
+                "station": "IST"
+            },
+            {
+                "id": 3,
+                "code": "M6",
+                "amount": 3.00,
+                "currency": "USD",
+                "description": "INTERNATIONAL FLIGHTS SECURITY CHARGE",
+                "publishedAmount": 3.00,
+                "publishedCurrency": "EUR",
+                "station": "IST",
+                "country": "TR"
+            },
+            {
+                "id": 4,
+                "code": "ZR",
+                "amount": 1.40,
+                "currency": "USD",
+                "description": "INTERNATIONAL ADVANCED PASSENGER INFORMATION FEE ARRIVALS",
+                "publishedAmount": 5,
+                "publishedCurrency": "AED",
+                "station": "FRA",
+                "country": "AE"
+            },
+            {
+                "id": 5,
+                "code": "YQI",
+                "amount": 45.00,
+                "currency": "USD",
+                "description": "SERVICE FEE - CARRIER-IMPOSED MISC",
+                "publishedAmount": 45.00,
+                "publishedCurrency": "EUR",
+                "station": "IST"
+            },
+            {
+                "id": 6,
+                "code": "RA2",
+                "amount": 22.40,
+                "currency": "USD",
+                "description": "PASSENGER SERVICE CHARGE INTERNATIONAL DEPARTURE",
+                "publishedAmount": 22.37,
+                "publishedCurrency": "EUR",
+                "station": "FRA",
+                "country": "DE"
+            },
+            {
+                "id": 7,
+                "code": "TR",
+                "amount": 20.00,
+                "currency": "USD",
+                "description": "AIRPORT SERVICE CHARGE INTERNATIONAL",
+                "publishedAmount": 20.00,
+                "publishedCurrency": "EUR",
+                "station": "IST",
+                "country": "TR"
+            },
+            {
+                "id": 8,
+                "code": "DE",
+                "amount": 10.00,
+                "currency": "USD",
+                "description": "AIRPORT SECURITY CHARGE",
+                "publishedAmount": 9.95,
+                "publishedCurrency": "EUR",
+                "station": "FRA",
+                "country": "DE"
+            }
+        ],
+        "taxSummaryDescs": [
+            {
+                "id": 1,
+                "code": "YQI",
+                "amount": 110.00,
+                "currency": "USD",
+                "description": "SERVICE FEE - CARRIER-IMPOSED MISC",
+                "publishedAmount": 45.00,
+                "publishedCurrency": "EUR",
+                "station": "IST"
+            },
+            {
+                "id": 2,
+                "code": "YRI",
+                "amount": 19.50,
+                "currency": "USD",
+                "description": "SERVICE FEE - CARRIER-IMPOSED MISC",
+                "publishedAmount": 19.50,
+                "publishedCurrency": "EUR",
+                "station": "IST"
+            },
+            {
+                "id": 3,
+                "code": "M6",
+                "amount": 3.00,
+                "currency": "USD",
+                "description": "INTERNATIONAL FLIGHTS SECURITY CHARGE",
+                "publishedAmount": 3.00,
+                "publishedCurrency": "EUR",
+                "station": "IST",
+                "country": "TR"
+            },
+            {
+                "id": 4,
+                "code": "ZR",
+                "amount": 1.40,
+                "currency": "USD",
+                "description": "INTERNATIONAL ADVANCED PASSENGER INFORMATION FEE ARRIVALS",
+                "publishedAmount": 5,
+                "publishedCurrency": "AED",
+                "station": "FRA",
+                "country": "AE"
+            },
+            {
+                "id": 5,
+                "code": "RA2",
+                "amount": 22.40,
+                "currency": "USD",
+                "description": "PASSENGER SERVICE CHARGE INTERNATIONAL DEPARTURE",
+                "publishedAmount": 22.37,
+                "publishedCurrency": "EUR",
+                "station": "FRA",
+                "country": "DE"
+            },
+            {
+                "id": 6,
+                "code": "TR",
+                "amount": 20.00,
+                "currency": "USD",
+                "description": "AIRPORT SERVICE CHARGE INTERNATIONAL",
+                "publishedAmount": 20.00,
+                "publishedCurrency": "EUR",
+                "station": "IST",
+                "country": "TR"
+            },
+            {
+                "id": 7,
+                "code": "DE",
+                "amount": 10.00,
+                "currency": "USD",
+                "description": "AIRPORT SECURITY CHARGE",
+                "publishedAmount": 9.95,
+                "publishedCurrency": "EUR",
+                "station": "FRA",
+                "country": "DE"
+            }
+        ],
+        "obFeeDescs": [
+            {
+                "id": 1,
+                "amount": 0.00,
+                "currency": "USD"
+            }
+        ],
+        "fareComponentDescs": [
+            {
+                "id": 1,
+                "governingCarrier": "LH",
+                "fareAmount": 1155.00,
+                "fareCurrency": "USD",
+                "fareBasisCode": "BNCOWTR",
+                "farePassengerType": "ADT",
+                "publishedFareAmount": 1155.00,
+                "oneWayFare": true,
+                "directionality": "FROM",
+                "direction": "EH",
+                "notValidAfter": "2023-09-30",
+                "applicablePricingCategories": "4 5 8 9 10 16 18",
+                "vendorCode": "ATP",
+                "fareTypeBitmap": "00",
+                "fareType": "XOA",
+                "fareTariff": "22",
+                "fareRule": "M0TR",
+                "cabinCode": "Y",
+                "segments": [
+                    {
+                        "segment": {}
+                    },
+                    {
+                        "segment": {}
+                    }
+                ]
+            }
+        ],
+        "baggageAllowanceDescs": [
+            {
+                "id": 1,
+                "pieceCount": 1
+            }
+        ],
+        "legDescs": [
+            {
+                "id": 1,
+                "elapsedTime": 935,
+                "schedules": [
+                    {
+                        "ref": 2
+                    },
+                    {
+                        "ref": 1
+                    }
+                ]
+            }
+        ],
+        "itineraryGroups": [
+            {
+                "groupDescription": {
+                    "legDescriptions": [
+                        {
+                            "departureDate": "2022-09-30",
+                            "departureLocation": "IST",
+                            "arrivalLocation": "DXB"
+                        }
+                    ]
+                },
+                "itineraries": [
+                    {
+                        "id": 1,
+                        "pricingSource": "WPNI1_ITIN",
+                        "currentItinerary": true,
+                        "legs": [
+                            {
+                                "ref": 1
+                            }
+                        ],
+                        "pricingInformation": [
+                            {
+                                "pricingSubsource": "MIP",
+                                "revalidated": true,
+                                "fare": {
+                                    "validatingCarrierCode": "LH",
+                                    "vita": true,
+                                    "eTicketable": true,
+                                    "lastTicketDate": "2022-09-24",
+                                    "lastTicketTime": "13:57",
+                                    "governingCarriers": "LH",
+                                    "passengerInfoList": [
+                                        {
+                                            "passengerInfo": {
+                                                "passengerType": "ADT",
+                                                "passengerNumber": 1,
+                                                "nonRefundable": true,
+                                                "fareComponents": [
+                                                    {
+                                                        "ref": 1,
+                                                        "beginAirport": "IST",
+                                                        "endAirport": "DXB",
+                                                        "segments": [
+                                                            {
+                                                                "segment": {
+                                                                    "bookingCode": "B",
+                                                                    "cabinCode": "Y",
+                                                                    "mealCode": "RG",
+                                                                    "seatsAvailable": 9
+                                                                }
+                                                            },
+                                                            {
+                                                                "segment": {
+                                                                    "bookingCode": "B",
+                                                                    "cabinCode": "Y",
+                                                                    "mealCode": "RM",
+                                                                    "seatsAvailable": 9,
+                                                                    "availabilityBreak": true,
+                                                                    "fareBreakPoint": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "taxes": [
+                                                    {
+                                                        "ref": 5
+                                                    },
+                                                    {
+                                                        "ref": 1
+                                                    },
+                                                    {
+                                                        "ref": 2
+                                                    },
+                                                    {
+                                                        "ref": 4
+                                                    },
+                                                    {
+                                                        "ref": 8
+                                                    },
+                                                    {
+                                                        "ref": 6
+                                                    },
+                                                    {
+                                                        "ref": 3
+                                                    },
+                                                    {
+                                                        "ref": 7
+                                                    }
+                                                ],
+                                                "taxSummaries": [
+                                                    {
+                                                        "ref": 1
+                                                    },
+                                                    {
+                                                        "ref": 2
+                                                    },
+                                                    {
+                                                        "ref": 6
+                                                    },
+                                                    {
+                                                        "ref": 7
+                                                    },
+                                                    {
+                                                        "ref": 5
+                                                    },
+                                                    {
+                                                        "ref": 4
+                                                    },
+                                                    {
+                                                        "ref": 3
+                                                    }
+                                                ],
+                                                "obFees": [
+                                                    {
+                                                        "ref": 1
+                                                    }
+                                                ],
+                                                "currencyConversion": {
+                                                    "from": "USD",
+                                                    "to": "USD",
+                                                    "exchangeRateUsed": 1.00
+                                                },
+                                                "fareMessages": [
+                                                    {
+                                                        "type": "N",
+                                                        "code": "0",
+                                                        "carrier": "LH",
+                                                        "info": "FARE RESTRICTION MAY APPLY"
+                                                    },
+                                                    {
+                                                        "type": "W",
+                                                        "code": "0",
+                                                        "info": "VALIDATING CARRIER - LH"
+                                                    }
+                                                ],
+                                                "passengerTotalFare": {
+                                                    "totalFare": 1341.30,
+                                                    "totalTaxAmount": 186.30,
+                                                    "currency": "USD",
+                                                    "baseFareAmount": 1155.00,
+                                                    "baseFareCurrency": "USD",
+                                                    "equivalentAmount": 1155.00,
+                                                    "equivalentCurrency": "USD",
+                                                    "constructionAmount": 1155.00,
+                                                    "constructionCurrency": "NUC",
+                                                    "commissionPercentage": 0.00,
+                                                    "commissionAmount": 0.00,
+                                                    "exchangeRateOne": 1.00000000
+                                                },
+                                                "baggageInformation": [
+                                                    {
+                                                        "provisionType": "A",
+                                                        "airlineCode": "LH",
+                                                        "segments": [
+                                                            {
+                                                                "id": 0
+                                                            },
+                                                            {
+                                                                "id": 1
+                                                            }
+                                                        ],
+                                                        "allowance": {
+                                                            "ref": 1
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "totalFare": {
+                                        "totalPrice": 1341.30,
+                                        "totalTaxAmount": 186.30,
+                                        "currency": "USD",
+                                        "baseFareAmount": 1155.00,
+                                        "baseFareCurrency": "USD",
+                                        "constructionAmount": 1155.00,
+                                        "constructionCurrency": "NUC",
+                                        "equivalentAmount": 1155.00,
+                                        "equivalentCurrency": "USD"
+                                    }
+                                }
+                            },
+                            {
+                                "pricingSubsource": "MIP",
+                                "fare": {
+                                    "validatingCarrierCode": "LH",
+                                    "vita": true,
+                                    "eTicketable": true,
+                                    "lastTicketDate": "2022-09-24",
+                                    "lastTicketTime": "13:57",
+                                    "governingCarriers": "LH",
+                                    "passengerInfoList": [
+                                        {
+                                            "passengerInfo": {
+                                                "passengerType": "ADT",
+                                                "passengerNumber": 1,
+                                                "nonRefundable": true,
+                                                "fareComponents": [
+                                                    {
+                                                        "ref": 1,
+                                                        "beginAirport": "IST",
+                                                        "endAirport": "DXB",
+                                                        "segments": [
+                                                            {
+                                                                "segment": {
+                                                                    "bookingCode": "B",
+                                                                    "cabinCode": "Y",
+                                                                    "mealCode": "RG",
+                                                                    "seatsAvailable": 9
+                                                                }
+                                                            },
+                                                            {
+                                                                "segment": {
+                                                                    "bookingCode": "B",
+                                                                    "cabinCode": "Y",
+                                                                    "mealCode": "RM",
+                                                                    "seatsAvailable": 9,
+                                                                    "availabilityBreak": true,
+                                                                    "fareBreakPoint": true
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "taxes": [
+                                                    {
+                                                        "ref": 5
+                                                    },
+                                                    {
+                                                        "ref": 1
+                                                    },
+                                                    {
+                                                        "ref": 2
+                                                    },
+                                                    {
+                                                        "ref": 4
+                                                    },
+                                                    {
+                                                        "ref": 8
+                                                    },
+                                                    {
+                                                        "ref": 6
+                                                    },
+                                                    {
+                                                        "ref": 3
+                                                    },
+                                                    {
+                                                        "ref": 7
+                                                    }
+                                                ],
+                                                "taxSummaries": [
+                                                    {
+                                                        "ref": 1
+                                                    },
+                                                    {
+                                                        "ref": 2
+                                                    },
+                                                    {
+                                                        "ref": 6
+                                                    },
+                                                    {
+                                                        "ref": 7
+                                                    },
+                                                    {
+                                                        "ref": 5
+                                                    },
+                                                    {
+                                                        "ref": 4
+                                                    },
+                                                    {
+                                                        "ref": 3
+                                                    }
+                                                ],
+                                                "obFees": [
+                                                    {
+                                                        "ref": 1
+                                                    }
+                                                ],
+                                                "currencyConversion": {
+                                                    "from": "USD",
+                                                    "to": "USD",
+                                                    "exchangeRateUsed": 1.00
+                                                },
+                                                "fareMessages": [
+                                                    {
+                                                        "type": "N",
+                                                        "code": "0",
+                                                        "carrier": "LH",
+                                                        "info": "FARE RESTRICTION MAY APPLY"
+                                                    },
+                                                    {
+                                                        "type": "W",
+                                                        "code": "0",
+                                                        "info": "VALIDATING CARRIER - LH"
+                                                    }
+                                                ],
+                                                "passengerTotalFare": {
+                                                    "totalFare": 1341.30,
+                                                    "totalTaxAmount": 186.30,
+                                                    "currency": "USD",
+                                                    "baseFareAmount": 1155.00,
+                                                    "baseFareCurrency": "USD",
+                                                    "equivalentAmount": 1155.00,
+                                                    "equivalentCurrency": "USD",
+                                                    "constructionAmount": 1155.00,
+                                                    "constructionCurrency": "NUC",
+                                                    "commissionPercentage": 0.00,
+                                                    "commissionAmount": 0.00,
+                                                    "exchangeRateOne": 1.00000000
+                                                },
+                                                "baggageInformation": [
+                                                    {
+                                                        "provisionType": "A",
+                                                        "airlineCode": "LH",
+                                                        "segments": [
+                                                            {
+                                                                "id": 0
+                                                            },
+                                                            {
+                                                                "id": 1
+                                                            }
+                                                        ],
+                                                        "allowance": {
+                                                            "ref": 1
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "totalFare": {
+                                        "totalPrice": 1341.30,
+                                        "totalTaxAmount": 186.30,
+                                        "currency": "USD",
+                                        "baseFareAmount": 1155.00,
+                                        "baseFareCurrency": "USD",
+                                        "constructionAmount": 1155.00,
+                                        "constructionCurrency": "NUC",
+                                        "equivalentAmount": 1155.00,
+                                        "equivalentCurrency": "USD"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

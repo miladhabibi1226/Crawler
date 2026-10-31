@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OTA_AirPriceRS>
+    <Success/>
+    <PricedItineraries>
+        <PricedItinerary SequenceNumber="1">
+            <AirItinerary>
+                <OriginDestinationOptions>
+                    <OriginDestinationOption>
+                        <FlightSegment ResBookDesigCode="B" FlightNumber="432" DepartureDateTime="2021-06-28T13:30:00.000+02:00">
+                            <DepartureAirport LocationCode="CPH"/>
+                            <ArrivalAirport LocationCode="EBL"/>
+                            <MarketingAirline Code="UBD"></MarketingAirline>
+                            <TPA_Extensions>
+                                <FareBasis xmlns="" Code="BOWCWEB"/>
+                                <PriceGroup xmlns="" Name="Classic"/>
+                                <FareRule xmlns="" Code="Classic">You may check-in 1 x 23 kg luggage and take 1 x 8 kg hand luggage with you. Infants are not entitled to carry checked baggage. The ticket is non-changeable/non-refundable. More information is available at flyskywork.com.</FareRule>
+                            </TPA_Extensions>
+                        </FlightSegment>
+                    </OriginDestinationOption>
+                    <OriginDestinationOption>
+                        <FlightSegment ResBookDesigCode="B" FlightNumber="431" DepartureDateTime="2021-07-06T09:00:00.000+03:00">
+                            <DepartureAirport LocationCode="EBL"/>
+                            <ArrivalAirport LocationCode="CPH"/>
+                            <MarketingAirline Code="UBD"></MarketingAirline>
+                            <TPA_Extensions>
+                                <FareBasis xmlns="" Code="BOWCWEB"/>
+                                <PriceGroup xmlns="" Name="Classic"/>
+                                <FareRule xmlns="" Code="Classic">You may check-in 1 x 23 kg luggage and take 1 x 8 kg hand luggage with you. Infants are not entitled to carry checked baggage. The ticket is non-changeable/non-refundable. More information is available at flyskywork.com.</FareRule>
+                            </TPA_Extensions>
+                        </FlightSegment>
+                    </OriginDestinationOption>
+                </OriginDestinationOptions>
+            </AirItinerary>
+            <AirItineraryPricingInfo>
+                <ItinTotalFare>
+                    <BaseFare Amount="855.00" CurrencyCode="EUR"/>
+                    <TotalFare Amount="855.00" CurrencyCode="EUR"/>
+                </ItinTotalFare>
+                <PTC_FareBreakdowns>
+                    <PTC_FareBreakdown>
+                        <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                        <FareBasisCodes>
+                            <FareBasisCode>BOWCWEB</FareBasisCode>
+                            <FareBasisCode>BOWCWEB</FareBasisCode>
+                        </FareBasisCodes>
+                        <PassengerFare>
+                            <BaseFare Amount="300.00" CurrencyCode="EUR" DecimalPlaces="2"/>
+                            <TotalFare Amount="300.00" CurrencyCode="EUR" DecimalPlaces="2"/>
+                            <UnstructuredFareCalc>CPH UBD EBL 150.00EUR END EBL UBD CPH 150.00EUR END</UnstructuredFareCalc>
+                        </PassengerFare>
+                        <TravelerRefNumber RPH="1"/>
+                    </PTC_FareBreakdown>
+                    <PTC_FareBreakdown>
+                        <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                        <FareBasisCodes>
+                            <FareBasisCode>BOWCWEB</FareBasisCode>
+                            <FareBasisCode>BOWCWEB</FareBasisCode>
+                        </FareBasisCodes>
+                        <PassengerFare>
+                            <BaseFare Amount="300.00" CurrencyCode="EUR" DecimalPlaces="2"/>
+                            <TotalFare Amount="300.00" CurrencyCode="EUR" DecimalPlaces="2"/>
+                            <UnstructuredFareCalc>CPH UBD EBL 150.00EUR END EBL UBD CPH 150.00EUR END</UnstructuredFareCalc>
+                        </PassengerFare>
+                        <TravelerRefNumber RPH="2"/>
+                    </PTC_FareBreakdown>
+                    <PTC_FareBreakdown>
+                        <PassengerTypeQuantity Code="CHD" Quantity="1"/>
+                        <FareBasisCodes>
+                            <FareBasisCode>BOWCWEB</FareBasisCode>
+                            <FareBasisCode>BOWCWEB</FareBasisCode>
+                        </FareBasisCodes>
+                        <PassengerFare>
+                            <BaseFare Amount="225.00" CurrencyCode="EUR" DecimalPlaces="2"/>
+                            <TotalFare Amount="225.00" CurrencyCode="EUR" DecimalPlaces="2"/>
+                            <UnstructuredFareCalc>CPH UBD EBL 112.50EUR END EBL UBD CPH 112.50EUR END</UnstructuredFareCalc>
+                        </PassengerFare>
+                        <TravelerRefNumber RPH="3"/>
+                    </PTC_FareBreakdown>
+                    <PTC_FareBreakdown>
+                        <PassengerTypeQuantity Code="INF" Quantity="1"/>
+                        <FareBasisCodes>
+                            <FareBasisCode>BOWCWEB</FareBasisCode>
+                            <FareBasisCode>BOWCWEB</FareBasisCode>
+                        </FareBasisCodes>
+                        <PassengerFare>
+                            <BaseFare Amount="30.00" CurrencyCode="EUR" DecimalPlaces="2"/>
+                            <TotalFare Amount="30.00" CurrencyCode="EUR" DecimalPlaces="2"/>
+                            <UnstructuredFareCalc>CPH UBD EBL 15.00EUR END EBL UBD CPH 15.00EUR END</UnstructuredFareCalc>
+                        </PassengerFare>
+                        <TravelerRefNumber RPH="4"/>
+                    </PTC_FareBreakdown>
+                </PTC_FareBreakdowns>
+            </AirItineraryPricingInfo>
+        </PricedItinerary>
+    </PricedItineraries>
+</OTA_AirPriceRS>

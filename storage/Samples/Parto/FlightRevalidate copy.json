@@ -1,0 +1,93 @@
+{
+    "ClientBalance": 22494102794.32,
+    "Error": null,
+    "MealTypeServices": [],
+    "PricedItinerary": {
+        "AirItineraryPricingInfo": {
+            "FareInfoes": [],
+            "FareType": 4,
+            "ItinTotalFare": {
+                "BaseFare": 56112000.00,
+                "Currency": "IRR",
+                "ServiceTax": -2800000.0,
+                "TotalCommission": 0.0,
+                "TotalFare": 53312000.00,
+                "TotalTax": 0.0
+            },
+            "PtcFareBreakdown": [
+                {
+                    "PassengerFare": {
+                        "BaseFare": 28056000.00,
+                        "Commission": 0.0,
+                        "Currency": "IRR",
+                        "PriceCitizen": 0.0,
+                        "ServiceTax": -1400000.0,
+                        "Taxes": [
+                            {
+                                "Amount": 0.0,
+                                "Currency": "IRR"
+                            }
+                        ],
+                        "TotalFare": 26656000.00
+                    },
+                    "PassengerTypeQuantity": {
+                        "PassengerType": 1,
+                        "Quantity": 2
+                    }
+                }
+            ]
+        },
+        "CustomerAddressMaxLength": 200,
+        "DirectionInd": 1,
+        "FareFamily": null,
+        "FareSourceCode": "61343132646632303962666634386534616632353934376436363366643063622631363426373234353433373936",
+        "HasAmenities": false,
+        "HasFareFamilies": false,
+        "IsDestinationAddressMandatory": false,
+        "IsMealServiceMandatory": false,
+        "IsPassportIssueDateMandatory": false,
+        "IsPassportMandatory": false,
+        "IsPassportNameWithSpace": false,
+        "IsSeatServiceMandatory": false,
+        "NonRefundableType": 0,
+        "OriginDestinationOptions": [
+            {
+                "ConnectionTimePerMinute": 0,
+                "FlightSegments": [
+                    {
+                        "ArrivalAirportLocationCode": "IKA",
+                        "ArrivalDateTime": "2023-10-09T19:05:00",
+                        "Baggage": "30 KG",
+                        "CabinClassCode": 1,
+                        "ConnectionTimePerMinute": 0,
+                        "DepartureAirportLocationCode": "NJF",
+                        "DepartureDateTime": "2023-10-09T17:35:00",
+                        "FlightAmenities": null,
+                        "FlightNumber": "5318",
+                        "IsCharter": true,
+                        "IsReturn": false,
+                        "JourneyDuration": "01:00",
+                        "JourneyDurationPerMinute": 60,
+                        "MarketingAirlineCode": "IR",
+                        "OperatingAirline": {
+                            "Code": "IR",
+                            "Equipment": "AB3",
+                            "FlightNumber": "5318"
+                        },
+                        "ResBookDesigCode": "Y",
+                        "SeatsRemaining": 5,
+                        "StopQuantity": 0,
+                        "TechnicalStops": []
+                    }
+                ],
+                "JourneyDurationPerMinute": 60
+            }
+        ],
+        "PricedItineraryNationality": 0,
+        "RefundMethod": 0,
+        "ValidatingAirlineCode": "IR"
+    },
+    "SeatServices": [],
+    "Services": [],
+    "Success": true
+}

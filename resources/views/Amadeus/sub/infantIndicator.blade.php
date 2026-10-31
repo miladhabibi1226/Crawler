@@ -1,0 +1,1 @@
+<infantIndicator>{{ $value }}</infantIndicator>

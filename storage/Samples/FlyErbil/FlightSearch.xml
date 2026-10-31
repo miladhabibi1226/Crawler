@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ota:OTA_AirLowFareSearchRS xmlns:ota="http://www.opentravel.org/OTA/2003/05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" RetransmissionIndicator="false" TimeStamp="2021-09-07T07:58:16.632Z" Version="2.001" xsi:schemaLocation="http://www.opentravel.org/OTA/2003/05 OTA_AirLowFareSearchRS.xsd">
+    <ota:Success/>
+    <ota:PricedItineraries>
+        <ota:PricedItinerary SequenceNumber="1">
+            <ota:AirItinerary>
+                <ota:OriginDestinationOptions>
+                    <ota:OriginDestinationOption>
+                        <ota:FlightSegment ResBookDesigCode="B" Status="34" FlightNumber="301" ArrivalDateTime="2021-10-05T15:55:00.000+02:00" DepartureDateTime="2021-10-05T14:20:00.000+02:00" StopQuantity="0">
+                            <ota:DepartureAirport LocationCode="AMS"/>
+                            <ota:ArrivalAirport LocationCode="BRN"/>
+                            <ota:OperatingAirline FlightNumber="301" Code="SX"/>
+                            <ota:MarketingAirline Code="SX"/>
+                            <ota:BookingClassAvails CabinType="Economy">
+                                <ota:BookingClassAvail ResBookDesigCode="B" ResBookDesigQuantity="34"/>
+                            </ota:BookingClassAvails>
+                            <ota:TPA_Extensions>
+                                <Equipment xmlns="" AirEquipType="S20"/>
+                            </ota:TPA_Extensions>
+                        </ota:FlightSegment>
+                    </ota:OriginDestinationOption>
+                </ota:OriginDestinationOptions>
+            </ota:AirItinerary>
+            <ota:AirItineraryPricingInfo>
+                <ota:ItinTotalFare>
+                    <ota:BaseFare Amount="824.03" CurrencyCode="USD"/>
+                    <ota:TotalFare Amount="824.03" CurrencyCode="USD"/>
+                </ota:ItinTotalFare>
+                <ota:FareInfos>
+                    <ota:FareInfo>
+                        <ota:FareReference>BOWCWEB</ota:FareReference>
+                        <ota:FilingAirline>SX</ota:FilingAirline>
+                        <ota:DepartureAirport LocationCode="AMS"/>
+                        <ota:ArrivalAirport LocationCode="BRN"/>
+                        <ota:TPA_Extensions>
+                            <PriceGroup xmlns="" Name="Classic"/>
+                        </ota:TPA_Extensions>
+                    </ota:FareInfo>
+                </ota:FareInfos>
+            </ota:AirItineraryPricingInfo>
+        </ota:PricedItinerary>
+        <ota:PricedItinerary SequenceNumber="2">
+            <ota:AirItinerary>
+                <ota:OriginDestinationOptions>
+                    <ota:OriginDestinationOption>
+                        <ota:FlightSegment ResBookDesigCode="L" Status="34" FlightNumber="301" ArrivalDateTime="2021-10-05T15:55:00.000+02:00" DepartureDateTime="2021-10-05T14:20:00.000+02:00" StopQuantity="0">
+                            <ota:DepartureAirport LocationCode="AMS"/>
+                            <ota:ArrivalAirport LocationCode="BRN"/>
+                            <ota:OperatingAirline FlightNumber="301" Code="SX"/>
+                            <ota:MarketingAirline Code="SX"/>
+                            <ota:BookingClassAvails CabinType="Economy">
+                                <ota:BookingClassAvail ResBookDesigCode="L" ResBookDesigQuantity="6"/>
+                            </ota:BookingClassAvails>
+                            <ota:TPA_Extensions>
+                                <Equipment xmlns="" AirEquipType="S20"/>
+                            </ota:TPA_Extensions>
+                        </ota:FlightSegment>
+                    </ota:OriginDestinationOption>
+                </ota:OriginDestinationOptions>
+            </ota:AirItinerary>
+            <ota:AirItineraryPricingInfo>
+                <ota:ItinTotalFare>
+                    <ota:BaseFare Amount="876.41" CurrencyCode="USD"/>
+                    <ota:TotalFare Amount="876.41" CurrencyCode="USD"/>
+                </ota:ItinTotalFare>
+                <ota:FareInfos>
+                    <ota:FareInfo>
+                        <ota:FareReference>LOWEWEB</ota:FareReference>
+                        <ota:FilingAirline>SX</ota:FilingAirline>
+                        <ota:DepartureAirport LocationCode="AMS"/>
+                        <ota:ArrivalAirport LocationCode="BRN"/>
+                        <ota:TPA_Extensions>
+                            <PriceGroup xmlns="" Name="Excellence"/>
+                        </ota:TPA_Extensions>
+                    </ota:FareInfo>
+                </ota:FareInfos>
+            </ota:AirItineraryPricingInfo>
+        </ota:PricedItinerary>
+    </ota:PricedItineraries>
+</ota:OTA_AirLowFareSearchRS>

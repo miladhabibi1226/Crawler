@@ -1,0 +1,102 @@
+{
+    "name": "laravel/lumen",
+    "description": "The Laravel Lumen Framework.",
+    "keywords": [
+        "framework",
+        "laravel",
+        "lumen"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "*",
+        "laravel/lumen-framework": "^8.0",
+        "laravel/tinker": "^2.4",
+        "matin-utils/fileman": "dev-master",
+        "matin-utils/node-tracker": "dev-master",
+        "matin-utils/types-tracker": "dev-master",
+        "matin-utils/mssconnector": "dev-main",
+        "matin-utils/shared-logics": "dev-main",
+        "matin-utils/easy-socket": "dev-master",
+        "matin-utils/notification": "dev-master",
+        "matin-utils/log-system": "dev-master",
+        "luxota/process-manager": "dev-main",
+        "luxota/matin-cacher": "dev-main",
+        "luxota/nodeable": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/types-tracker.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/fileman.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/node-tracker.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/process-manager.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/mss-connector.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/shared-logics.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/easy-socket.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/notification.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/log-system.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/matin-cacher.git"
+        },
+        {
+            "type": "vcs",
+            "url": "ssh://git@gitlab.luxota.dev:4560/luxota-platform/backend/utilities/nodeable.git"
+        }
+    ],
+    "require-dev": {
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "Plugins\\": "plugins/",
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    }
+}

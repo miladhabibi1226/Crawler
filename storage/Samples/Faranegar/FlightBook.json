@@ -1,0 +1,392 @@
+{
+    "AirReservation": {
+        "AirItinerary": {
+            "OriginDestinationOptions": [
+                {
+                    "FlightSegment": [
+                        {
+                            "FlightDuration": "02:00",
+                            "DepartureAirport": {
+                                "LocationCode": "IST",
+                                "Terminal": "Istanbul"
+                            },
+                            "ArrivalAirport": {
+                                "LocationCode": "IKA",
+                                "Terminal": "Tehran"
+                            },
+                            "OperatingAirline": {
+                                "Code": "B9"
+                            },
+                            "Equipment": {
+                                "AirEquipType": "Airbus A310"
+                            },
+                            "MarketingAirline": {
+                                "Code": "B9"
+                            },
+                            "BookingClassAvails": [
+                                {
+                                    "ResBookDesigCode": "Y",
+                                    "ResBookDesigQuantity": 37,
+                                    "RPH": "151690",
+                                    "AvailablePTC": null,
+                                    "ResBookDesigCabinCode": "Y",
+                                    "FareBasis": null
+                                }
+                            ],
+                            "DepartureDateTime": "2023-06-05 21:30",
+                            "ArrivalDateTime": "2023-06-06 00:00",
+                            "DepartureDate": "2023-06-05",
+                            "DepartureTime": "21:30",
+                            "ArrivalDate": "2023-06-06",
+                            "ArrivalTime": "00:00",
+                            "FlightNumber": "3211",
+                            "ResBookDesigCode": "Y",
+                            "RPH": "151690",
+                            "FreeBaggages": [
+                                {
+                                    "PassengerType": "ADL",
+                                    "Quantity": "30",
+                                    "Unit": "KG"
+                                },
+                                {
+                                    "PassengerType": "CHD",
+                                    "Quantity": "30",
+                                    "Unit": "KG"
+                                },
+                                {
+                                    "PassengerType": "INF",
+                                    "Quantity": "10",
+                                    "Unit": "KG"
+                                }
+                            ]
+                        }
+                    ],
+                    "RefNumber": "151690",
+                    "DirectionId": 0,
+                    "ElapsedTime": 0,
+                    "CabinClass": null
+                },
+                {
+                    "FlightSegment": [
+                        {
+                            "FlightDuration": "03:30",
+                            "DepartureAirport": {
+                                "LocationCode": "IKA",
+                                "Terminal": "Tehran"
+                            },
+                            "ArrivalAirport": {
+                                "LocationCode": "IST",
+                                "Terminal": "Istanbul"
+                            },
+                            "OperatingAirline": {
+                                "Code": "B9"
+                            },
+                            "Equipment": {
+                                "AirEquipType": "Airbus A300-600"
+                            },
+                            "MarketingAirline": {
+                                "Code": "B9"
+                            },
+                            "BookingClassAvails": [
+                                {
+                                    "ResBookDesigCode": "M26",
+                                    "ResBookDesigQuantity": 6,
+                                    "RPH": "148991",
+                                    "AvailablePTC": null,
+                                    "ResBookDesigCabinCode": "Y",
+                                    "FareBasis": null
+                                }
+                            ],
+                            "DepartureDateTime": "2023-06-07 10:00",
+                            "ArrivalDateTime": "2023-06-07 13:00",
+                            "DepartureDate": "2023-06-07",
+                            "DepartureTime": "10:00",
+                            "ArrivalDate": "2023-06-07",
+                            "ArrivalTime": "13:00",
+                            "FlightNumber": "456",
+                            "ResBookDesigCode": "M26",
+                            "RPH": "148991",
+                            "FreeBaggages": [
+                                {
+                                    "PassengerType": "ADL",
+                                    "Quantity": "30",
+                                    "Unit": "KG"
+                                },
+                                {
+                                    "PassengerType": "CHD",
+                                    "Quantity": "30",
+                                    "Unit": "KG"
+                                },
+                                {
+                                    "PassengerType": "INF",
+                                    "Quantity": "10",
+                                    "Unit": "KG"
+                                }
+                            ]
+                        }
+                    ],
+                    "RefNumber": "148991",
+                    "DirectionId": 1,
+                    "ElapsedTime": 0,
+                    "CabinClass": null
+                }
+            ],
+            "OriginDestinationCombinations": null
+        },
+        "PriceInfo": {
+            "ItinTotalFare": {
+                "BaseFare": {
+                    "Amount": 153200000,
+                    "CurrencyCode": null,
+                    "DecimalPlaces": 0
+                },
+                "TotalFare": {
+                    "Amount": 166249000,
+                    "CurrencyCode": null,
+                    "DecimalPlaces": 0
+                },
+                "TotalEquivFare": null
+            },
+            "PTC_FareBreakDowns": [
+                {
+                    "PassengerTypeQuantity": {
+                        "Code": "ADL",
+                        "Quantity": 1
+                    },
+                    "FareBasisCode": null,
+                    "PassengerFare": {
+                        "BaseFare": {
+                            "Amount": 78563000,
+                            "CurrencyCode": null,
+                            "DecimalPlaces": 0
+                        },
+                        "MarkupFare": null,
+                        "Taxes": {
+                            "Tax": [
+                                {
+                                    "Name": "UN",
+                                    "Amount": 6437000
+                                }
+                            ]
+                        },
+                        "Fees": null,
+                        "TotalFare": {
+                            "Amount": 85000000,
+                            "CurrencyCode": null,
+                            "DecimalPlaces": 0
+                        }
+                    },
+                    "TravelerRefNumber": null,
+                    "PricingSource": null
+                },
+                {
+                    "PassengerTypeQuantity": {
+                        "Code": "CHD",
+                        "Quantity": 1
+                    },
+                    "FareBasisCode": null,
+                    "PassengerFare": {
+                        "BaseFare": {
+                            "Amount": 66780000,
+                            "CurrencyCode": null,
+                            "DecimalPlaces": 0
+                        },
+                        "MarkupFare": null,
+                        "Taxes": {
+                            "Tax": [
+                                {
+                                    "Name": "UN",
+                                    "Amount": 6262000
+                                }
+                            ]
+                        },
+                        "Fees": null,
+                        "TotalFare": {
+                            "Amount": 73042000,
+                            "CurrencyCode": null,
+                            "DecimalPlaces": 0
+                        }
+                    },
+                    "TravelerRefNumber": null,
+                    "PricingSource": null
+                },
+                {
+                    "PassengerTypeQuantity": {
+                        "Code": "INF",
+                        "Quantity": 1
+                    },
+                    "FareBasisCode": null,
+                    "PassengerFare": {
+                        "BaseFare": {
+                            "Amount": 7857000,
+                            "CurrencyCode": null,
+                            "DecimalPlaces": 0
+                        },
+                        "MarkupFare": null,
+                        "Taxes": {
+                            "Tax": [
+                                {
+                                    "Name": "UN",
+                                    "Amount": 350000
+                                }
+                            ]
+                        },
+                        "Fees": null,
+                        "TotalFare": {
+                            "Amount": 8207000,
+                            "CurrencyCode": null,
+                            "DecimalPlaces": 0
+                        }
+                    },
+                    "TravelerRefNumber": null,
+                    "PricingSource": null
+                }
+            ]
+        },
+        "TravelerInfo": [
+            {
+                "PersonName": {
+                    "GivenName": "reza",
+                    "MiddleName": null,
+                    "Surname": "rad",
+                    "NameTitle": "MR",
+                    "PersianGivenName": null,
+                    "PersianMiddleName": null,
+                    "PersianSurname": null
+                },
+                "Telephone": null,
+                "ContactInfo": {
+                    "PersonName": {
+                        "GivenName": "reza",
+                        "MiddleName": null,
+                        "Surname": "rad",
+                        "NameTitle": "MR",
+                        "PersianGivenName": null,
+                        "PersianMiddleName": null,
+                        "PersianSurname": null
+                    },
+                    "Mobile": {
+                        "PhoneNumber": "52663",
+                        "CountryCode": "98",
+                        "AreaCode": "912"
+                    },
+                    "Email": "Test@faranegar.com",
+                    "Address": null
+                },
+                "Document": {
+                    "DocType": "P",
+                    "DocID": "0020350533",
+                    "DocIssueCountry": null,
+                    "ExpireDate": "2030-02-10",
+                    "Nationality": ""
+                },
+                "TravelerRefNumber": null,
+                "BirthDate": "2003-05-22",
+                "PassengerTypeCode": "ADL",
+                "Gender": "Male",
+                "ETicketInfos": null
+            },
+            {
+                "PersonName": {
+                    "GivenName": "ali",
+                    "MiddleName": null,
+                    "Surname": "rad",
+                    "NameTitle": "MR",
+                    "PersianGivenName": null,
+                    "PersianMiddleName": null,
+                    "PersianSurname": null
+                },
+                "Telephone": null,
+                "ContactInfo": {
+                    "PersonName": {
+                        "GivenName": "ali",
+                        "MiddleName": null,
+                        "Surname": "rad",
+                        "NameTitle": "MR",
+                        "PersianGivenName": null,
+                        "PersianMiddleName": null,
+                        "PersianSurname": null
+                    },
+                    "Mobile": {
+                        "PhoneNumber": "2569355",
+                        "CountryCode": "98",
+                        "AreaCode": "912"
+                    },
+                    "Email": "Test@faranegar.com",
+                    "Address": null
+                },
+                "Document": {
+                    "DocType": "N",
+                    "DocID": "6520064147",
+                    "DocIssueCountry": null,
+                    "ExpireDate": null,
+                    "Nationality": null
+                },
+                "TravelerRefNumber": null,
+                "BirthDate": "2015-05-22",
+                "PassengerTypeCode": "CHD",
+                "Gender": "Male",
+                "ETicketInfos": null
+            },
+            {
+                "PersonName": {
+                    "GivenName": "mamad",
+                    "MiddleName": null,
+                    "Surname": "rad",
+                    "NameTitle": "MR",
+                    "PersianGivenName": null,
+                    "PersianMiddleName": null,
+                    "PersianSurname": null
+                },
+                "Telephone": null,
+                "ContactInfo": {
+                    "PersonName": {
+                        "GivenName": "mamad",
+                        "MiddleName": null,
+                        "Surname": "rad",
+                        "NameTitle": "MR",
+                        "PersianGivenName": null,
+                        "PersianMiddleName": null,
+                        "PersianSurname": null
+                    },
+                    "Mobile": {
+                        "PhoneNumber": "2569355",
+                        "CountryCode": "98",
+                        "AreaCode": "912"
+                    },
+                    "Email": "Test@faranegar.com",
+                    "Address": {
+                        "CountryName": "IRN",
+                        "CityName": "THR"
+                    }
+                },
+                "Document": {
+                    "DocType": "N",
+                    "DocID": "5430066117",
+                    "DocIssueCountry": null,
+                    "ExpireDate": null,
+                    "Nationality": null
+                },
+                "TravelerRefNumber": null,
+                "BirthDate": "2022-05-22",
+                "PassengerTypeCode": "INF",
+                "Gender": "Male",
+                "ETicketInfos": null
+            }
+        ],
+        "Ticketing": null,
+        "bookingReferenceID": {
+            "Id": "HBZ2T",
+            "Type": 0,
+            "Timelimit": "6/4/2023 11:27:54 AM"
+        }
+    },
+    "Message": null,
+    "Success": true,
+    "Error": null,
+    "PrimaryLangID": null,
+    "SequenceNmbr": 0,
+    "TransactionIdentifier": null,
+    "Version": 0,
+    "PriceChange": null
+}

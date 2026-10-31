@@ -1,0 +1,147 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+    <s:Header>
+        <a:Action s:mustUnderstand="1">http://TekTravel/HotelBookingApi/IHotelService/HotelDetailsResponse</a:Action>
+    </s:Header>
+    <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <HotelDetailsResponse xmlns="http://TekTravel/HotelBookingApi">
+            <Status>
+                <StatusCode>01</StatusCode>
+                <Description>Successful: HotelDetails Successful</Description>
+            </Status>
+            <HotelDetails HotelCode="1059304" HotelName="Hotel de la Tremoille" HotelRating="FiveStar">
+                <Address>14 rue de la Trémoille, 75008 Paris, Paris, 75008, France</Address>
+                <Attractions>
+                    <Attraction>Distances are displayed to the nearest 0.1 mile and kilometer. &lt;br /&gt; &lt;p&gt;Avenue Montaigne &lt;br /&gt; Champs-Elysees - 0.7 km / 0.4 mi &lt;br /&gt; Lido - 0.8 km / 0.5 mi &lt;br /&gt; Pont de l Alma - 0.8 km / 0.5 mi &lt;br /&gt; Rue du Faubourg Saint-Honore - 1.1 km / 0.7 mi &lt;br /&gt; Petit Palais - 1.1 km / 0.7 mi &lt;br /&gt; Grand Palais - 1.1 km / 0.7 mi &lt;br /&gt; Arc de Triomphe - 1.2 km / 0.7 mi &lt;br /&gt; Rue Cler - 1.2 km / 0.8 mi &lt;br /&gt; Champ de Mars - 1.3 km / 0.8 mi &lt;br /&gt; Eiffel Tower - 1.4 km / 0.9 mi &lt;br /&gt; Elysee Palace - 1.4 km / 0.9 mi &lt;br /&gt; Place du Trocadero - 1.5 km / 0.9 mi &lt;br /&gt; Place de la Concorde - 1.6 km / 1 mi &lt;br /&gt; Rue de Rivoli - 1.7 km / 1.1 mi &lt;br /&gt; &lt;/p&gt;&lt;p&gt;The nearest airports are:&lt;br /&gt;Paris (CDG-Roissy-Charles de Gaulle) - 34.4 km / 21.4 mi&lt;br /&gt; Paris (ORY-Orly) - 20.9 km / 13 mi&lt;br /&gt; Paris (BVA-Beauvais) - 85.5 km / 53.2 mi&lt;br /&gt; Paris (XCR-Chalons-Vatry) - 215.9 km / 134.1 mi&lt;br /&gt; &lt;/p&gt;&lt;p&gt;&lt;/p&gt;</Attraction>
+                </Attractions>
+                <CountryName>France</CountryName>
+                <Description>&lt;p&gt;HeadLine : Near Champs-Elysees&lt;/p&gt;&lt;p&gt;Location : You ll be centrally located in Paris with a stay at Hôtel de la Trémoille, within a 15-minute walk of Pont de l Alma and Grand Palais.  This 5-star hotel is 0.6 mi (1 km) from Arc de Triomphe and 1.2 mi (1.9 km) from Eiffel Tower.&lt;/p&gt;&lt;p&gt;Rooms : Make yourself at home in one of the 93 air-conditioned rooms featuring minibars and flat-screen televisions. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms have designer toiletries and hair dryers. Conveniences include phones, as well as laptop-compatible safes and in-room massages.&lt;/p&gt;&lt;p&gt;Dining : Enjoy French cuisine at Louis2, a restaurant which features a bar/lounge, or stay in and take advantage of the room service (during limited hours). Continental breakfasts are available daily from 7 AM to 11 AM for a fee.&lt;/p&gt;&lt;p&gt;Renovations : This property is closed from 18 March 2020 to 15 April 2020 (dates subject to change).&lt;/p&gt;&lt;p&gt;CheckIn Instructions : Extra-person charges may apply and vary depending on property policy. &lt;br /&gt;Government-issued photo identification and a credit card, debit card, or cash deposit are required at check-in for incidental charges. &lt;br /&gt;Special requests are subject to availability upon check-in and may incur additional charges. Special requests cannot be guaranteed. &lt;ul&gt;  &lt;/ul&gt;&lt;/p&gt;&amp;nbsp;&lt;br/&gt;&lt;b&gt;Disclaimer notification: Amenities are subject to availability and may be chargeable as per the hotel policy.&lt;/b&gt;</Description>
+                <FaxNumber>33-1-40700108</FaxNumber>
+                <HotelFacilities>
+                    <HotelFacility>Bar/lounge</HotelFacility>
+                    <HotelFacility>elevator</HotelFacility>
+                    <HotelFacility>Fitness facilities</HotelFacility>
+                    <HotelFacility>24-hour front desk</HotelFacility>
+                    <HotelFacility>Conference space</HotelFacility>
+                    <HotelFacility>Business center</HotelFacility>
+                    <HotelFacility>Restaurant</HotelFacility>
+                    <HotelFacility>Meeting rooms - 2</HotelFacility>
+                    <HotelFacility>Tours/ticket assistance</HotelFacility>
+                    <HotelFacility>Dry cleaning/laundry service</HotelFacility>
+                    <HotelFacility>Free WiFi</HotelFacility>
+                    <HotelFacility>Sauna</HotelFacility>
+                    <HotelFacility>Valet parking (surcharge)</HotelFacility>
+                    <HotelFacility>Babysitting or childcare (surcharge)</HotelFacility>
+                    <HotelFacility>Smoke-free property</HotelFacility>
+                    <HotelFacility>Safe-deposit box at front desk</HotelFacility>
+                    <HotelFacility>Conference space size (meters) - 65</HotelFacility>
+                    <HotelFacility>Spa services on site</HotelFacility>
+                    <HotelFacility>Luggage storage</HotelFacility>
+                    <HotelFacility>Breakfast available (surcharge)</HotelFacility>
+                    <HotelFacility>Concierge services</HotelFacility>
+                    <HotelFacility>Conference space size (feet) - 699</HotelFacility>
+                    <HotelFacility>Accessible bathroom</HotelFacility>
+                    <HotelFacility>In-room accessibility</HotelFacility>
+                    <HotelFacility>Multilingual staff</HotelFacility>
+                    <HotelFacility>Free newspapers in lobby</HotelFacility>
+                </HotelFacilities>
+                <ImageUrls>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg+QmzdIQe8X31bCC2C+QAyc=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg9quXBRT5l4Vtzc8U34HEM4=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg5SEEPXpVGfXjji8/U5TDP8=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg1nwFQaoQrcxUd4bWkIKh6c=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg2zhA8BlL703QJLOCqkUksc=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg3riOmR5jiy0O6Tyl1pt4GU=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg9S8yxwcSb2W3A6OpJZTHWc=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg9pgz0BVWtqtJU3B2om+si8=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg8TPN+vQe3FqIgnVK7Fa6AM=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg5KCHQHbAJqGrS9khjroBl4=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg2BE4/1dEAVn1PGioXtuogo=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg5XxQ9yEMRgLyTsNCEG6ISc=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgzG53HQ/fQLqFcCgPT/D5as=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgzUODR1EfMVLmZm7N4VsoDk=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg+boevnG7WVxc/rG+J4WAjA=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgxbCy5vUCcmf9gD9X8WzXTU=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg3LwGXAAbIlcjQhvdt2L5R8=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg53CCLBpvsDRmecXQxQv7qo=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg2FidSXElou7pDvklsBaqeM=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgwhZgBOmN2o2nrCUqp1pw8g=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg6ytnEUUoEAIQxPFvCD9+ac=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg49IMGpoYUMhoCCi+aIcWqw=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg/ZGQ8x/nUjeM0snWoJ0Xmo=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgzTGW/+aHJzXG6waPOBDke4=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgxjACICxNXxYU4HMJSD0iE0=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgwYsZw7/Znt4Sfh1iVyudg4=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgwfJrdVrUzeuJJEvXxorJH0=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg+V6/hACl13ddFji7o1ZYB8=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg4yU57qEQk/pTch/EahXBPc=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgzAEwm++GzF7ZZbJISmptHk=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgwf3rBMfFT1CNh8UhnM5b6Y=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg9iUtE1qgm1+UeAzX7hzjuc=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg3xObSD/6PViJjWQWBb57iQ=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg7Wr/ERXVFPcMJ93TirEVVU=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgxxqA2+TOO1UAwIlulaBQOM=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg1Q12h0NT0v/J8YSu2c/CB8=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg2D/sBg76wf29D7icuo3IyE=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg3I2YD1D0Zu3kNYbYFDoijQ=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg/Co8jrefCxdr9AXfFmdnCg=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg1IXj9z0EVhu7EuTGNlUJW0=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg/r9KBRb+JBIqRKyka8KQ8E=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg1KbdAxK7pWPDV8IH44AR94=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg/6jfsgJBdMxOC/am+TP82M=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg5iOKpjsvZIVMRwVZWMFZ74=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjgzsbvfrfC3KGzqg/9ZMU9jM=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg98lUub3yLfXb4dQPilnhVs=</ImageUrl>
+                    <ImageUrl>https://api.tbotechnology.in/imageresource.aspx?img=FbrGPTrju5e5v0qrAGTD8pPBsj8/wYA5lPqBj/Ape09uy1OjbQd1rlAn8j2rnYPX3JZdYr8aNqaipxjK7sfjg7bhvm2fSoGsH+7gX8Ic/eQ=</ImageUrl>
+                </ImageUrls>
+                <Map>48.866833|2.302613</Map>
+                <PhoneNumber>33-1-56521400</PhoneNumber>
+                <PinCode>75008</PinCode>
+                <RoomInfo>
+                    <Room RoomName="Standard Double Room" RoomTypeCode="508092">
+                        <Images>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/473f696d_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/7c972c12_t.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/7c972c12_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/af4016e3_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/c06a8eb5_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/c88205a7_z.jpg</Image>
+                        </Images>
+                    </Room>
+                    <Room RoomName="Deluxe Double Room" RoomTypeCode="508094">
+                        <Images>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/3045f4eb_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/5bb1dbcb_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/956d8086_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/c88205a7_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/e4299aec_t.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/e4299aec_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/eb50e2c5_z.jpg</Image>
+                        </Images>
+                    </Room>
+                    <Room RoomName="Junior Suite" RoomTypeCode="508096">
+                        <Images>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/0c9c7af6_t.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/0c9c7af6_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/28a5b1c0_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/45118380_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/6e14cc9d_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/b1c1e285_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/c4890059_z.jpg</Image>
+                        </Images>
+                    </Room>
+                    <Room RoomName="Superior Double Room" RoomTypeCode="508098">
+                        <Images>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/270e6bbd_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/77da3110_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/a20d83b4_t.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/a20d83b4_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/c88205a7_z.jpg</Image>
+                            <Image>https://i.travelapi.com/hotels/10000000/9710000/9703200/9703107/d1f4f85d_z.jpg</Image>
+                        </Images>
+                    </Room>
+                </RoomInfo>
+                <CityName>Paris</CityName>
+            </HotelDetails>
+        </HotelDetailsResponse>
+    </s:Body>
+</s:Envelope>

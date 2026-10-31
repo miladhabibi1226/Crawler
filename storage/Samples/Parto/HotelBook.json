@@ -1,0 +1,17 @@
+{
+    "Success": true,
+    "PaymentDeadline": "2021-02-18T09:44:29.6427452",
+    "UniqueId": "PH0007362",
+    "Error": null,
+    "VatNumber": null,
+    "SupplierName": "",
+    "Remarks": [
+        "test remark",
+        "<a target=\"_blank\" href=\"https://developer.ean.com/terms/agent/en/\">Agent Terms and Conditions</a>",
+        "<a target=\"_blank\" href=\"https://developer.ean.com/terms/en\">Supplier Terms of use</a>"
+    ],
+    "Category": 20,
+    "Status": 20,
+    "CancelationPolicyChange": false,
+    "CanExtendPaymentDeadline": false
+}

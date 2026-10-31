@@ -1,0 +1,205 @@
+{
+    "Success": {},
+    "Errors": null,
+    "Warnings": null,
+    "PricedItineraries": [
+        {
+            "AirItinerary": {
+                "OriginDestinationOptions": [
+                    {
+                        "FlightSegment": [
+                            {
+                                "DepartureAirport": {
+                                    "LocationCode": "THR",
+                                    "Terminal": null
+                                },
+                                "ArrivalAirport": {
+                                    "LocationCode": "MHD",
+                                    "Terminal": null
+                                },
+                                "Equipment": {
+                                    "AirEquipType": "M80",
+                                    "Value": null
+                                },
+                                "DepartureDateTime": "2020-10-20T13:00:00",
+                                "ArrivalDateTime": "2020-10-20T14:15:00",
+                                "StopQuantity": "0",
+                                "RPH": 1030314645,
+                                "MarketingAirline": {
+                                    "CompanyShortName": null,
+                                    "Code": "QB",
+                                    "Value": "Qeshm Air"
+                                },
+                                "FlightNumber": "6254",
+                                "FareBasisCode": "FF1",
+                                "CabinType": "Economy",
+                                "ResBookDesigCode": null,
+                                "Comment": "",
+                                "LockId": null,
+                                "AvailableSeatQuantity": 9,
+                                "IsItSupplierOwnQuota": true,
+                                "IsAirlineSystemFlight": false,
+                                "IsQuotaGuaranteedForMe": false
+                            }
+                        ]
+                    }
+                ],
+                "DirectionInd": 0
+            },
+            "AirItineraryPricingInfo": {
+                "ItinTotalFare": {
+                    "BaseFare": {
+                        "CurrencyCode": "IRR",
+                        "Amount": 6000000.0
+                    },
+                    "Taxes": null,
+                    "Fees": null,
+                    "TotalFare": {
+                        "CurrencyCode": "IRR",
+                        "Amount": 5880000.0
+                    }
+                },
+                "PTC_FareBreakdowns": [
+                    {
+                        "PassengerTypeQuantity": {
+                            "Code": "ADT",
+                            "Quantity": 2
+                        },
+                        "PassengerFare": {
+                            "BaseFare": {
+                                "CurrencyCode": "IRR",
+                                "Amount": 4000000.0
+                            },
+                            "Taxes": null,
+                            "Fees": null,
+                            "TotalFare": {
+                                "CurrencyCode": "IRR",
+                                "Amount": 3920000.0
+                            }
+                        }
+                    },
+                    {
+                        "PassengerTypeQuantity": {
+                            "Code": "CHD",
+                            "Quantity": 1
+                        },
+                        "PassengerFare": {
+                            "BaseFare": {
+                                "CurrencyCode": "IRR",
+                                "Amount": 2000000.0
+                            },
+                            "Taxes": null,
+                            "Fees": null,
+                            "TotalFare": {
+                                "CurrencyCode": "IRR",
+                                "Amount": 1960000.0
+                            }
+                        }
+                    }
+                ],
+                "FareInfo": {
+                    "RuleInfo": []
+                }
+            }
+        },
+        {
+            "AirItinerary": {
+                "OriginDestinationOptions": [
+                    {
+                        "FlightSegment": [
+                            {
+                                "DepartureAirport": {
+                                    "LocationCode": "THR",
+                                    "Terminal": null
+                                },
+                                "ArrivalAirport": {
+                                    "LocationCode": "MHD",
+                                    "Terminal": null
+                                },
+                                "Equipment": {
+                                    "AirEquipType": "M80",
+                                    "Value": null
+                                },
+                                "DepartureDateTime": "2020-10-20T13:00:00",
+                                "ArrivalDateTime": "2020-10-20T14:15:00",
+                                "StopQuantity": "0",
+                                "RPH": 1030314645,
+                                "MarketingAirline": {
+                                    "CompanyShortName": null,
+                                    "Code": "QB",
+                                    "Value": "Qeshm Air"
+                                },
+                                "FlightNumber": "6254",
+                                "FareBasisCode": "AD6",
+                                "CabinType": "Business",
+                                "ResBookDesigCode": null,
+                                "Comment": "",
+                                "LockId": null,
+                                "AvailableSeatQuantity": 9,
+                                "IsItSupplierOwnQuota": true,
+                                "IsAirlineSystemFlight": false,
+                                "IsQuotaGuaranteedForMe": false
+                            }
+                        ]
+                    }
+                ],
+                "DirectionInd": 0
+            },
+            "AirItineraryPricingInfo": {
+                "ItinTotalFare": {
+                    "BaseFare": {
+                        "CurrencyCode": "IRR",
+                        "Amount": 9106000.0
+                    },
+                    "Taxes": null,
+                    "Fees": null,
+                    "TotalFare": {
+                        "CurrencyCode": "IRR",
+                        "Amount": 8923880.0
+                    }
+                },
+                "PTC_FareBreakdowns": [
+                    {
+                        "PassengerTypeQuantity": {
+                            "Code": "ADT",
+                            "Quantity": 2
+                        },
+                        "PassengerFare": {
+                            "BaseFare": {
+                                "CurrencyCode": "IRR",
+                                "Amount": 6056000.0
+                            },
+                            "Taxes": null,
+                            "Fees": null,
+                            "TotalFare": {
+                                "CurrencyCode": "IRR",
+                                "Amount": 5934880.0
+                            }
+                        }
+                    },
+                    {
+                        "PassengerTypeQuantity": {
+                            "Code": "CHD",
+                            "Quantity": 1
+                        },
+                        "PassengerFare": {
+                            "BaseFare": {
+                                "CurrencyCode": "IRR",
+                                "Amount": 3050000.0
+                            },
+                            "Taxes": null,
+                            "Fees": null,
+                            "TotalFare": {
+                                "CurrencyCode": "IRR",
+                                "Amount": 2989000.0
+                            }
+                        }
+                    }
+                ],
+                "FareInfo": {
+                    "RuleInfo": []
+                }
+            }
+        }
+    ]
+}

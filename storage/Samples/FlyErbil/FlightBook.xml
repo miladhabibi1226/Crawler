@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ota:OTA_AirBookRS xmlns:ota="http://www.opentravel.org/OTA/2003/05"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EchoToken="456789" RetransmissionIndicator="false"
+	SequenceNmbr="1" Target="Production" TimeStamp="2021-04-13T05:04:50.139Z" Version="2.001"
+	xsi:schemaLocation="http://www.opentravel.org/OTA/2003/05 OTA_AirBookRS.xsd">
+	<ota:Success />
+	<ota:AirReservation CreateDateTime="2021-04-13T05:04:48.000Z">
+		<ota:AirItinerary>
+			<ota:OriginDestinationOptions>
+				<ota:OriginDestinationOption>
+					<ota:FlightSegment ResBookDesigCode="B" Status="30" FlightNumber="432"
+						ArrivalDateTime="2021-05-14T19:30:00.000Z" DepartureDateTime="2021-05-14T13:30:00.000Z" RPH="1">
+						<ota:DepartureAirport LocationCode="CPH" />
+						<ota:ArrivalAirport LocationCode="EBL" />
+						<ota:OperatingAirline FlightNumber="432" Code="UBD" />
+						<ota:MarketingAirline Code="UBD" />
+						<ota:TPA_Extensions>
+							<FareBasis xmlns="" Code="BOWCWEB" />
+							<PriceGroup xmlns="" Name="Classic" />
+							<FareRule xmlns="" Code="Classic">You may check-in 1 x 23 kg luggage and take 1 x 8 kg hand
+								luggage with you. Infants are not entitled to carry checked baggage. The ticket is
+								non-changeable/non-refundable. More information is available at flyskywork.com.
+							</FareRule>
+							<Operations xmlns="">
+								<Operation ModificationType="10" Name="CANCEL" />
+								<Operation ModificationType="30" Name="REBOOK" />
+								<Operation ModificationType="3" Name="CHANGE_NAME" />
+							</Operations>
+						</ota:TPA_Extensions>
+					</ota:FlightSegment>
+				</ota:OriginDestinationOption>
+				<ota:OriginDestinationOption>
+					<ota:FlightSegment ResBookDesigCode="B" Status="30" FlightNumber="431"
+						ArrivalDateTime="2021-05-20T13:00:00.000Z" DepartureDateTime="2021-05-20T09:00:00.000Z" RPH="2">
+						<ota:DepartureAirport LocationCode="EBL" />
+						<ota:ArrivalAirport LocationCode="CPH" />
+						<ota:OperatingAirline FlightNumber="431" Code="UBD" />
+						<ota:MarketingAirline Code="UBD" />
+						<ota:TPA_Extensions>
+							<FareBasis xmlns="" Code="BOWCWEB" />
+							<PriceGroup xmlns="" Name="Classic" />
+							<FareRule xmlns="" Code="Classic">You may check-in 1 x 23 kg luggage and take 1 x 8 kg hand
+								luggage with you. Infants are not entitled to carry checked baggage. The ticket is
+								non-changeable/non-refundable. More information is available at flyskywork.com.
+							</FareRule>
+							<Operations xmlns="">
+								<Operation ModificationType="10" Name="CANCEL" />
+								<Operation ModificationType="30" Name="REBOOK" />
+								<Operation ModificationType="3" Name="CHANGE_NAME" />
+							</Operations>
+						</ota:TPA_Extensions>
+					</ota:FlightSegment>
+				</ota:OriginDestinationOption>
+			</ota:OriginDestinationOptions>
+		</ota:AirItinerary>
+		<ota:PriceInfo>
+			<ota:ItinTotalFare>
+				<ota:BaseFare Amount="692.14" CurrencyCode="USD" />
+				<ota:TotalFare Amount="692.14" CurrencyCode="USD" />
+			</ota:ItinTotalFare>
+			<ota:PTC_FareBreakdowns>
+				<ota:PTC_FareBreakdown>
+					<ota:PassengerTypeQuantity Code="ADT" Quantity="1" />
+					<ota:FareBasisCodes>
+						<ota:FareBasisCode>BOWCWEB</ota:FareBasisCode>
+						<ota:FareBasisCode>BOWCWEB</ota:FareBasisCode>
+					</ota:FareBasisCodes>
+					<ota:PassengerFare>
+						<ota:BaseFare Amount="374.12" CurrencyCode="USD" DecimalPlaces="2" />
+						<ota:TotalFare Amount="374.12" CurrencyCode="USD" DecimalPlaces="2" />
+						<ota:UnstructuredFareCalc>CPH UBD EBL 187.06USD END EBL UBD CPH 187.06USD END
+						</ota:UnstructuredFareCalc>
+					</ota:PassengerFare>
+					<ota:TravelerRefNumber RPH="1" />
+					<ota:TicketDesignators>
+						<ota:TicketDesignator FlightRefRPH="1" />
+						<ota:TicketDesignator FlightRefRPH="2" />
+					</ota:TicketDesignators>
+				</ota:PTC_FareBreakdown>
+				<ota:PTC_FareBreakdown>
+					<ota:PassengerTypeQuantity Code="CHD" Quantity="1" />
+					<ota:FareBasisCodes>
+						<ota:FareBasisCode>BOWCWEB</ota:FareBasisCode>
+						<ota:FareBasisCode>BOWCWEB</ota:FareBasisCode>
+					</ota:FareBasisCodes>
+					<ota:PassengerFare>
+						<ota:BaseFare Amount="280.60" CurrencyCode="USD" DecimalPlaces="2" />
+						<ota:TotalFare Amount="280.60" CurrencyCode="USD" DecimalPlaces="2" />
+						<ota:UnstructuredFareCalc>CPH UBD EBL 140.30USD END EBL UBD CPH 140.30USD END
+						</ota:UnstructuredFareCalc>
+					</ota:PassengerFare>
+					<ota:TravelerRefNumber RPH="2" />
+					<ota:TicketDesignators>
+						<ota:TicketDesignator FlightRefRPH="1" />
+						<ota:TicketDesignator FlightRefRPH="2" />
+					</ota:TicketDesignators>
+				</ota:PTC_FareBreakdown>
+				<ota:PTC_FareBreakdown>
+					<ota:PassengerTypeQuantity Code="INF" Quantity="1" />
+					<ota:FareBasisCodes>
+						<ota:FareBasisCode>BOWCWEB</ota:FareBasisCode>
+						<ota:FareBasisCode>BOWCWEB</ota:FareBasisCode>
+					</ota:FareBasisCodes>
+					<ota:PassengerFare>
+						<ota:BaseFare Amount="37.42" CurrencyCode="USD" DecimalPlaces="2" />
+						<ota:TotalFare Amount="37.42" CurrencyCode="USD" DecimalPlaces="2" />
+						<ota:UnstructuredFareCalc>CPH UBD EBL 18.71USD END EBL UBD CPH 18.71USD END
+						</ota:UnstructuredFareCalc>
+					</ota:PassengerFare>
+					<ota:TravelerRefNumber RPH="3" />
+					<ota:TicketDesignators>
+						<ota:TicketDesignator FlightRefRPH="1" />
+						<ota:TicketDesignator FlightRefRPH="2" />
+					</ota:TicketDesignators>
+				</ota:PTC_FareBreakdown>
+			</ota:PTC_FareBreakdowns>
+		</ota:PriceInfo>
+		<ota:TravelerInfo>
+			<ota:AirTraveler AccompaniedByInfant="true" PassengerTypeCode="ADT" Gender="Unknown">
+				<ota:PersonName>
+					<ota:NamePrefix>Mr.</ota:NamePrefix>
+					<ota:GivenName>Samww5</ota:GivenName>
+					<ota:Surname>Daneywyd</ota:Surname>
+				</ota:PersonName>
+				<ota:Email>w54ww14@wt.com</ota:Email>
+				<ota:TravelerRefNumber RPH="1" />
+				<ota:FlightSegmentRPHs>
+					<ota:FlightSegmentRPH>1</ota:FlightSegmentRPH>
+					<ota:FlightSegmentRPH>2</ota:FlightSegmentRPH>
+				</ota:FlightSegmentRPHs>
+			</ota:AirTraveler>
+			<ota:AirTraveler PassengerTypeCode="CHD" Gender="Unknown">
+				<ota:PersonName>
+					<ota:NamePrefix>Mr.</ota:NamePrefix>
+					<ota:GivenName>Samg</ota:GivenName>
+					<ota:Surname>Daneywd</ota:Surname>
+				</ota:PersonName>
+				<ota:TravelerRefNumber RPH="2" />
+				<ota:FlightSegmentRPHs>
+					<ota:FlightSegmentRPH>1</ota:FlightSegmentRPH>
+					<ota:FlightSegmentRPH>2</ota:FlightSegmentRPH>
+				</ota:FlightSegmentRPHs>
+			</ota:AirTraveler>
+			<ota:AirTraveler PassengerTypeCode="INF" Gender="Male">
+				<ota:PersonName>
+					<ota:NamePrefix>Mr.</ota:NamePrefix>
+					<ota:GivenName>hww5</ota:GivenName>
+					<ota:Surname>ثیبثیب</ota:Surname>
+				</ota:PersonName>
+				<ota:TravelerRefNumber RPH="3" />
+				<ota:FlightSegmentRPHs>
+					<ota:FlightSegmentRPH>1</ota:FlightSegmentRPH>
+					<ota:FlightSegmentRPH>2</ota:FlightSegmentRPH>
+				</ota:FlightSegmentRPHs>
+				<ota:Comment Name="attendantRph">1</ota:Comment>
+			</ota:AirTraveler>
+		</ota:TravelerInfo>
+		<ota:Ticketing TicketTimeLimit="2021-04-13T05:24:48.524Z" TicketType="eTicket" />
+		<ota:BookingReferenceID Type="14" ID="SXJNFC">
+			<ota:CompanyName Code="6A" />
+		</ota:BookingReferenceID>
+	</ota:AirReservation>
+</ota:OTA_AirBookRS>

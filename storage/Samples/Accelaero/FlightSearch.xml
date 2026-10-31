@@ -1,0 +1,340 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Body xmlns:ns1="http://www.opentravel.org/OTA/2003/05">
+        <ns1:OTA_AirAvailRS EchoToken="11868765275150-1300257933" PrimaryLangID="en-us" RetransmissionIndicator="false" SequenceNmbr="1" TransactionIdentifier="TID$166157587575710631095.de281138" Version="2006.01">
+            <ns1:Success />
+            <ns1:Warnings />
+            <ns1:OriginDestinationInformation SameAirportInd="false">
+                <ns1:DepartureDateTime CrossDateAllowedIndicator="false">2022-08-30T03:20:00</ns1:DepartureDateTime>
+                <ns1:ArrivalDateTime CrossDateAllowedIndicator="false">2022-09-05T02:40:00</ns1:ArrivalDateTime>
+                <ns1:OriginLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:OriginLocation>
+                <ns1:DestinationLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:DestinationLocation>
+                <ns1:OriginDestinationOptions>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T06:20:00" DepartureDateTime="2022-08-30T03:20:00" FlightNumber="G9372" JourneyDuration="PT2H0M0.000S" RPH="G9$NJF/SHJ$2725027$20220830032000$20220830062000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="NJF" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T19:10:00" DepartureDateTime="2022-08-30T18:10:00" FlightNumber="G9118" JourneyDuration="PT1H0M0.000S" RPH="G9$SHJ/MCT$2731719$20220830181000$20220830191000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="MCT" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T11:00:00" DepartureDateTime="2022-09-04T10:00:00" FlightNumber="G9113" JourneyDuration="PT1H0M0.000S" RPH="G9$MCT/SHJ$2737259$20220904100000$20220904110000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="MCT" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-05T02:40:00" DepartureDateTime="2022-09-05T01:30:00" FlightNumber="G9371" JourneyDuration="PT2H10M0.000S" RPH="G9$SHJ/NJF$2805108$20220905013000$20220905024000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="NJF" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                </ns1:OriginDestinationOptions>
+            </ns1:OriginDestinationInformation>
+            <ns1:OriginDestinationInformation SameAirportInd="false">
+                <ns1:DepartureDateTime CrossDateAllowedIndicator="false">2022-08-30T03:20:00</ns1:DepartureDateTime>
+                <ns1:ArrivalDateTime CrossDateAllowedIndicator="false">2022-09-04T13:50:00</ns1:ArrivalDateTime>
+                <ns1:OriginLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:OriginLocation>
+                <ns1:DestinationLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:DestinationLocation>
+                <ns1:OriginDestinationOptions>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T06:20:00" DepartureDateTime="2022-08-30T03:20:00" FlightNumber="G9372" JourneyDuration="PT2H0M0.000S" RPH="G9$NJF/SHJ$2725027$20220830032000$20220830062000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="NJF" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T19:10:00" DepartureDateTime="2022-08-30T18:10:00" FlightNumber="G9118" JourneyDuration="PT1H0M0.000S" RPH="G9$SHJ/MCT$2731719$20220830181000$20220830191000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="MCT" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T11:00:00" DepartureDateTime="2022-09-04T10:00:00" FlightNumber="G9113" JourneyDuration="PT1H0M0.000S" RPH="G9$MCT/SHJ$2737259$20220904100000$20220904110000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="MCT" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T13:50:00" DepartureDateTime="2022-09-04T12:40:00" FlightNumber="G9373" JourneyDuration="PT2H10M0.000S" RPH="G9$SHJ/NJF$2733271$20220904124000$20220904135000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="NJF" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                </ns1:OriginDestinationOptions>
+            </ns1:OriginDestinationInformation>
+            <ns1:OriginDestinationInformation SameAirportInd="false">
+                <ns1:DepartureDateTime CrossDateAllowedIndicator="false">2022-08-30T03:20:00</ns1:DepartureDateTime>
+                <ns1:ArrivalDateTime CrossDateAllowedIndicator="false">2022-09-05T08:50:00</ns1:ArrivalDateTime>
+                <ns1:OriginLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:OriginLocation>
+                <ns1:DestinationLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:DestinationLocation>
+                <ns1:OriginDestinationOptions>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T06:20:00" DepartureDateTime="2022-08-30T03:20:00" FlightNumber="G9372" JourneyDuration="PT2H0M0.000S" RPH="G9$NJF/SHJ$2725027$20220830032000$20220830062000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="NJF" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T19:10:00" DepartureDateTime="2022-08-30T18:10:00" FlightNumber="G9118" JourneyDuration="PT1H0M0.000S" RPH="G9$SHJ/MCT$2731719$20220830181000$20220830191000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="MCT" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T21:00:00" DepartureDateTime="2022-09-04T20:00:00" FlightNumber="G9119" JourneyDuration="PT1H0M0.000S" RPH="G9$MCT/SHJ$2740035$20220904200000$20220904210000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="MCT" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-05T08:50:00" DepartureDateTime="2022-09-05T07:40:00" FlightNumber="G91760" JourneyDuration="PT2H10M0.000S" RPH="G9$SHJ/NJF$2840582$20220905074000$20220905085000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="NJF" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                </ns1:OriginDestinationOptions>
+            </ns1:OriginDestinationInformation>
+            <ns1:OriginDestinationInformation SameAirportInd="false">
+                <ns1:DepartureDateTime CrossDateAllowedIndicator="false">2022-08-30T03:20:00</ns1:DepartureDateTime>
+                <ns1:ArrivalDateTime CrossDateAllowedIndicator="false">2022-09-05T02:40:00</ns1:ArrivalDateTime>
+                <ns1:OriginLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:OriginLocation>
+                <ns1:DestinationLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:DestinationLocation>
+                <ns1:OriginDestinationOptions>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T06:20:00" DepartureDateTime="2022-08-30T03:20:00" FlightNumber="G9372" JourneyDuration="PT2H0M0.000S" RPH="G9$NJF/SHJ$2725027$20220830032000$20220830062000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="NJF" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T19:10:00" DepartureDateTime="2022-08-30T18:10:00" FlightNumber="G9118" JourneyDuration="PT1H0M0.000S" RPH="G9$SHJ/MCT$2731719$20220830181000$20220830191000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="MCT" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T21:00:00" DepartureDateTime="2022-09-04T20:00:00" FlightNumber="G9119" JourneyDuration="PT1H0M0.000S" RPH="G9$MCT/SHJ$2740035$20220904200000$20220904210000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="MCT" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-05T02:40:00" DepartureDateTime="2022-09-05T01:30:00" FlightNumber="G9371" JourneyDuration="PT2H10M0.000S" RPH="G9$SHJ/NJF$2805108$20220905013000$20220905024000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="NJF" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                </ns1:OriginDestinationOptions>
+            </ns1:OriginDestinationInformation>
+            <ns1:OriginDestinationInformation SameAirportInd="false">
+                <ns1:DepartureDateTime CrossDateAllowedIndicator="false">2022-08-30T03:20:00</ns1:DepartureDateTime>
+                <ns1:ArrivalDateTime CrossDateAllowedIndicator="false">2022-09-05T02:40:00</ns1:ArrivalDateTime>
+                <ns1:OriginLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:OriginLocation>
+                <ns1:DestinationLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:DestinationLocation>
+                <ns1:OriginDestinationOptions>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T06:20:00" DepartureDateTime="2022-08-30T03:20:00" FlightNumber="G9372" JourneyDuration="PT2H0M0.000S" RPH="G9$NJF/SHJ$2725027$20220830032000$20220830062000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="NJF" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T09:10:00" DepartureDateTime="2022-08-30T08:10:00" FlightNumber="G9112" JourneyDuration="PT1H0M0.000S" RPH="G9$SHJ/MCT$2745330$20220830081000$20220830091000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="MCT" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T11:00:00" DepartureDateTime="2022-09-04T10:00:00" FlightNumber="G9113" JourneyDuration="PT1H0M0.000S" RPH="G9$MCT/SHJ$2737259$20220904100000$20220904110000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="MCT" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-05T02:40:00" DepartureDateTime="2022-09-05T01:30:00" FlightNumber="G9371" JourneyDuration="PT2H10M0.000S" RPH="G9$SHJ/NJF$2805108$20220905013000$20220905024000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="NJF" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                </ns1:OriginDestinationOptions>
+            </ns1:OriginDestinationInformation>
+            <ns1:OriginDestinationInformation SameAirportInd="false">
+                <ns1:DepartureDateTime CrossDateAllowedIndicator="false">2022-08-30T03:20:00</ns1:DepartureDateTime>
+                <ns1:ArrivalDateTime CrossDateAllowedIndicator="false">2022-09-04T13:50:00</ns1:ArrivalDateTime>
+                <ns1:OriginLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:OriginLocation>
+                <ns1:DestinationLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:DestinationLocation>
+                <ns1:OriginDestinationOptions>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T06:20:00" DepartureDateTime="2022-08-30T03:20:00" FlightNumber="G9372" JourneyDuration="PT2H0M0.000S" RPH="G9$NJF/SHJ$2725027$20220830032000$20220830062000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="NJF" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T09:10:00" DepartureDateTime="2022-08-30T08:10:00" FlightNumber="G9112" JourneyDuration="PT1H0M0.000S" RPH="G9$SHJ/MCT$2745330$20220830081000$20220830091000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="MCT" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T11:00:00" DepartureDateTime="2022-09-04T10:00:00" FlightNumber="G9113" JourneyDuration="PT1H0M0.000S" RPH="G9$MCT/SHJ$2737259$20220904100000$20220904110000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="MCT" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T13:50:00" DepartureDateTime="2022-09-04T12:40:00" FlightNumber="G9373" JourneyDuration="PT2H10M0.000S" RPH="G9$SHJ/NJF$2733271$20220904124000$20220904135000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="NJF" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                </ns1:OriginDestinationOptions>
+            </ns1:OriginDestinationInformation>
+            <ns1:OriginDestinationInformation SameAirportInd="false">
+                <ns1:DepartureDateTime CrossDateAllowedIndicator="false">2022-08-30T03:20:00</ns1:DepartureDateTime>
+                <ns1:ArrivalDateTime CrossDateAllowedIndicator="false">2022-09-05T08:50:00</ns1:ArrivalDateTime>
+                <ns1:OriginLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:OriginLocation>
+                <ns1:DestinationLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:DestinationLocation>
+                <ns1:OriginDestinationOptions>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T06:20:00" DepartureDateTime="2022-08-30T03:20:00" FlightNumber="G9372" JourneyDuration="PT2H0M0.000S" RPH="G9$NJF/SHJ$2725027$20220830032000$20220830062000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="NJF" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T09:10:00" DepartureDateTime="2022-08-30T08:10:00" FlightNumber="G9112" JourneyDuration="PT1H0M0.000S" RPH="G9$SHJ/MCT$2745330$20220830081000$20220830091000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="MCT" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T21:00:00" DepartureDateTime="2022-09-04T20:00:00" FlightNumber="G9119" JourneyDuration="PT1H0M0.000S" RPH="G9$MCT/SHJ$2740035$20220904200000$20220904210000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="MCT" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-05T08:50:00" DepartureDateTime="2022-09-05T07:40:00" FlightNumber="G91760" JourneyDuration="PT2H10M0.000S" RPH="G9$SHJ/NJF$2840582$20220905074000$20220905085000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="NJF" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                </ns1:OriginDestinationOptions>
+            </ns1:OriginDestinationInformation>
+            <ns1:OriginDestinationInformation SameAirportInd="false">
+                <ns1:DepartureDateTime CrossDateAllowedIndicator="false">2022-08-30T03:20:00</ns1:DepartureDateTime>
+                <ns1:ArrivalDateTime CrossDateAllowedIndicator="false">2022-09-05T02:40:00</ns1:ArrivalDateTime>
+                <ns1:OriginLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:OriginLocation>
+                <ns1:DestinationLocation AlternateLocationInd="false" LocationCode="NJF" MultiAirportCityInd="false">Najaf</ns1:DestinationLocation>
+                <ns1:OriginDestinationOptions>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T06:20:00" DepartureDateTime="2022-08-30T03:20:00" FlightNumber="G9372" JourneyDuration="PT2H0M0.000S" RPH="G9$NJF/SHJ$2725027$20220830032000$20220830062000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="NJF" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-08-30T09:10:00" DepartureDateTime="2022-08-30T08:10:00" FlightNumber="G9112" JourneyDuration="PT1H0M0.000S" RPH="G9$SHJ/MCT$2745330$20220830081000$20220830091000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="MCT" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-04T21:00:00" DepartureDateTime="2022-09-04T20:00:00" FlightNumber="G9119" JourneyDuration="PT1H0M0.000S" RPH="G9$MCT/SHJ$2740035$20220904200000$20220904210000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="MCT" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                    <ns1:OriginDestinationOption>
+                        <ns1:FlightSegment ArrivalDateTime="2022-09-05T02:40:00" DepartureDateTime="2022-09-05T01:30:00" FlightNumber="G9371" JourneyDuration="PT2H10M0.000S" RPH="G9$SHJ/NJF$2805108$20220905013000$20220905024000" SmokingAllowed="false" returnFlag="false">
+                            <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                            <ns1:ArrivalAirport LocationCode="NJF" Terminal="TerminalX" />
+                        </ns1:FlightSegment>
+                    </ns1:OriginDestinationOption>
+                </ns1:OriginDestinationOptions>
+            </ns1:OriginDestinationInformation>
+            <ns1:AAAirAvailRSExt>
+                <ns1:PricedItineraries>
+                    <ns1:PricedItinerary SequenceNumber="1">
+                        <ns1:AirItinerary>
+                            <ns1:OriginDestinationOptions>
+                                <ns1:OriginDestinationOption>
+                                    <ns1:FlightSegment ArrivalDateTime="2022-08-30T06:20:00" DepartureDateTime="2022-08-30T03:20:00" FlightNumber="G9372" RPH="G9$NJF/SHJ$2725027$20220830032000$20220830062000" returnFlag="false">
+                                        <ns1:DepartureAirport LocationCode="NJF" Terminal="TerminalX" />
+                                        <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                                    </ns1:FlightSegment>
+                                </ns1:OriginDestinationOption>
+                                <ns1:OriginDestinationOption>
+                                    <ns1:FlightSegment ArrivalDateTime="2022-08-30T19:10:00" DepartureDateTime="2022-08-30T18:10:00" FlightNumber="G9118" RPH="G9$SHJ/MCT$2731719$20220830181000$20220830191000" returnFlag="false">
+                                        <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                                        <ns1:ArrivalAirport LocationCode="MCT" Terminal="TerminalX" />
+                                    </ns1:FlightSegment>
+                                </ns1:OriginDestinationOption>
+                                <ns1:OriginDestinationOption>
+                                    <ns1:FlightSegment ArrivalDateTime="2022-09-04T11:00:00" DepartureDateTime="2022-09-04T10:00:00" FlightNumber="G9113" RPH="G9$MCT/SHJ$2737259$20220904100000$20220904110000" returnFlag="false">
+                                        <ns1:DepartureAirport LocationCode="MCT" Terminal="TerminalX" />
+                                        <ns1:ArrivalAirport LocationCode="SHJ" Terminal="TerminalX" />
+                                    </ns1:FlightSegment>
+                                </ns1:OriginDestinationOption>
+                                <ns1:OriginDestinationOption>
+                                    <ns1:FlightSegment ArrivalDateTime="2022-09-04T13:50:00" DepartureDateTime="2022-09-04T12:40:00" FlightNumber="G9373" RPH="G9$SHJ/NJF$2733271$20220904124000$20220904135000" returnFlag="false">
+                                        <ns1:DepartureAirport LocationCode="SHJ" Terminal="TerminalX" />
+                                        <ns1:ArrivalAirport LocationCode="NJF" Terminal="TerminalX" />
+                                    </ns1:FlightSegment>
+                                </ns1:OriginDestinationOption>
+                            </ns1:OriginDestinationOptions>
+                        </ns1:AirItinerary>
+                        <ns1:AirItineraryPricingInfo PricingSource="Published">
+                            <ns1:ItinTotalFare NegotiatedFare="false">
+                                <ns1:BaseFare Amount="198.09" CurrencyCode="USD" DecimalPlaces="2" />
+                                <ns1:TotalFare Amount="526.92" CurrencyCode="USD" DecimalPlaces="2" />
+                                <ns1:TotalEquivFare Amount="1928.50" CurrencyCode="AED" DecimalPlaces="2" />
+                                <ns1:TotalFareWithCCFee Amount="526.92" CurrencyCode="USD" DecimalPlaces="2" />
+                                <ns1:TotalEquivFareWithCCFee Amount="1928.50" CurrencyCode="AED" DecimalPlaces="2" />
+                            </ns1:ItinTotalFare>
+                            <ns1:PTC_FareBreakdowns>
+                                <ns1:PTC_FareBreakdown PricingSource="Published">
+                                    <ns1:PassengerTypeQuantity Age="0" Code="ADT" Quantity="1" />
+                                    <ns1:FareBasisCodes>
+                                        <ns1:FareBasisCode>P</ns1:FareBasisCode>
+                                    </ns1:FareBasisCodes>
+                                    <ns1:PassengerFare NegotiatedFare="false">
+                                        <ns1:BaseFare Amount="198.09" CurrencyCode="USD" DecimalPlaces="2" />
+                                        <ns1:Taxes>
+                                            <ns1:Tax Amount="19.13" CurrencyCode="USD" DecimalPlaces="2" TaxCode="F61" TaxName="UAE-Pax Facility Fee Conx F61" />
+                                            <ns1:Tax Amount="2.74" CurrencyCode="USD" DecimalPlaces="2" TaxCode="API2S" TaxName="UAE-API Charge Conx API2" />
+                                            <ns1:Tax Amount="24.05" CurrencyCode="USD" DecimalPlaces="2" TaxCode="IQ" TaxName="IRAQ(NJF)-Dept Tax IQ" />
+                                            <ns1:Tax Amount="2.60" CurrencyCode="USD" DecimalPlaces="2" TaxCode="I2" TaxName="OMAN-Dept Security Fee I2" />
+                                            <ns1:Tax Amount="24.05" CurrencyCode="USD" DecimalPlaces="2" TaxCode="IQD" TaxName="IRAQ(NJF)-Arr Tax IQD" />
+                                            <ns1:Tax Amount="25.96" CurrencyCode="USD" DecimalPlaces="2" TaxCode="OM" TaxName="OMAN-Dept Tax OM" />
+                                            <ns1:Tax Amount="0.82" CurrencyCode="USD" DecimalPlaces="2" TaxCode="I8" TaxName="OMAN-Common Usage Fee I8" />
+                                        </ns1:Taxes>
+                                        <ns1:Fees>
+                                            <ns1:Fee Amount="27.33" CurrencyCode="USD" DecimalPlaces="2" FeeCode="G9YO/SurchargeGlobalInsuranceYO" />
+                                            <ns1:Fee Amount="153.01" CurrencyCode="USD" DecimalPlaces="2" FeeCode="G9YQC/SurchargeConnxFuelYQC280" />
+                                            <ns1:Fee Amount="49.19" CurrencyCode="USD" DecimalPlaces="2" FeeCode="G9YQ/SurchargeGlobalFuelYQ" />
+                                        </ns1:Fees>
+                                        <ns1:TotalFare Amount="526.92" CurrencyCode="USD" DecimalPlaces="2" />
+                                    </ns1:PassengerFare>
+                                    <ns1:TravelerRefNumber RPH="A1" />
+                                </ns1:PTC_FareBreakdown>
+                            </ns1:PTC_FareBreakdowns>
+                        </ns1:AirItineraryPricingInfo>
+                        <ns1:Notes>airport_message:&lt;h1>Non-vaccinated passengers flying from Iraq&lt;/h1>&lt;p>As per the regulations received from the Iraq authorities, passengers who are not fully vaccinated against Covid-19 are required to carry a negative Covid-19 PCR test result conducted within 72 hours of the flight departure from Iraq. Children below 12 years are exempt from it.&lt;/p>&lt;p>Vaccination policy of the destination country will apply if it is more restrictive.&lt;/p></ns1:Notes>
+                        <ns1:Notes>airport_message:&lt;p>&lt;strong>Updated 23rd May 2022&lt;/strong>&lt;/p>&lt;h1>All restrictions removed for flying to Oman&lt;/h1>&lt;p>Oman has removed all COVID-19 related travel restrictions. Passengers arriving in Oman are no longer required to take any extra measures before the flight.&lt;/p></ns1:Notes>
+                        <ns1:Notes>airport_message:&lt;h1>Vaccinated passengers flying to Iraq&lt;/h1>&lt;p>Vaccinated passengers who have taken one dose of the Johnson &amp;amp; Johnson vaccine or two doses of another vaccine, carrying international Covid-19 vaccination certificate, are no longer required to present a PCR test upon check-in.&lt;/p>&lt;h1>Non- vaccinated passengers flying to Iraq&lt;/h1>&lt;p>Non-vaccinated passengers are required to conduct a covid-19 PCR test within 72 hours of their flight to Iraq. Children below 12 years are exempt from it.&lt;/p></ns1:Notes>
+                    </ns1:PricedItinerary>
+                </ns1:PricedItineraries>
+            </ns1:AAAirAvailRSExt>
+            <ns1:Errors />
+        </ns1:OTA_AirAvailRS>
+    </soap:Body>
+</soap:Envelope>

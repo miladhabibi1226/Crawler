@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ota:OTA_AirDemandTicketRS xmlns:ota="http://www.opentravel.org/OTA/2003/05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" EchoToken="456789" RetransmissionIndicator="false" SequenceNmbr="1" Target="Production" TimeStamp="2021-04-20T04:26:50.428Z" Version="2.001" xsi:schemaLocation="http://www.opentravel.org/OTA/2003/05 OTA_AirDemandTicketRS.xsd">
+    <ota:Success/>
+    <ota:BookingReferenceID Type="14" ID="SXJNFU">
+        <ota:CompanyName Code="6A"/>
+    </ota:BookingReferenceID>
+    <ota:TicketItemInfo ItemNumber="1" NetAmount="216.06" PaymentType="1" TicketNumber="9991110945529" TotalAmount="216.06" Type="eTicket">
+        <ota:PassengerName PassengerTypeCode="ADT">
+            <ota:NamePrefix>Mr.</ota:NamePrefix>
+            <ota:GivenName>Samww5</ota:GivenName>
+            <ota:Surname>Daneywyd</ota:Surname>
+        </ota:PassengerName>
+    </ota:TicketItemInfo>
+    <ota:TicketItemInfo ItemNumber="2" NetAmount="216.06" PaymentType="1" TicketNumber="9991110945530" TotalAmount="216.06" Type="eTicket">
+        <ota:PassengerName PassengerTypeCode="CHD">
+            <ota:NamePrefix>Mr.</ota:NamePrefix>
+            <ota:GivenName>Samwwe5</ota:GivenName>
+            <ota:Surname>Daneywyd</ota:Surname>
+        </ota:PassengerName>
+    </ota:TicketItemInfo>
+</ota:OTA_AirDemandTicketRS>

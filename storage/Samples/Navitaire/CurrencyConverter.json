@@ -1,0 +1,16 @@
+{
+    "data": {
+        "currencyCalculation": {
+            "fromCurrencyCode": "KWD",
+            "toCurrencyCode": "USD",
+            "amount": 1.0,
+            "convertedAmount": 3.3000000,
+            "roundingFactor": 0.100,
+            "exchangeRate": 3.28755410000000,
+            "marketingRoundingFactor": 0.100
+        }
+    },
+    "metadata": {
+        "documentation_url": "http://developer.navitaire.com/documentation/dotrezapi/graphcontrollerv2"
+    }
+}

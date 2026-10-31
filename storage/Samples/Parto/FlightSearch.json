@@ -1,0 +1,2894 @@
+{
+    "Success": true,
+    "Error": null,
+    "PricedItineraries": [
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "PC",
+            "FareSourceCode": "3763633439623438363566323461363762393232663139666335303261646666263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 92.58,
+                    "TotalFare": 234.18,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 141.60,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 46.29,
+                            "TotalFare": 117.09,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 70.80,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 185,
+                    "ConnectionTimePerMinute": 0,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T22:55:00",
+                            "ArrivalDateTime": "2020-10-11T02:30:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "512",
+                            "ResBookDesigCode": "P",
+                            "JourneyDuration": "03:05",
+                            "JourneyDurationPerMinute": 185,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "SAW",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "PC",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "PC",
+                                "FlightNumber": "512",
+                                "Equipment": "320"
+                            },
+                            "SeatsRemaining": 8,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "20K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": false,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "W5",
+            "FareSourceCode": "3764326665626630323862343466613962323063323531353962633035383433263130343726353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 4,
+                "ItinTotalFare": {
+                    "BaseFare": 369.50,
+                    "TotalFare": 373.86,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 0.0,
+                    "ServiceTax": 4.36,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 184.75,
+                            "TotalFare": 186.93,
+                            "Commission": 0.0,
+                            "ServiceTax": 2.18,
+                            "Taxes": [
+                                {
+                                    "Amount": 0.0,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 185,
+                    "ConnectionTimePerMinute": 0,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T11:10:00",
+                            "ArrivalDateTime": "2020-10-10T14:45:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "113",
+                            "ResBookDesigCode": "Economy",
+                            "JourneyDuration": "03:05",
+                            "JourneyDurationPerMinute": 185,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "W5",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "W5",
+                                "FlightNumber": "113",
+                                "Equipment": ""
+                            },
+                            "SeatsRemaining": null,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": null,
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": false,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "W5",
+            "FareSourceCode": "6433343435636437333238333430653139346262656138316636313262656238263130343726353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 4,
+                "ItinTotalFare": {
+                    "BaseFare": 369.50,
+                    "TotalFare": 373.86,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 0.0,
+                    "ServiceTax": 4.36,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 184.75,
+                            "TotalFare": 186.93,
+                            "Commission": 0.0,
+                            "ServiceTax": 2.18,
+                            "Taxes": [
+                                {
+                                    "Amount": 0.0,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 180,
+                    "ConnectionTimePerMinute": 0,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T12:15:00",
+                            "ArrivalDateTime": "2020-10-10T15:45:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "117",
+                            "ResBookDesigCode": "Economy",
+                            "JourneyDuration": "03:00",
+                            "JourneyDurationPerMinute": 180,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "W5",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "W5",
+                                "FlightNumber": "117",
+                                "Equipment": ""
+                            },
+                            "SeatsRemaining": null,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": null,
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": false,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "W5",
+            "FareSourceCode": "3032316334313161373737333432346139346161356663666137346534386233263130343726353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 4,
+                "ItinTotalFare": {
+                    "BaseFare": 369.50,
+                    "TotalFare": 373.86,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 0.0,
+                    "ServiceTax": 4.36,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 184.75,
+                            "TotalFare": 186.93,
+                            "Commission": 0.0,
+                            "ServiceTax": 2.18,
+                            "Taxes": [
+                                {
+                                    "Amount": 0.0,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 175,
+                    "ConnectionTimePerMinute": 0,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T20:30:00",
+                            "ArrivalDateTime": "2020-10-10T23:55:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "115",
+                            "ResBookDesigCode": "Economy",
+                            "JourneyDuration": "02:55",
+                            "JourneyDurationPerMinute": 175,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "W5",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "W5",
+                                "FlightNumber": "115",
+                                "Equipment": ""
+                            },
+                            "SeatsRemaining": null,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": null,
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": false,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "W5",
+            "FareSourceCode": "3131323536663338653534313437626561383862363464333665393661303534263130343726353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 4,
+                "ItinTotalFare": {
+                    "BaseFare": 369.50,
+                    "TotalFare": 373.86,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 0.0,
+                    "ServiceTax": 4.36,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 184.75,
+                            "TotalFare": 186.93,
+                            "Commission": 0.0,
+                            "ServiceTax": 2.18,
+                            "Taxes": [
+                                {
+                                    "Amount": 0.0,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 170,
+                    "ConnectionTimePerMinute": 0,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T15:10:00",
+                            "ArrivalDateTime": "2020-10-10T18:30:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "121",
+                            "ResBookDesigCode": "Economy",
+                            "JourneyDuration": "02:50",
+                            "JourneyDurationPerMinute": 170,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "W5",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "W5",
+                                "FlightNumber": "121",
+                                "Equipment": ""
+                            },
+                            "SeatsRemaining": null,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": null,
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "TK",
+            "FareSourceCode": "6163313364623535316530613432636262323032653261663566656365323064263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 266.88,
+                    "TotalFare": 452.06,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 185.18,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 133.44,
+                            "TotalFare": 226.03,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 92.59,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 185,
+                    "ConnectionTimePerMinute": 0,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T09:50:00",
+                            "ArrivalDateTime": "2020-10-10T13:25:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "870",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "03:05",
+                            "JourneyDurationPerMinute": 185,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "TK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "TK",
+                                "FlightNumber": "870",
+                                "Equipment": "32B"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "TK",
+            "FareSourceCode": "6436656464663237333538623437333461303634653662303137616130616135263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 326.78,
+                    "TotalFare": 511.96,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 185.18,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 163.39,
+                            "TotalFare": 255.98,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 92.59,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 185,
+                    "ConnectionTimePerMinute": 0,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T01:30:00",
+                            "ArrivalDateTime": "2020-10-10T05:05:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "878",
+                            "ResBookDesigCode": "T",
+                            "JourneyDuration": "03:05",
+                            "JourneyDurationPerMinute": 185,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "TK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "TK",
+                                "FlightNumber": "878",
+                                "Equipment": "333"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "TK",
+            "FareSourceCode": "3066393961353066633032623438373139393631383565616637363932613032263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 386.70,
+                    "TotalFare": 571.88,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 185.18,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 193.35,
+                            "TotalFare": 285.94,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 92.59,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 190,
+                    "ConnectionTimePerMinute": 0,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T23:40:00",
+                            "ArrivalDateTime": "2020-10-11T03:20:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "872",
+                            "ResBookDesigCode": "Q",
+                            "JourneyDuration": "03:10",
+                            "JourneyDurationPerMinute": 190,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "TK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "TK",
+                                "FlightNumber": "872",
+                                "Equipment": "32B"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "QR",
+            "FareSourceCode": "3862376662323132613531393463386362313235656438343465636366333830263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 332.24,
+                    "TotalFare": 648.14,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 315.90,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 166.12,
+                            "TotalFare": 324.07,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 157.95,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 370,
+                    "ConnectionTimePerMinute": 54,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T19:55:00",
+                            "ArrivalDateTime": "2020-10-11T00:05:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "246",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "04:10",
+                            "JourneyDurationPerMinute": 250,
+                            "ConnectionTimePerMinute": 54,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "DOH",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "246",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T00:59:00",
+                            "ArrivalDateTime": "2020-10-11T03:29:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "490",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "02:00",
+                            "JourneyDurationPerMinute": 120,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DOH",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "490",
+                                "Equipment": "359"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "QR",
+            "FareSourceCode": "3837616237636165386432383462306639633635356462376438633466323862263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 332.24,
+                    "TotalFare": 648.14,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 315.90,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 166.12,
+                            "TotalFare": 324.07,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 157.95,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 370,
+                    "ConnectionTimePerMinute": 80,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T13:25:00",
+                            "ArrivalDateTime": "2020-10-10T17:35:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "240",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "04:10",
+                            "JourneyDurationPerMinute": 250,
+                            "ConnectionTimePerMinute": 80,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "DOH",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "240",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T18:55:00",
+                            "ArrivalDateTime": "2020-10-10T21:25:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "498",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "02:00",
+                            "JourneyDurationPerMinute": 120,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DOH",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "498",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "QR",
+            "FareSourceCode": "3433646235346266643635633430306262303535346366303863386531393234263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 332.24,
+                    "TotalFare": 648.14,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 315.90,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 166.12,
+                            "TotalFare": 324.07,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 157.95,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 370,
+                    "ConnectionTimePerMinute": 444,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T13:25:00",
+                            "ArrivalDateTime": "2020-10-10T17:35:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "240",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "04:10",
+                            "JourneyDurationPerMinute": 250,
+                            "ConnectionTimePerMinute": 444,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "DOH",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "240",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T00:59:00",
+                            "ArrivalDateTime": "2020-10-11T03:29:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "490",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "02:00",
+                            "JourneyDurationPerMinute": 120,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DOH",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "490",
+                                "Equipment": "359"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "QR",
+            "FareSourceCode": "6136353532616561383531623430336638623835646133323831633934613136263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 332.24,
+                    "TotalFare": 648.14,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 315.90,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 166.12,
+                            "TotalFare": 324.07,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 157.95,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 370,
+                    "ConnectionTimePerMinute": 455,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T19:55:00",
+                            "ArrivalDateTime": "2020-10-11T00:05:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "246",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "04:10",
+                            "JourneyDurationPerMinute": 250,
+                            "ConnectionTimePerMinute": 455,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "DOH",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "246",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T07:40:00",
+                            "ArrivalDateTime": "2020-10-11T10:10:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "482",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "02:00",
+                            "JourneyDurationPerMinute": 120,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DOH",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "482",
+                                "Equipment": "333"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "QR",
+            "FareSourceCode": "6663643163616333313139313431643639633730386433313262303831356563263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 332.24,
+                    "TotalFare": 653.58,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 321.34,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 166.12,
+                            "TotalFare": 326.79,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 160.67,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 370,
+                    "ConnectionTimePerMinute": 845,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T13:25:00",
+                            "ArrivalDateTime": "2020-10-10T17:35:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "240",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "04:10",
+                            "JourneyDurationPerMinute": 250,
+                            "ConnectionTimePerMinute": 845,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "DOH",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "240",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T07:40:00",
+                            "ArrivalDateTime": "2020-10-11T10:10:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "482",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "02:00",
+                            "JourneyDurationPerMinute": 120,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DOH",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "482",
+                                "Equipment": "333"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "QR",
+            "FareSourceCode": "3263663866383830356230383435323361306431616266343038623934373362263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 332.24,
+                    "TotalFare": 653.58,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 321.34,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 166.12,
+                            "TotalFare": 326.79,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 160.67,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 370,
+                    "ConnectionTimePerMinute": 1130,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T19:55:00",
+                            "ArrivalDateTime": "2020-10-11T00:05:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "246",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "04:10",
+                            "JourneyDurationPerMinute": 250,
+                            "ConnectionTimePerMinute": 1130,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "DOH",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "246",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T18:55:00",
+                            "ArrivalDateTime": "2020-10-11T21:25:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "498",
+                            "ResBookDesigCode": "V",
+                            "JourneyDuration": "02:00",
+                            "JourneyDurationPerMinute": 120,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DOH",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "QR",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "QR",
+                                "FlightNumber": "498",
+                                "Equipment": "333"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "WY",
+            "FareSourceCode": "6537373630373236613330353465316161366635636134333832656633326436263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 392.14,
+                    "TotalFare": 740.72,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 348.58,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 196.07,
+                            "TotalFare": 370.36,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 174.29,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 440,
+                    "ConnectionTimePerMinute": 440,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T00:55:00",
+                            "ArrivalDateTime": "2020-10-10T06:50:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "166",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "04:55",
+                            "JourneyDurationPerMinute": 295,
+                            "ConnectionTimePerMinute": 440,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "MCT",
+                            "MarketingAirlineCode": "WY",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "WY",
+                                "FlightNumber": "166",
+                                "Equipment": "738"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T14:10:00",
+                            "ArrivalDateTime": "2020-10-10T16:05:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "433",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "02:25",
+                            "JourneyDurationPerMinute": 145,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "MCT",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "WY",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "WY",
+                                "FlightNumber": "433",
+                                "Equipment": "738"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "WY",
+            "FareSourceCode": "3631303764643832376365643466643261663464393564356633633330613336263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 392.14,
+                    "TotalFare": 740.72,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 348.58,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 196.07,
+                            "TotalFare": 370.36,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 174.29,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 440,
+                    "ConnectionTimePerMinute": 1130,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T00:55:00",
+                            "ArrivalDateTime": "2020-10-10T06:50:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "166",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "04:55",
+                            "JourneyDurationPerMinute": 295,
+                            "ConnectionTimePerMinute": 1130,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "MCT",
+                            "MarketingAirlineCode": "WY",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "WY",
+                                "FlightNumber": "166",
+                                "Equipment": "738"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T01:40:00",
+                            "ArrivalDateTime": "2020-10-11T03:35:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "431",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "02:25",
+                            "JourneyDurationPerMinute": 145,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "MCT",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "WY",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "WY",
+                                "FlightNumber": "431",
+                                "Equipment": "E75"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "TK",
+            "FareSourceCode": "3664366132623862653533373461326438306161303739383266353039646337263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 604.56,
+                    "TotalFare": 789.74,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 185.18,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 302.28,
+                            "TotalFare": 394.87,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 92.59,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 190,
+                    "ConnectionTimePerMinute": 0,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T21:00:00",
+                            "ArrivalDateTime": "2020-10-11T00:40:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "874",
+                            "ResBookDesigCode": "O",
+                            "JourneyDuration": "03:10",
+                            "JourneyDurationPerMinute": 190,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "TK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "TK",
+                                "FlightNumber": "874",
+                                "Equipment": "32B"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "SU",
+            "FareSourceCode": "6265643162326234643261653466333839656536383761643537343939653463263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 724.38,
+                    "TotalFare": 1089.30,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 364.92,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 362.19,
+                            "TotalFare": 544.65,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 182.46,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 450,
+                    "ConnectionTimePerMinute": 170,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T14:40:00",
+                            "ArrivalDateTime": "2020-10-10T18:25:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "2137",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "03:45",
+                            "JourneyDurationPerMinute": 225,
+                            "ConnectionTimePerMinute": 170,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "SVO",
+                            "MarketingAirlineCode": "SU",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "SU",
+                                "FlightNumber": "2137",
+                                "Equipment": "32A"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T21:15:00",
+                            "ArrivalDateTime": "2020-10-11T01:30:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "512",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "03:45",
+                            "JourneyDurationPerMinute": 225,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "SVO",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "SU",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "SU",
+                                "FlightNumber": "512",
+                                "Equipment": "73H"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "SU",
+            "FareSourceCode": "3531633835366437633365363435393161616237333838303762336139373563263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 724.38,
+                    "TotalFare": 1089.30,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 364.92,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 362.19,
+                            "TotalFare": 544.65,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 182.46,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 435,
+                    "ConnectionTimePerMinute": 315,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T12:30:00",
+                            "ArrivalDateTime": "2020-10-10T16:00:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "2131",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "03:30",
+                            "JourneyDurationPerMinute": 210,
+                            "ConnectionTimePerMinute": 315,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "SVO",
+                            "MarketingAirlineCode": "SU",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "SU",
+                                "FlightNumber": "2131",
+                                "Equipment": "32A"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T21:15:00",
+                            "ArrivalDateTime": "2020-10-11T01:30:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "512",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "03:45",
+                            "JourneyDurationPerMinute": 225,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "SVO",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "SU",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "SU",
+                                "FlightNumber": "512",
+                                "Equipment": "73H"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "SU",
+            "FareSourceCode": "3933396531393732353165373430393562316436623265333264613161623736263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 724.38,
+                    "TotalFare": 1089.30,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 364.92,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 362.19,
+                            "TotalFare": 544.65,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 182.46,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 450,
+                    "ConnectionTimePerMinute": 915,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T02:15:00",
+                            "ArrivalDateTime": "2020-10-10T06:00:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "2135",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "03:45",
+                            "JourneyDurationPerMinute": 225,
+                            "ConnectionTimePerMinute": 915,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "SVO",
+                            "MarketingAirlineCode": "SU",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "SU",
+                                "FlightNumber": "2135",
+                                "Equipment": "32A"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T21:15:00",
+                            "ArrivalDateTime": "2020-10-11T01:30:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "512",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "03:45",
+                            "JourneyDurationPerMinute": 225,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "SVO",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "SU",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "SU",
+                                "FlightNumber": "512",
+                                "Equipment": "73H"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "SU",
+            "FareSourceCode": "3438336130613361383965323432626638393334616265343432326465323034263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 724.38,
+                    "TotalFare": 1089.30,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 364.92,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 362.19,
+                            "TotalFare": 544.65,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 182.46,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 445,
+                    "ConnectionTimePerMinute": 1030,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T00:25:00",
+                            "ArrivalDateTime": "2020-10-10T04:05:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "2139",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "03:40",
+                            "JourneyDurationPerMinute": 220,
+                            "ConnectionTimePerMinute": 1030,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "SVO",
+                            "MarketingAirlineCode": "SU",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "SU",
+                                "FlightNumber": "2139",
+                                "Equipment": "32A"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T21:15:00",
+                            "ArrivalDateTime": "2020-10-11T01:30:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "512",
+                            "ResBookDesigCode": "L",
+                            "JourneyDuration": "03:45",
+                            "JourneyDurationPerMinute": 225,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "SVO",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "SU",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "SU",
+                                "FlightNumber": "512",
+                                "Equipment": "73H"
+                            },
+                            "SeatsRemaining": 4,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "EK",
+            "FareSourceCode": "3631636634386435303833343438663361353961313964303937376334383562263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1296.24,
+                    "TotalFare": 1465.08,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 168.84,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 648.12,
+                            "TotalFare": 732.54,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 84.42,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 395,
+                    "ConnectionTimePerMinute": 285,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T21:35:00",
+                            "ArrivalDateTime": "2020-10-11T03:00:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "2225",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "04:25",
+                            "JourneyDurationPerMinute": 265,
+                            "ConnectionTimePerMinute": 285,
+                            "DepartureAirportLocationCode": "SAW",
+                            "ArrivalAirportLocationCode": "DXB",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "FZ",
+                                "FlightNumber": "2225",
+                                "Equipment": "737"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T07:45:00",
+                            "ArrivalDateTime": "2020-10-11T09:25:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "971",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "02:10",
+                            "JourneyDurationPerMinute": 130,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DXB",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "EK",
+                                "FlightNumber": "971",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "EK",
+            "FareSourceCode": "3935663961323830663438303436376561643739323439353964306461376632263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1296.24,
+                    "TotalFare": 1465.08,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 168.84,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 648.12,
+                            "TotalFare": 732.54,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 84.42,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 395,
+                    "ConnectionTimePerMinute": 905,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T01:25:00",
+                            "ArrivalDateTime": "2020-10-10T06:50:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "2227",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "04:25",
+                            "JourneyDurationPerMinute": 265,
+                            "ConnectionTimePerMinute": 905,
+                            "DepartureAirportLocationCode": "SAW",
+                            "ArrivalAirportLocationCode": "DXB",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "FZ",
+                                "FlightNumber": "2227",
+                                "Equipment": "737"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T21:55:00",
+                            "ArrivalDateTime": "2020-10-10T23:35:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "977",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "02:10",
+                            "JourneyDurationPerMinute": 130,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DXB",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "EK",
+                                "FlightNumber": "977",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "EK",
+            "FareSourceCode": "3032393032353930383265653463373738323161396138613830313865383831263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1296.24,
+                    "TotalFare": 1465.08,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 168.84,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 648.12,
+                            "TotalFare": 732.54,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 84.42,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 395,
+                    "ConnectionTimePerMinute": 1135,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T21:35:00",
+                            "ArrivalDateTime": "2020-10-11T03:00:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "2225",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "04:25",
+                            "JourneyDurationPerMinute": 265,
+                            "ConnectionTimePerMinute": 1135,
+                            "DepartureAirportLocationCode": "SAW",
+                            "ArrivalAirportLocationCode": "DXB",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "FZ",
+                                "FlightNumber": "2225",
+                                "Equipment": "737"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T21:55:00",
+                            "ArrivalDateTime": "2020-10-11T23:35:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "977",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "02:10",
+                            "JourneyDurationPerMinute": 130,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DXB",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "EK",
+                                "FlightNumber": "977",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "EK",
+            "FareSourceCode": "6430326635623630623939363439666439653530653639373635303535363634263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1296.24,
+                    "TotalFare": 1475.98,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 179.74,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 648.12,
+                            "TotalFare": 737.99,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 89.87,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 400,
+                    "ConnectionTimePerMinute": 410,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T19:25:00",
+                            "ArrivalDateTime": "2020-10-11T00:55:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "122",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "04:30",
+                            "JourneyDurationPerMinute": 270,
+                            "ConnectionTimePerMinute": 410,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "DXB",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "EK",
+                                "FlightNumber": "122",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T07:45:00",
+                            "ArrivalDateTime": "2020-10-11T09:25:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "971",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "02:10",
+                            "JourneyDurationPerMinute": 130,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DXB",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "EK",
+                                "FlightNumber": "971",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "EK",
+            "FareSourceCode": "3463623638396233643362383465343662653461643230326433363162326635263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1296.24,
+                    "TotalFare": 1475.98,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 179.74,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 648.12,
+                            "TotalFare": 737.99,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 89.87,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 400,
+                    "ConnectionTimePerMinute": 1260,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T19:25:00",
+                            "ArrivalDateTime": "2020-10-11T00:55:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "122",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "04:30",
+                            "JourneyDurationPerMinute": 270,
+                            "ConnectionTimePerMinute": 1260,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "DXB",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "EK",
+                                "FlightNumber": "122",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T21:55:00",
+                            "ArrivalDateTime": "2020-10-11T23:35:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "977",
+                            "ResBookDesigCode": "K",
+                            "JourneyDuration": "02:10",
+                            "JourneyDurationPerMinute": 130,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "DXB",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "EK",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "EK",
+                                "FlightNumber": "977",
+                                "Equipment": "77W"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "WY",
+            "FareSourceCode": "6264646465313438326561663431656239393133346566353332373630626535263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1481.42,
+                    "TotalFare": 1835.44,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 354.02,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 740.71,
+                            "TotalFare": 917.72,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 177.01,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 445,
+                    "ConnectionTimePerMinute": 80,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T18:20:00",
+                            "ArrivalDateTime": "2020-10-11T00:20:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "5774",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "05:00",
+                            "JourneyDurationPerMinute": 300,
+                            "ConnectionTimePerMinute": 80,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "MCT",
+                            "MarketingAirlineCode": "WY",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "TK",
+                                "FlightNumber": "5774",
+                                "Equipment": "73J"
+                            },
+                            "SeatsRemaining": 7,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-11T01:40:00",
+                            "ArrivalDateTime": "2020-10-11T03:35:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "431",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "02:25",
+                            "JourneyDurationPerMinute": 145,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "MCT",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "WY",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "WY",
+                                "FlightNumber": "431",
+                                "Equipment": "E75"
+                            },
+                            "SeatsRemaining": 7,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "30K",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "LH",
+            "FareSourceCode": "3164376435633864323334373435663562353331633162313233393235623062263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1900.80,
+                    "TotalFare": 2347.40,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 446.60,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 950.40,
+                            "TotalFare": 1173.70,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 223.30,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 440,
+                    "ConnectionTimePerMinute": 155,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T10:25:00",
+                            "ArrivalDateTime": "2020-10-10T11:40:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "7256",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "02:15",
+                            "JourneyDurationPerMinute": 135,
+                            "ConnectionTimePerMinute": 155,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "FRA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "7256",
+                                "Equipment": "321"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T14:15:00",
+                            "ArrivalDateTime": "2020-10-10T20:50:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "600",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "05:05",
+                            "JourneyDurationPerMinute": 305,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "FRA",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "600",
+                                "Equipment": "333"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "LH",
+            "FareSourceCode": "6637633136616637626264313462323139346231626630653832623666303865263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1900.80,
+                    "TotalFare": 2347.40,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 446.60,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 950.40,
+                            "TotalFare": 1173.70,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 223.30,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 440,
+                    "ConnectionTimePerMinute": 275,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T08:25:00",
+                            "ArrivalDateTime": "2020-10-10T09:40:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "7186",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "02:15",
+                            "JourneyDurationPerMinute": 135,
+                            "ConnectionTimePerMinute": 275,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "FRA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "7186",
+                                "Equipment": "321"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T14:15:00",
+                            "ArrivalDateTime": "2020-10-10T20:50:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "600",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "05:05",
+                            "JourneyDurationPerMinute": 305,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "FRA",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "600",
+                                "Equipment": "333"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "LH",
+            "FareSourceCode": "3639633964313531633833613434333461383261333937613134666234323134263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1900.80,
+                    "TotalFare": 2347.40,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 446.60,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 950.40,
+                            "TotalFare": 1173.70,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 223.30,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 440,
+                    "ConnectionTimePerMinute": 335,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T07:25:00",
+                            "ArrivalDateTime": "2020-10-10T08:40:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "7187",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "02:15",
+                            "JourneyDurationPerMinute": 135,
+                            "ConnectionTimePerMinute": 335,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "FRA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "7187",
+                                "Equipment": "321"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T14:15:00",
+                            "ArrivalDateTime": "2020-10-10T20:50:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "600",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "05:05",
+                            "JourneyDurationPerMinute": 305,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "FRA",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "600",
+                                "Equipment": "333"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "LH",
+            "FareSourceCode": "3364663731303439646136653434356162323037313336383937666362653337263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1900.80,
+                    "TotalFare": 2347.40,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 446.60,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 950.40,
+                            "TotalFare": 1173.70,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 223.30,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 490,
+                    "ConnectionTimePerMinute": 345,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T06:25:00",
+                            "ArrivalDateTime": "2020-10-10T08:30:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "1305",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "03:05",
+                            "JourneyDurationPerMinute": 185,
+                            "ConnectionTimePerMinute": 345,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "FRA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "1305",
+                                "Equipment": "321"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T14:15:00",
+                            "ArrivalDateTime": "2020-10-10T20:50:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "600",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "05:05",
+                            "JourneyDurationPerMinute": 305,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "FRA",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "600",
+                                "Equipment": "333"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "IsPassportMandatory": true,
+            "IsPassportIssueDateMandatory": false,
+            "DirectionInd": 1,
+            "RefundMethod": 0,
+            "ValidatingAirlineCode": "LH",
+            "FareSourceCode": "3664333430333438656465393430653338653764653634303734323836653537263230373326353437333739",
+            "AirItineraryPricingInfo": {
+                "FareType": 2,
+                "ItinTotalFare": {
+                    "BaseFare": 1900.80,
+                    "TotalFare": 2347.40,
+                    "TotalCommission": 0.0,
+                    "TotalTax": 446.60,
+                    "ServiceTax": 0.00,
+                    "Currency": "USD"
+                },
+                "PtcFareBreakdown": [
+                    {
+                        "PassengerFare": {
+                            "BaseFare": 950.40,
+                            "TotalFare": 1173.70,
+                            "Commission": 0.0,
+                            "ServiceTax": 0.00,
+                            "Taxes": [
+                                {
+                                    "Amount": 223.30,
+                                    "Currency": "USD"
+                                }
+                            ],
+                            "Currency": "USD"
+                        },
+                        "PassengerTypeQuantity": {
+                            "PassengerType": 1,
+                            "Quantity": 2
+                        }
+                    }
+                ],
+                "FareInfoes": []
+            },
+            "OriginDestinationOptions": [
+                {
+                    "JourneyDurationPerMinute": 440,
+                    "ConnectionTimePerMinute": 395,
+                    "FlightSegments": [
+                        {
+                            "DepartureDateTime": "2020-10-10T06:25:00",
+                            "ArrivalDateTime": "2020-10-10T07:40:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "7184",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "02:15",
+                            "JourneyDurationPerMinute": 135,
+                            "ConnectionTimePerMinute": 395,
+                            "DepartureAirportLocationCode": "IST",
+                            "ArrivalAirportLocationCode": "FRA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "7184",
+                                "Equipment": "321"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        },
+                        {
+                            "DepartureDateTime": "2020-10-10T14:15:00",
+                            "ArrivalDateTime": "2020-10-10T20:50:00",
+                            "StopQuantity": 0,
+                            "FlightNumber": "600",
+                            "ResBookDesigCode": "M",
+                            "JourneyDuration": "05:05",
+                            "JourneyDurationPerMinute": 305,
+                            "ConnectionTimePerMinute": 0,
+                            "DepartureAirportLocationCode": "FRA",
+                            "ArrivalAirportLocationCode": "IKA",
+                            "MarketingAirlineCode": "LH",
+                            "CabinClassCode": 1,
+                            "OperatingAirline": {
+                                "Code": "LH",
+                                "FlightNumber": "600",
+                                "Equipment": "333"
+                            },
+                            "SeatsRemaining": 9,
+                            "IsCharter": false,
+                            "IsReturn": false,
+                            "Baggage": "1 pieces",
+                            "TechnicalStops": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

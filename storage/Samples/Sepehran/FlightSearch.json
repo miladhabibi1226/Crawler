@@ -1,0 +1,206 @@
+{
+    "status": "success",
+    "err": [
+        {
+            "code": 0,
+            "msg": ""
+        }
+    ],
+    "outbound": [
+        {
+            "ref_number": "815a097759a07adadb024d4b266183ad",
+            "price": 150,
+            "discount": 0,
+            "discount_percent": 0,
+            "currency_code": "USD",
+            "capacity": 9,
+            "flight_type": "Nonstop",
+            "description": "",
+            "flight_details": {
+                "flight_number": "7300",
+                "class": "G",
+                "farebasis_code": "G6460",
+                "cabin": "Y",
+                "operator": "Scheduled",
+                "is_charter": false,
+                "refund": "",
+                "airline": "IS",
+                "airline_operating": "IS",
+                "airplane": "Boieng 737",
+                "airline_name": "سپهران",
+                "airline_name_fa": "سپهران",
+                "airline_name_en": "sepehran",
+                "operating_airline_name_fa": "سپهران",
+                "operating_airline_name_en": "sepehran",
+                "source": "41",
+                "target_flight_id": "11873",
+                "agencies": [
+                    {
+                        "agency_id": "98144101",
+                        "agency_name": "ایرلاین سپهران",
+                        "commission": 10
+                    }
+                ]
+            },
+            "departure": {
+                "location_code": "MHD",
+                "airport_name_fa": "شهید هاشمی نژاد",
+                "airport_name_en": "Shahid Hashemi Nejad",
+                "city_name_fa": "مشهد",
+                "city_name_en": "Mashhad",
+                "country_code": "IR",
+                "date": "2024-02-18",
+                "time": "12:00:00",
+                "terminal": 1
+            },
+            "arrival": {
+                "location_code": "NJF",
+                "airport_name_fa": "Al Ashraf Intl",
+                "airport_name_en": "Al Ashraf Intl",
+                "city_name_fa": "نجف",
+                "city_name_en": "Najaf",
+                "country_code": "IQ",
+                "date": "2024-02-18",
+                "time": "14:00:00",
+                "terminal": 1
+            },
+            "passenger_fare": {
+                "adult": {
+                    "fare": 141,
+                    "fee": 0,
+                    "tax": 9,
+                    "additional_fee": []
+                },
+                "child": {
+                    "fare": 116,
+                    "fee": 0,
+                    "tax": 8,
+                    "additional_fee": []
+                },
+                "infant": {
+                    "fare": 64,
+                    "fee": 0,
+                    "tax": 5,
+                    "additional_fee": []
+                }
+            },
+            "baggages": [
+                {
+                    "Type": "ADT",
+                    "Quantity": 25,
+                    "Unit": "KG"
+                }
+            ],
+            "duration": "02:00:00",
+            "join": [
+                "36093e6412e14d0b1728beb2298bc92b",
+                "1713de91ff5a0c5f3a70d9e7f52617f8",
+                "d651579adb3ea5ff2d327ffe3b906f2f"
+            ],
+            "return_flights": [
+                "36093e6412e14d0b1728beb2298bc92b",
+                "1713de91ff5a0c5f3a70d9e7f52617f8",
+                "d651579adb3ea5ff2d327ffe3b906f2f"
+            ]
+        }
+    ],
+    "return": [
+        {
+            "ref_number": "1713de91ff5a0c5f3a70d9e7f52617f8",
+            "price": 100.5,
+            "discount": 0,
+            "discount_percent": 0,
+            "currency_code": "USD",
+            "capacity": 9,
+            "flight_type": "Nonstop",
+            "description": "",
+            "flight_details": {
+                "flight_number": "7500",
+                "class": "G",
+                "farebasis_code": "G6461",
+                "cabin": "Y",
+                "operator": "Scheduled",
+                "is_charter": false,
+                "refund": "",
+                "airline": "IS",
+                "airline_operating": "IS",
+                "airplane": "Boieng 737",
+                "airline_name": "سپهران",
+                "airline_name_fa": "سپهران",
+                "airline_name_en": "sepehran",
+                "operating_airline_name_fa": "سپهران",
+                "operating_airline_name_en": "sepehran",
+                "source": "41",
+                "target_flight_id": "14529",
+                "agencies": [
+                    {
+                        "agency_id": "98144101",
+                        "agency_name": "ایرلاین سپهران",
+                        "commission": 10
+                    }
+                ]
+            },
+            "departure": {
+                "location_code": "NJF",
+                "airport_name_fa": "Al Ashraf Intl",
+                "airport_name_en": "Al Ashraf Intl",
+                "city_name_fa": "نجف",
+                "city_name_en": "Najaf",
+                "country_code": "IQ",
+                "date": "2024-02-20",
+                "time": "09:30:00",
+                "terminal": 1
+            },
+            "arrival": {
+                "location_code": "MHD",
+                "airport_name_fa": "شهید هاشمی نژاد",
+                "airport_name_en": "Shahid Hashemi Nejad",
+                "city_name_fa": "مشهد",
+                "city_name_en": "Mashhad",
+                "country_code": "IR",
+                "date": "2024-02-20",
+                "time": "11:00:00",
+                "terminal": 1
+            },
+            "passenger_fare": {
+                "adult": {
+                    "fare": 80.69,
+                    "fee": 0,
+                    "tax": 19.81,
+                    "additional_fee": []
+                },
+                "child": {
+                    "fare": 60.69,
+                    "fee": 0,
+                    "tax": 19.31,
+                    "additional_fee": []
+                },
+                "infant": {
+                    "fare": 53.95,
+                    "fee": 0,
+                    "tax": 15.05,
+                    "additional_fee": []
+                }
+            },
+            "baggages": [
+                {
+                    "Type": "ADT",
+                    "Quantity": 25,
+                    "Unit": "KG"
+                }
+            ],
+            "duration": "01:30:00",
+            "join": [
+                "815a097759a07adadb024d4b266183ad",
+                "b5a921e52d1572a648017b1aee799482"
+            ],
+            "outbound_flights": [
+                "815a097759a07adadb024d4b266183ad",
+                "b5a921e52d1572a648017b1aee799482"
+            ]
+        }
+    ],
+    "request_id": 975870,
+    "timestamp": "2024-02-17 14:26:11",
+    "attemptTimes": 2
+}

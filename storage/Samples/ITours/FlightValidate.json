@@ -1,0 +1,131 @@
+{
+    "success": true,
+    "result": {
+        "currency": "IRR",
+        "airTripType": "OneWay",
+        "pricedItinerary": {
+            "key": "0265475678596547521758",
+            "isDomestic": false,
+            "hasExtraBaggage": false,
+            "airItinerary": {
+                "originDestinationOptions": [
+                    {
+                        "journeyDuration": "03:45:00",
+                        "numberOfStop": 0,
+                        "flightSegments": [
+                            {
+                                "flightNumber": "1274",
+                                "departureDateTime": "2022-05-18T14:20:00",
+                                "arrivalDateTime": "2022-05-18T19:05:00",
+                                "resBookDesigCode": "G",
+                                "arrivalAirport": {
+                                    "locationCode": "SAW",
+                                    "terminalId": null,
+                                    "locationName": "Sabiha Gokcen",
+                                    "countryName": "Turkey",
+                                    "cityName": "Istanbul"
+                                },
+                                "departureAirport": {
+                                    "locationCode": "OSL",
+                                    "terminalId": null,
+                                    "locationName": "Oslo Airport Gardermoen",
+                                    "countryName": "Norway",
+                                    "cityName": "Oslo"
+                                },
+                                "marketingAirline": {
+                                    "code": "PC",
+                                    "name": "Pegasus Hava Tasimaciligi A.S.",
+                                    "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Pegasus Hava Tasimaciligi A.S..png"
+                                },
+                                "operatingAirline": {
+                                    "code": "PC",
+                                    "name": "Pegasus Hava Tasimaciligi A.S.",
+                                    "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Pegasus Hava Tasimaciligi A.S..png"
+                                },
+                                "airEquipType": null,
+                                "flightDuration": "03:45:00",
+                                "fareBasis": [
+                                    {
+                                        "fareBasisCode": "GWEB/QSI",
+                                        "bookingCode": "G",
+                                        "passengerType": "ADT"
+                                    }
+                                ],
+                                "baggageInformation": [
+                                    {
+                                        "baggageAllowance": 20,
+                                        "unitType": "KG",
+                                        "passengerType": "ADT"
+                                    }
+                                ],
+                                "extraBaggageInformation": [],
+                                "handBagInformation": [
+                                    {
+                                        "handBagAllowance": 8,
+                                        "unitType": "KG",
+                                        "passengerType": "ADT"
+                                    }
+                                ],
+                                "cabinClass": {
+                                    "name": "Economy",
+                                    "code": "G"
+                                },
+                                "stopTime": "00:00:00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "airItineraryPricingInfo": {
+                "itinTotalFare": {
+                    "baseFare": 18630000.00,
+                    "taxes": [
+                        {
+                            "amount": 3780000.00,
+                            "code": "Total Tax",
+                            "name": "Total Tax"
+                        }
+                    ],
+                    "extraBaggage": 0.0,
+                    "commission": 0.0,
+                    "thirdPartyCommission": 0.0,
+                    "totalFare": 22410000.00,
+                    "totalFareWithExtraBaggage": 0.0
+                },
+                "ptC_FareBreakdown": [
+                    {
+                        "passengerFare": {
+                            "baseFare": 18630000.00,
+                            "taxes": [
+                                {
+                                    "amount": 3780000.00,
+                                    "code": "Total Tax",
+                                    "name": "Total Tax"
+                                }
+                            ],
+                            "extraBaggage": 0.0,
+                            "commission": 0.0,
+                            "thirdPartyCommission": 0.0,
+                            "totalFare": 22410000.00,
+                            "totalFareWithExtraBaggage": 0.0
+                        },
+                        "passengerTypeQuantity": {
+                            "code": "ADT",
+                            "quantity": 1
+                        },
+                        "passengerBirthDateRange": {
+                            "minBirthDate": "1922-05-18T14:20:00",
+                            "maxBirthDate": "2010-05-18T14:20:00"
+                        }
+                    }
+                ]
+            },
+            "availableSeats": null,
+            "flightType": "Systemic",
+            "hasOnlineVoid": false
+        },
+        "captchaLink": null,
+        "priceChangedAtValidate": false
+    },
+    "error": null
+}

@@ -1,0 +1,531 @@
+{
+    "CurrencyCode": "IRR",
+    "CharterFlights": [],
+    "WebserviceFlights": [
+        {
+            "FlightNumber": "600",
+            "DepartureDateTime": "2021-09-30 07:15",
+            "Origin": {
+                "Code": "THR",
+                "Terminal": null
+            },
+            "Destination": {
+                "Code": "MHD",
+                "Terminal": null
+            },
+            "Aircraft": "737",
+            "ArrivalDateTime": "2021-09-30 08:45",
+            "Duration": 90,
+            "Airline": "EP",
+            "IsParvazSystemiAirline": true,
+            "Stop1": null,
+            "Stop2": null,
+            "Classes": [
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "W",
+                    "FareName": "W",
+                    "AvailableSeat": 5,
+                    "AdultFare": {
+                        "BaseFare": 9380000.0,
+                        "Tax": 663000.0,
+                        "TotalFare": 10043000.0,
+                        "Commision": 0.0,
+                        "Payable": 10043000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 4690000.0,
+                        "Tax": 382000.0,
+                        "TotalFare": 5072000.0,
+                        "Commision": 0.0,
+                        "Payable": 5072000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 938000.0,
+                        "Tax": 127000.0,
+                        "TotalFare": 1065000.0,
+                        "Commision": 0.0,
+                        "Payable": 1065000.0
+                    },
+                    "CancelationPolicy": "* جريمه استرداد تا ساعت 12 ظهر 1 روز قبل از پرواز 40% مي باشد.;* جريمه استرداد از ساعت 12 ظهر 1 روز قبل از پرواز به بعد 60% مي باشد."
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "Y",
+                    "FareName": "Y",
+                    "AvailableSeat": 9,
+                    "AdultFare": {
+                        "BaseFare": 10080000.0,
+                        "Tax": 705000.0,
+                        "TotalFare": 10785000.0,
+                        "Commision": 0.0,
+                        "Payable": 10785000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 5040000.0,
+                        "Tax": 403000.0,
+                        "TotalFare": 5443000.0,
+                        "Commision": 0.0,
+                        "Payable": 5443000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 1008000.0,
+                        "Tax": 131000.0,
+                        "TotalFare": 1139000.0,
+                        "Commision": 0.0,
+                        "Payable": 1139000.0
+                    },
+                    "CancelationPolicy": "* جريمه استرداد تا ساعت 12 ظهر 1 روز قبل از پرواز 40% مي باشد.;* جريمه استرداد از ساعت 12 ظهر 1 روز قبل از پرواز به بعد 60% مي باشد."
+                }
+            ]
+        },
+        {
+            "FlightNumber": "5698",
+            "DepartureDateTime": "2021-09-30 08:20",
+            "Origin": {
+                "Code": "THR",
+                "Terminal": null
+            },
+            "Destination": {
+                "Code": "MHD",
+                "Terminal": null
+            },
+            "Aircraft": "M83",
+            "ArrivalDateTime": "2021-09-30 09:40",
+            "Duration": 80,
+            "Airline": "I3",
+            "IsParvazSystemiAirline": true,
+            "Stop1": null,
+            "Stop2": null,
+            "Classes": [
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "Q",
+                    "FareName": "Q",
+                    "AvailableSeat": 7,
+                    "AdultFare": {
+                        "BaseFare": 7559000.0,
+                        "Tax": 554000.0,
+                        "TotalFare": 8113000.0,
+                        "Commision": 0.0,
+                        "Payable": 8113000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 4536000.0,
+                        "Tax": 373000.0,
+                        "TotalFare": 4909000.0,
+                        "Commision": 0.0,
+                        "Payable": 4909000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 756000.0,
+                        "Tax": 116000.0,
+                        "TotalFare": 872000.0,
+                        "Commision": 0.0,
+                        "Payable": 872000.0
+                    },
+                    "CancelationPolicy": "* جريمه استرداد تا ساعت 12 ظهر 3 روز قبل از پرواز 20% مي باشد.;* جريمه استرداد بعد از ساعت 12 ظهر 3 روز قبل از پرواز تا 24 ساعت قبل از پرواز 50% مي باشد.;* جريمه استرداد بعد از 24 ساعت قبل از پرواز تا 3 ساعت قبل از پرواز 70% مي باشد.;* جريمه استرداد از 3 ساعت قبل از پرواز به بعد 80% مي باشد."
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "B",
+                    "FareName": "B",
+                    "AvailableSeat": 7,
+                    "AdultFare": {
+                        "BaseFare": 7919000.0,
+                        "Tax": 576000.0,
+                        "TotalFare": 8495000.0,
+                        "Commision": 0.0,
+                        "Payable": 8495000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 4752000.0,
+                        "Tax": 386000.0,
+                        "TotalFare": 5138000.0,
+                        "Commision": 0.0,
+                        "Payable": 5138000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 792000.0,
+                        "Tax": 118000.0,
+                        "TotalFare": 910000.0,
+                        "Commision": 0.0,
+                        "Payable": 910000.0
+                    },
+                    "CancelationPolicy": "* جريمه استرداد تا ساعت 12 ظهر 3 روز قبل از پرواز 20% مي باشد.;* جريمه استرداد بعد از ساعت 12 ظهر 3 روز قبل از پرواز تا 24 ساعت قبل از پرواز 50% مي باشد.;* جريمه استرداد بعد از 24 ساعت قبل از پرواز تا 3 ساعت قبل از پرواز 70% مي باشد.;* جريمه استرداد از 3 ساعت قبل از پرواز به بعد 80% مي باشد."
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "V",
+                    "FareName": "V",
+                    "AvailableSeat": 7,
+                    "AdultFare": {
+                        "BaseFare": 8279000.0,
+                        "Tax": 597000.0,
+                        "TotalFare": 8876000.0,
+                        "Commision": 0.0,
+                        "Payable": 8876000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 4140000.0,
+                        "Tax": 349000.0,
+                        "TotalFare": 4489000.0,
+                        "Commision": 0.0,
+                        "Payable": 4489000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 828000.0,
+                        "Tax": 120000.0,
+                        "TotalFare": 948000.0,
+                        "Commision": 0.0,
+                        "Payable": 948000.0
+                    },
+                    "CancelationPolicy": "* جريمه استرداد تا ساعت 12 ظهر 3 روز قبل از پرواز 10% مي باشد.;* جريمه استرداد بعد از ساعت 12 ظهر 3 روز قبل از پرواز تا 24 ساعت قبل از پرواز 30% مي باشد.;* جريمه استرداد بعد از 24 ساعت قبل از پرواز تا 3 ساعت قبل از پرواز 50% مي باشد.;* جريمه استرداد از 3 ساعت قبل از پرواز به بعد 60% مي باشد."
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "O",
+                    "FareName": "O",
+                    "AvailableSeat": 3,
+                    "AdultFare": {
+                        "BaseFare": 8638000.0,
+                        "Tax": 619000.0,
+                        "TotalFare": 9257000.0,
+                        "Commision": 0.0,
+                        "Payable": 9257000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 4319000.0,
+                        "Tax": 360000.0,
+                        "TotalFare": 4679000.0,
+                        "Commision": 0.0,
+                        "Payable": 4679000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 864000.0,
+                        "Tax": 122000.0,
+                        "TotalFare": 986000.0,
+                        "Commision": 0.0,
+                        "Payable": 986000.0
+                    },
+                    "CancelationPolicy": "* جريمه استرداد تا ساعت 12 ظهر 3 روز قبل از پرواز 10% مي باشد.;* جريمه استرداد بعد از ساعت 12 ظهر 3 روز قبل از پرواز تا 24 ساعت قبل از پرواز 30% مي باشد.;* جريمه استرداد بعد از 24 ساعت قبل از پرواز تا 3 ساعت قبل از پرواز 50% مي باشد.;* جريمه استرداد از 3 ساعت قبل از پرواز به بعد 60% مي باشد."
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "R",
+                    "FareName": "R",
+                    "AvailableSeat": 3,
+                    "AdultFare": {
+                        "BaseFare": 8998000.0,
+                        "Tax": 640000.0,
+                        "TotalFare": 9638000.0,
+                        "Commision": 0.0,
+                        "Payable": 9638000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 4499000.0,
+                        "Tax": 370000.0,
+                        "TotalFare": 4869000.0,
+                        "Commision": 0.0,
+                        "Payable": 4869000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 900000.0,
+                        "Tax": 124000.0,
+                        "TotalFare": 1024000.0,
+                        "Commision": 0.0,
+                        "Payable": 1024000.0
+                    },
+                    "CancelationPolicy": "* جريمه استرداد تا ساعت 12 ظهر 3 روز قبل از پرواز 10% مي باشد.;* جريمه استرداد بعد از ساعت 12 ظهر 3 روز قبل از پرواز تا 24 ساعت قبل از پرواز 30% مي باشد.;* جريمه استرداد بعد از 24 ساعت قبل از پرواز تا 3 ساعت قبل از پرواز 50% مي باشد.;* جريمه استرداد از 3 ساعت قبل از پرواز به بعد 60% مي باشد."
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "Y",
+                    "FareName": "Y",
+                    "AvailableSeat": 9,
+                    "AdultFare": {
+                        "BaseFare": 10068000.0,
+                        "Tax": 705000.0,
+                        "TotalFare": 10773000.0,
+                        "Commision": 0.0,
+                        "Payable": 10773000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 5034000.0,
+                        "Tax": 403000.0,
+                        "TotalFare": 5437000.0,
+                        "Commision": 0.0,
+                        "Payable": 5437000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 1007000.0,
+                        "Tax": 131000.0,
+                        "TotalFare": 1138000.0,
+                        "Commision": 0.0,
+                        "Payable": 1138000.0
+                    },
+                    "CancelationPolicy": "* جريمه استرداد تا ساعت 12 ظهر 3 روز قبل از پرواز 10% مي باشد.;* جريمه استرداد بعد از ساعت 12 ظهر 3 روز قبل از پرواز تا 24 ساعت قبل از پرواز 30% مي باشد.;* جريمه استرداد بعد از 24 ساعت قبل از پرواز تا 3 ساعت قبل از پرواز 50% مي باشد.;* جريمه استرداد از 3 ساعت قبل از پرواز به بعد 60% مي باشد."
+                }
+            ]
+        },
+        {
+            "FlightNumber": "4091",
+            "DepartureDateTime": "2021-09-30 08:45",
+            "Origin": {
+                "Code": "THR",
+                "Terminal": null
+            },
+            "Destination": {
+                "Code": "MHD",
+                "Terminal": null
+            },
+            "Aircraft": "M83",
+            "ArrivalDateTime": "2021-09-30 10:10",
+            "Duration": 85,
+            "Airline": "ZV",
+            "IsParvazSystemiAirline": true,
+            "Stop1": null,
+            "Stop2": null,
+            "Classes": [
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "FN",
+                    "FareName": "FN",
+                    "AvailableSeat": 4,
+                    "AdultFare": {
+                        "BaseFare": 8220000.0,
+                        "Tax": 594000.0,
+                        "TotalFare": 8814000.0,
+                        "Commision": 0.0,
+                        "Payable": 8814000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 5343000.0,
+                        "Tax": 422000.0,
+                        "TotalFare": 5765000.0,
+                        "Commision": 0.0,
+                        "Payable": 5765000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 773000.0,
+                        "Tax": 147000.0,
+                        "TotalFare": 920000.0,
+                        "Commision": 0.0,
+                        "Payable": 920000.0
+                    },
+                    "CancelationPolicy": ""
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "FQ",
+                    "FareName": "FQ",
+                    "AvailableSeat": 8,
+                    "AdultFare": {
+                        "BaseFare": 8570000.0,
+                        "Tax": 615000.0,
+                        "TotalFare": 9185000.0,
+                        "Commision": 0.0,
+                        "Payable": 9185000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 5571000.0,
+                        "Tax": 435000.0,
+                        "TotalFare": 6006000.0,
+                        "Commision": 0.0,
+                        "Payable": 6006000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 773000.0,
+                        "Tax": 147000.0,
+                        "TotalFare": 920000.0,
+                        "Commision": 0.0,
+                        "Payable": 920000.0
+                    },
+                    "CancelationPolicy": ""
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "FO",
+                    "FareName": "FO",
+                    "AvailableSeat": 8,
+                    "AdultFare": {
+                        "BaseFare": 10079000.0,
+                        "Tax": 705000.0,
+                        "TotalFare": 10784000.0,
+                        "Commision": 0.0,
+                        "Payable": 10784000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 6552000.0,
+                        "Tax": 494000.0,
+                        "TotalFare": 7046000.0,
+                        "Commision": 0.0,
+                        "Payable": 7046000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 773000.0,
+                        "Tax": 147000.0,
+                        "TotalFare": 920000.0,
+                        "Commision": 0.0,
+                        "Payable": 920000.0
+                    },
+                    "CancelationPolicy": ""
+                }
+            ]
+        },
+        {
+            "FlightNumber": "2804",
+            "DepartureDateTime": "2021-09-30 15:40",
+            "Origin": {
+                "Code": "THR",
+                "Terminal": null
+            },
+            "Destination": {
+                "Code": "MHD",
+                "Terminal": null
+            },
+            "Aircraft": "319",
+            "ArrivalDateTime": "2021-09-30 17:00",
+            "Duration": 80,
+            "Airline": "JI",
+            "IsParvazSystemiAirline": true,
+            "Stop1": null,
+            "Stop2": null,
+            "Classes": [
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "A",
+                    "FareName": "A",
+                    "AvailableSeat": 9,
+                    "AdultFare": {
+                        "BaseFare": 10176000.0,
+                        "Tax": 609000.0,
+                        "TotalFare": 10785000.0,
+                        "Commision": 0.0,
+                        "Payable": 10785000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 7632000.0,
+                        "Tax": 482000.0,
+                        "TotalFare": 8114000.0,
+                        "Commision": 0.0,
+                        "Payable": 8114000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 1018000.0,
+                        "Tax": 121000.0,
+                        "TotalFare": 1139000.0,
+                        "Commision": 0.0,
+                        "Payable": 1139000.0
+                    },
+                    "CancelationPolicy": "* جريمه استرداد تا 48 ساعت قبل از پرواز 40% مي باشد.;* جريمه استرداد بعد از 48 ساعت قبل از پرواز تا 4 ساعت قبل از پرواز 50% مي باشد.;* جريمه استرداد از 4 ساعت قبل از پرواز به بعد 60% مي باشد."
+                }
+            ]
+        },
+        {
+            "FlightNumber": "4057",
+            "DepartureDateTime": "2021-09-30 23:30",
+            "Origin": {
+                "Code": "THR",
+                "Terminal": null
+            },
+            "Destination": {
+                "Code": "MHD",
+                "Terminal": null
+            },
+            "Aircraft": "M83",
+            "ArrivalDateTime": "2021-10-01 00:55",
+            "Duration": 85,
+            "Airline": "ZV",
+            "IsParvazSystemiAirline": true,
+            "Stop1": null,
+            "Stop2": null,
+            "Classes": [
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "FI",
+                    "FareName": "FI",
+                    "AvailableSeat": 7,
+                    "AdultFare": {
+                        "BaseFare": 7570000.0,
+                        "Tax": 555000.0,
+                        "TotalFare": 8125000.0,
+                        "Commision": 0.0,
+                        "Payable": 8125000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 4921000.0,
+                        "Tax": 397000.0,
+                        "TotalFare": 5318000.0,
+                        "Commision": 0.0,
+                        "Payable": 5318000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 773000.0,
+                        "Tax": 147000.0,
+                        "TotalFare": 920000.0,
+                        "Commision": 0.0,
+                        "Payable": 920000.0
+                    },
+                    "CancelationPolicy": ""
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "FN",
+                    "FareName": "FN",
+                    "AvailableSeat": 6,
+                    "AdultFare": {
+                        "BaseFare": 8220000.0,
+                        "Tax": 594000.0,
+                        "TotalFare": 8814000.0,
+                        "Commision": 0.0,
+                        "Payable": 8814000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 5343000.0,
+                        "Tax": 422000.0,
+                        "TotalFare": 5765000.0,
+                        "Commision": 0.0,
+                        "Payable": 5765000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 773000.0,
+                        "Tax": 147000.0,
+                        "TotalFare": 920000.0,
+                        "Commision": 0.0,
+                        "Payable": 920000.0
+                    },
+                    "CancelationPolicy": ""
+                },
+                {
+                    "CabinType": "Economy",
+                    "BookingCode": "FU",
+                    "FareName": "FU",
+                    "AvailableSeat": 8,
+                    "AdultFare": {
+                        "BaseFare": 9270000.0,
+                        "Tax": 657000.0,
+                        "TotalFare": 9927000.0,
+                        "Commision": 0.0,
+                        "Payable": 9927000.0
+                    },
+                    "ChildFare": {
+                        "BaseFare": 6026000.0,
+                        "Tax": 463000.0,
+                        "TotalFare": 6489000.0,
+                        "Commision": 0.0,
+                        "Payable": 6489000.0
+                    },
+                    "InfantFare": {
+                        "BaseFare": 773000.0,
+                        "Tax": 147000.0,
+                        "TotalFare": 920000.0,
+                        "Commision": 0.0,
+                        "Payable": 920000.0
+                    },
+                    "CancelationPolicy": ""
+                }
+            ]
+        }
+    ]
+}

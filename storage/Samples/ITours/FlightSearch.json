@@ -1,0 +1,1456 @@
+{
+    "success": true,
+    "result": {
+        "currency": "IRR",
+        "airTripType": "OneWay",
+        "isCompleted": true,
+        "pricedItineraries": [
+            {
+                "key": "02611904711045668173849116",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "03:45:00",
+                            "numberOfStop": 0,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "1274",
+                                    "departureDateTime": "2022-05-18T14:20:00",
+                                    "arrivalDateTime": "2022-05-18T19:05:00",
+                                    "resBookDesigCode": "G",
+                                    "arrivalAirport": {
+                                        "locationCode": "SAW",
+                                        "terminalId": null,
+                                        "locationName": "Sabiha Gokcen",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "PC",
+                                        "name": "Pegasus Hava Tasimaciligi A.S.",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Pegasus Hava Tasimaciligi A.S..png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "PC",
+                                        "name": "Pegasus Hava Tasimaciligi A.S.",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Pegasus Hava Tasimaciligi A.S..png"
+                                    },
+                                    "airEquipType": null,
+                                    "flightDuration": "03:45:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "GWEB/QSI",
+                                            "bookingCode": "G",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 20,
+                                            "unitType": "KG",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [
+                                        {
+                                            "handBagAllowance": 8,
+                                            "unitType": "KG",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "G"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 18630000.00,
+                        "taxes": [
+                            {
+                                "amount": 3780000.00,
+                                "code": "Total Tax",
+                                "name": "Total Tax"
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 22410000.00,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 18630000.00,
+                                "taxes": [
+                                    {
+                                        "amount": 3780000.00,
+                                        "code": "Total Tax",
+                                        "name": "Total Tax"
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 22410000.00,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": null,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            },
+            {
+                "key": "02100015058152123327547570",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "03:45:00",
+                            "numberOfStop": 0,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "1274",
+                                    "departureDateTime": "2022-05-18T14:20:00",
+                                    "arrivalDateTime": "2022-05-18T19:05:00",
+                                    "resBookDesigCode": "G",
+                                    "arrivalAirport": {
+                                        "locationCode": "SAW",
+                                        "terminalId": null,
+                                        "locationName": "Sabiha Gokcen",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "PC",
+                                        "name": "Pegasus Hava Tasimaciligi A.S.",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Pegasus Hava Tasimaciligi A.S..png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "PC",
+                                        "name": "Pegasus Hava Tasimaciligi A.S.",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Pegasus Hava Tasimaciligi A.S..png"
+                                    },
+                                    "airEquipType": "320",
+                                    "flightDuration": "03:45:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "GOW1S",
+                                            "bookingCode": "G",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 20,
+                                            "unitType": "KG",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 22213000.0,
+                        "taxes": [
+                            {
+                                "amount": 10293000.0,
+                                "code": "TOTALTAX",
+                                "name": null
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 32507000.0,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 22213000.0,
+                                "taxes": [
+                                    {
+                                        "amount": 10293000.0,
+                                        "code": "TotalTax",
+                                        "name": null
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 32507000.0,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": 9,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            },
+            {
+                "key": "02100025058152123327547570",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "11:45:00",
+                            "numberOfStop": 1,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "482",
+                                    "departureDateTime": "2022-05-18T10:45:00",
+                                    "arrivalDateTime": "2022-05-18T12:45:00",
+                                    "resBookDesigCode": "L",
+                                    "arrivalAirport": {
+                                        "locationCode": "WAW",
+                                        "terminalId": null,
+                                        "locationName": "Frederic Chopin",
+                                        "countryName": "Poland",
+                                        "cityName": "Warsaw"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "airEquipType": "73H",
+                                    "flightDuration": "02:00:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "L1SAV30",
+                                            "bookingCode": "L",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 0,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "07:10:00"
+                                },
+                                {
+                                    "flightNumber": "137",
+                                    "departureDateTime": "2022-05-18T19:55:00",
+                                    "arrivalDateTime": "2022-05-18T23:30:00",
+                                    "resBookDesigCode": "L",
+                                    "arrivalAirport": {
+                                        "locationCode": "IST",
+                                        "terminalId": null,
+                                        "locationName": "Istanbul Airport",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "WAW",
+                                        "terminalId": null,
+                                        "locationName": "Frederic Chopin",
+                                        "countryName": "Poland",
+                                        "cityName": "Warsaw"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "airEquipType": "E95",
+                                    "flightDuration": "02:35:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "L1SAV30",
+                                            "bookingCode": "L",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 0,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 15114000.0,
+                        "taxes": [
+                            {
+                                "amount": 18397000.0,
+                                "code": "TOTALTAX",
+                                "name": null
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 33512000.0,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 15114000.0,
+                                "taxes": [
+                                    {
+                                        "amount": 18397000.0,
+                                        "code": "TotalTax",
+                                        "name": null
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 33512000.0,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": 5,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            },
+            {
+                "key": "02100035058152123327547570",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "19:40:00",
+                            "numberOfStop": 1,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "484",
+                                    "departureDateTime": "2022-05-18T19:45:00",
+                                    "arrivalDateTime": "2022-05-18T21:45:00",
+                                    "resBookDesigCode": "W",
+                                    "arrivalAirport": {
+                                        "locationCode": "WAW",
+                                        "terminalId": null,
+                                        "locationName": "Frederic Chopin",
+                                        "countryName": "Poland",
+                                        "cityName": "Warsaw"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "airEquipType": "E95",
+                                    "flightDuration": "02:00:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "W1SAV14",
+                                            "bookingCode": "W",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 0,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "15:10:00"
+                                },
+                                {
+                                    "flightNumber": "135",
+                                    "departureDateTime": "2022-05-19T12:55:00",
+                                    "arrivalDateTime": "2022-05-19T16:25:00",
+                                    "resBookDesigCode": "W",
+                                    "arrivalAirport": {
+                                        "locationCode": "IST",
+                                        "terminalId": null,
+                                        "locationName": "Istanbul Airport",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "WAW",
+                                        "terminalId": null,
+                                        "locationName": "Frederic Chopin",
+                                        "countryName": "Poland",
+                                        "cityName": "Warsaw"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "airEquipType": "E95",
+                                    "flightDuration": "02:30:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "W1SAV14",
+                                            "bookingCode": "W",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 0,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 20083000.0,
+                        "taxes": [
+                            {
+                                "amount": 18397000.0,
+                                "code": "TOTALTAX",
+                                "name": null
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 38481000.0,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 20083000.0,
+                                "taxes": [
+                                    {
+                                        "amount": 18397000.0,
+                                        "code": "TotalTax",
+                                        "name": null
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 38481000.0,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": 1,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            },
+            {
+                "key": "02100045058152123327547570",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "1.02:45:00",
+                            "numberOfStop": 1,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "484",
+                                    "departureDateTime": "2022-05-18T19:45:00",
+                                    "arrivalDateTime": "2022-05-18T21:45:00",
+                                    "resBookDesigCode": "V",
+                                    "arrivalAirport": {
+                                        "locationCode": "WAW",
+                                        "terminalId": null,
+                                        "locationName": "Frederic Chopin",
+                                        "countryName": "Poland",
+                                        "cityName": "Warsaw"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "airEquipType": "E95",
+                                    "flightDuration": "02:00:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "V1SAV7",
+                                            "bookingCode": "V",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 0,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "22:10:00"
+                                },
+                                {
+                                    "flightNumber": "137",
+                                    "departureDateTime": "2022-05-19T19:55:00",
+                                    "arrivalDateTime": "2022-05-19T23:30:00",
+                                    "resBookDesigCode": "V",
+                                    "arrivalAirport": {
+                                        "locationCode": "IST",
+                                        "terminalId": null,
+                                        "locationName": "Istanbul Airport",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "WAW",
+                                        "terminalId": null,
+                                        "locationName": "Frederic Chopin",
+                                        "countryName": "Poland",
+                                        "cityName": "Warsaw"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "LO",
+                                        "name": "LOT - Polish Airlines",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/LOT - Polish Airlines.png"
+                                    },
+                                    "airEquipType": "E95",
+                                    "flightDuration": "02:35:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "V1SAV7",
+                                            "bookingCode": "V",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 0,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 25053000.0,
+                        "taxes": [
+                            {
+                                "amount": 18397000.0,
+                                "code": "TOTALTAX",
+                                "name": null
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 43451000.0,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 25053000.0,
+                                "taxes": [
+                                    {
+                                        "amount": 18397000.0,
+                                        "code": "TotalTax",
+                                        "name": null
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 43451000.0,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": 2,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            },
+            {
+                "key": "02100055058152123327547570",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "03:50:00",
+                            "numberOfStop": 0,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "1752",
+                                    "departureDateTime": "2022-05-18T11:20:00",
+                                    "arrivalDateTime": "2022-05-18T16:10:00",
+                                    "resBookDesigCode": "V",
+                                    "arrivalAirport": {
+                                        "locationCode": "IST",
+                                        "terminalId": null,
+                                        "locationName": "Istanbul Airport",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "TK",
+                                        "name": "Turkish Airlines Inc.",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Turkish Airlines Inc..png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "TK",
+                                        "name": "Turkish Airlines Inc.",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Turkish Airlines Inc..png"
+                                    },
+                                    "airEquipType": "321",
+                                    "flightDuration": "03:50:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "VLY3XPBO",
+                                            "bookingCode": "V",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 30,
+                                            "unitType": "KG",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 33926000.0,
+                        "taxes": [
+                            {
+                                "amount": 17481000.0,
+                                "code": "TOTALTAX",
+                                "name": null
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 51407000.0,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 33926000.0,
+                                "taxes": [
+                                    {
+                                        "amount": 17481000.0,
+                                        "code": "TotalTax",
+                                        "name": null
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 51407000.0,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": 9,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            },
+            {
+                "key": "02100065058152123327547570",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "03:50:00",
+                            "numberOfStop": 0,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "1754",
+                                    "departureDateTime": "2022-05-18T17:55:00",
+                                    "arrivalDateTime": "2022-05-18T22:45:00",
+                                    "resBookDesigCode": "V",
+                                    "arrivalAirport": {
+                                        "locationCode": "IST",
+                                        "terminalId": null,
+                                        "locationName": "Istanbul Airport",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "TK",
+                                        "name": "Turkish Airlines Inc.",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Turkish Airlines Inc..png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "TK",
+                                        "name": "Turkish Airlines Inc.",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Turkish Airlines Inc..png"
+                                    },
+                                    "airEquipType": "321",
+                                    "flightDuration": "03:50:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "VLY3XPBO",
+                                            "bookingCode": "V",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 30,
+                                            "unitType": "KG",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 33926000.0,
+                        "taxes": [
+                            {
+                                "amount": 17481000.0,
+                                "code": "TOTALTAX",
+                                "name": null
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 51407000.0,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 33926000.0,
+                                "taxes": [
+                                    {
+                                        "amount": 17481000.0,
+                                        "code": "TotalTax",
+                                        "name": null
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 51407000.0,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": 9,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            },
+            {
+                "key": "02100075058152123327547570",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "08:50:00",
+                            "numberOfStop": 1,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "1775",
+                                    "departureDateTime": "2022-05-18T17:30:00",
+                                    "arrivalDateTime": "2022-05-18T20:00:00",
+                                    "resBookDesigCode": "N",
+                                    "arrivalAirport": {
+                                        "locationCode": "CDG",
+                                        "terminalId": "2F",
+                                        "locationName": "Charles De Gaulle",
+                                        "countryName": "France",
+                                        "cityName": "Paris"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "AF",
+                                        "name": "Air France",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Air France.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "AF",
+                                        "name": "Air France",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Air France.png"
+                                    },
+                                    "airEquipType": "321",
+                                    "flightDuration": "02:30:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "NS56BALG",
+                                            "bookingCode": "N",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 0,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "02:55:00"
+                                },
+                                {
+                                    "flightNumber": "1390",
+                                    "departureDateTime": "2022-05-18T22:55:00",
+                                    "arrivalDateTime": "2022-05-19T03:20:00",
+                                    "resBookDesigCode": "N",
+                                    "arrivalAirport": {
+                                        "locationCode": "IST",
+                                        "terminalId": null,
+                                        "locationName": "Istanbul Airport",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "CDG",
+                                        "terminalId": "2E",
+                                        "locationName": "Charles De Gaulle",
+                                        "countryName": "France",
+                                        "cityName": "Paris"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "AF",
+                                        "name": "Air France",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Air France.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "AF",
+                                        "name": "Air France",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/Air France.png"
+                                    },
+                                    "airEquipType": "320",
+                                    "flightDuration": "03:25:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "NS56BALG",
+                                            "bookingCode": "N",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 0,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 39369000.0,
+                        "taxes": [
+                            {
+                                "amount": 15440000.0,
+                                "code": "TOTALTAX",
+                                "name": null
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 54809000.0,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 39369000.0,
+                                "taxes": [
+                                    {
+                                        "amount": 15440000.0,
+                                        "code": "TotalTax",
+                                        "name": null
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 54809000.0,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": 1,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            },
+            {
+                "key": "02100085058152123327547570",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "1.01:20:00",
+                            "numberOfStop": 1,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "763",
+                                    "departureDateTime": "2022-05-18T11:40:00",
+                                    "arrivalDateTime": "2022-05-18T13:10:00",
+                                    "resBookDesigCode": "O",
+                                    "arrivalAirport": {
+                                        "locationCode": "LHR",
+                                        "terminalId": "3",
+                                        "locationName": "Heathrow",
+                                        "countryName": "United Kingdom",
+                                        "cityName": "London"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "BA",
+                                        "name": "British Airways",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/British Airways.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "BA",
+                                        "name": "British Airways",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/British Airways.png"
+                                    },
+                                    "airEquipType": "320",
+                                    "flightDuration": "02:30:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "OV2H",
+                                            "bookingCode": "O",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 1,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "18:45:00"
+                                },
+                                {
+                                    "flightNumber": "694",
+                                    "departureDateTime": "2022-05-19T07:55:00",
+                                    "arrivalDateTime": "2022-05-19T14:00:00",
+                                    "resBookDesigCode": "O",
+                                    "arrivalAirport": {
+                                        "locationCode": "IST",
+                                        "terminalId": null,
+                                        "locationName": "Istanbul Airport",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "LHR",
+                                        "terminalId": "5",
+                                        "locationName": "Heathrow",
+                                        "countryName": "United Kingdom",
+                                        "cityName": "London"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "BA",
+                                        "name": "British Airways",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/British Airways.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "BA",
+                                        "name": "British Airways",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/British Airways.png"
+                                    },
+                                    "airEquipType": "320",
+                                    "flightDuration": "04:05:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "OLV2R",
+                                            "bookingCode": "O",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 1,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 37979000.0,
+                        "taxes": [
+                            {
+                                "amount": 19048000.0,
+                                "code": "TOTALTAX",
+                                "name": null
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 57027000.0,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 37979000.0,
+                                "taxes": [
+                                    {
+                                        "amount": 19048000.0,
+                                        "code": "TotalTax",
+                                        "name": null
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 57027000.0,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": 5,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            },
+            {
+                "key": "02100095058152123327547570",
+                "isDomestic": false,
+                "hasExtraBaggage": false,
+                "airItinerary": {
+                    "originDestinationOptions": [
+                        {
+                            "journeyDuration": "11:15:00",
+                            "numberOfStop": 1,
+                            "flightSegments": [
+                                {
+                                    "flightNumber": "763",
+                                    "departureDateTime": "2022-05-18T11:40:00",
+                                    "arrivalDateTime": "2022-05-18T13:10:00",
+                                    "resBookDesigCode": "O",
+                                    "arrivalAirport": {
+                                        "locationCode": "LHR",
+                                        "terminalId": "3",
+                                        "locationName": "Heathrow",
+                                        "countryName": "United Kingdom",
+                                        "cityName": "London"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "OSL",
+                                        "terminalId": null,
+                                        "locationName": "Oslo Airport Gardermoen",
+                                        "countryName": "Norway",
+                                        "cityName": "Oslo"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "BA",
+                                        "name": "British Airways",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/British Airways.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "BA",
+                                        "name": "British Airways",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/British Airways.png"
+                                    },
+                                    "airEquipType": "320",
+                                    "flightDuration": "02:30:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "OV2H",
+                                            "bookingCode": "O",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 1,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "04:30:00"
+                                },
+                                {
+                                    "flightNumber": "680",
+                                    "departureDateTime": "2022-05-18T17:40:00",
+                                    "arrivalDateTime": "2022-05-18T23:55:00",
+                                    "resBookDesigCode": "O",
+                                    "arrivalAirport": {
+                                        "locationCode": "IST",
+                                        "terminalId": null,
+                                        "locationName": "Istanbul Airport",
+                                        "countryName": "Turkey",
+                                        "cityName": "Istanbul"
+                                    },
+                                    "departureAirport": {
+                                        "locationCode": "LHR",
+                                        "terminalId": "5",
+                                        "locationName": "Heathrow",
+                                        "countryName": "United Kingdom",
+                                        "cityName": "London"
+                                    },
+                                    "marketingAirline": {
+                                        "code": "BA",
+                                        "name": "British Airways",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/British Airways.png"
+                                    },
+                                    "operatingAirline": {
+                                        "code": "BA",
+                                        "name": "British Airways",
+                                        "photoUrl": "https://cdn3.itours.no/Content/images/airlines/Thumbs/British Airways.png"
+                                    },
+                                    "airEquipType": "320",
+                                    "flightDuration": "04:15:00",
+                                    "fareBasis": [
+                                        {
+                                            "fareBasisCode": "OLV2R",
+                                            "bookingCode": "O",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "baggageInformation": [
+                                        {
+                                            "baggageAllowance": 1,
+                                            "unitType": "PC",
+                                            "passengerType": "ADT"
+                                        }
+                                    ],
+                                    "extraBaggageInformation": [],
+                                    "handBagInformation": [],
+                                    "cabinClass": {
+                                        "name": "Economy",
+                                        "code": "Y"
+                                    },
+                                    "stopTime": "00:00:00"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "airItineraryPricingInfo": {
+                    "itinTotalFare": {
+                        "baseFare": 37979000.0,
+                        "taxes": [
+                            {
+                                "amount": 19048000.0,
+                                "code": "TOTALTAX",
+                                "name": null
+                            }
+                        ],
+                        "extraBaggage": 0.0,
+                        "commission": 0.0,
+                        "thirdPartyCommission": 0.0,
+                        "totalFare": 57027000.0,
+                        "totalFareWithExtraBaggage": 0.0
+                    },
+                    "ptC_FareBreakdown": [
+                        {
+                            "passengerFare": {
+                                "baseFare": 37979000.0,
+                                "taxes": [
+                                    {
+                                        "amount": 19048000.0,
+                                        "code": "TotalTax",
+                                        "name": null
+                                    }
+                                ],
+                                "extraBaggage": 0.0,
+                                "commission": 0.0,
+                                "thirdPartyCommission": 0.0,
+                                "totalFare": 57027000.0,
+                                "totalFareWithExtraBaggage": 0.0
+                            },
+                            "passengerTypeQuantity": {
+                                "code": "ADT",
+                                "quantity": 1
+                            },
+                            "passengerBirthDateRange": null
+                        }
+                    ]
+                },
+                "availableSeats": 5,
+                "flightType": "Systemic",
+                "hasOnlineVoid": false
+            }
+        ],
+        "count": 10
+    },
+    "error": null
+}

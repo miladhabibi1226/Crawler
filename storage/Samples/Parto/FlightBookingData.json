@@ -1,0 +1,155 @@
+{
+    "UniqueId": "PO0018660",
+    "FareType": 4,
+    "BookedBy": "API ",
+    "OrderBy": "API ",
+    "ClientBalance": 93312.71,
+    "Error": null,
+    "Success": true,
+    "TktTimeLimit": null,
+    "Category": 21,
+    "Status": 21,
+    "RefundMethod": 0,
+    "TravelItinerary": {
+        "ItineraryInfo": {
+            "ItineraryPricing": {
+                "BaseFare": 524.24,
+                "ServiceTax": 6.68,
+                "TotalTax": 0,
+                "TotalFare": 530.92,
+                "TotalCommission": 0,
+                "Currency": "USD"
+            },
+            "CustomerInfoes": [
+                {
+                    "Customer": {
+                        "Gender": 0,
+                        "PassengerType": 1,
+                        "PassportNumber": "AB1295447007",
+                        "NationalId": "201023658",
+                        "Nationality": "US",
+                        "DateOfBirth": "1980-11-01T00:00:00",
+                        "PassportExpireDate": "2025-11-01T00:00:00",
+                        "PassportIssueCountry": "US",
+                        "PassportIssueDate": null,
+                        "PaxName": {
+                            "PassengerFirstName": "JOHKNYO",
+                            "PassengerMiddleName": null,
+                            "PassengerLastName": "SMITH",
+                            "PassengerTitle": 0
+                        }
+                    },
+                    "ETickets": "NHDYXR8",
+                    "ETicketNumbers": [
+                        {
+                            "ETicketNumber": "NHDYXR8",
+                            "EticketStatus": 1,
+                            "IsRefunded": false,
+                            "DateOfIssue": "2020-08-12T13:23:37",
+                            "AirlinePnr": null,
+                            "TotalRefund": 0
+                        }
+                    ]
+                },
+                {
+                    "Customer": {
+                        "Gender": 0,
+                        "PassengerType": 1,
+                        "PassportNumber": "AB1295847007",
+                        "NationalId": "201023658",
+                        "Nationality": "US",
+                        "DateOfBirth": "1990-11-01T00:00:00",
+                        "PassportExpireDate": "2025-11-01T00:00:00",
+                        "PassportIssueCountry": "US",
+                        "PassportIssueDate": null,
+                        "PaxName": {
+                            "PassengerFirstName": "JOHKN",
+                            "PassengerMiddleName": null,
+                            "PassengerLastName": "SMITH",
+                            "PassengerTitle": 0
+                        }
+                    },
+                    "ETickets": "NHDYXR8",
+                    "ETicketNumbers": [
+                        {
+                            "ETicketNumber": "NHDYXR8",
+                            "EticketStatus": 1,
+                            "IsRefunded": false,
+                            "DateOfIssue": "2020-08-12T13:23:37",
+                            "AirlinePnr": null,
+                            "TotalRefund": 0
+                        }
+                    ]
+                }
+            ],
+            "ReservationItems": [
+                {
+                    "AirEquipmentType": "",
+                    "AirlinePnr": "NHDYXR8",
+                    "ArrivalAirportLocationCode": "IKA",
+                    "ArrivalDateTime": "2020-12-10T15:00:00",
+                    "ArrivalTerminal": "",
+                    "Baggage": null,
+                    "DepartureAirportLocationCode": "IST",
+                    "DepartureDateTime": "2020-12-10T11:35:00",
+                    "DepartureTerminal": "",
+                    "FlightNumber": "113",
+                    "JourneyDuration": "02:55",
+                    "JourneyDurationPerMinute": 0,
+                    "MarketingAirlineCode": "W5",
+                    "OperatingAirlineCode": "W5",
+                    "ResBookDesigCode": "Economy",
+                    "StopQuantity": 0,
+                    "IsCharter": false,
+                    "TechnicalStops": [],
+                    "IsReturn": false,
+                    "CabinClassCode": 1
+                },
+                {
+                    "AirEquipmentType": "",
+                    "AirlinePnr": "NHDYXR8",
+                    "ArrivalAirportLocationCode": "IST",
+                    "ArrivalDateTime": "2020-12-15T11:45:00",
+                    "ArrivalTerminal": "",
+                    "Baggage": null,
+                    "DepartureAirportLocationCode": "IKA",
+                    "DepartureDateTime": "2020-12-15T09:00:00",
+                    "DepartureTerminal": "",
+                    "FlightNumber": "116",
+                    "JourneyDuration": "03:15",
+                    "JourneyDurationPerMinute": 0,
+                    "MarketingAirlineCode": "W5",
+                    "OperatingAirlineCode": "W5",
+                    "ResBookDesigCode": "Economy",
+                    "StopQuantity": 0,
+                    "IsCharter": false,
+                    "TechnicalStops": [],
+                    "IsReturn": true,
+                    "CabinClassCode": 1
+                }
+            ],
+            "TripDetailPtcFareBreakdowns": [
+                {
+                    "PassengerTypeQuantity": {
+                        "PassengerType": 1,
+                        "Quantity": 2
+                    },
+                    "TripDetailPassengerFare": {
+                        "BaseFare": 262.12,
+                        "ServiceTax": 3.34,
+                        "Tax": 0,
+                        "TotalFare": 265.46,
+                        "Commission": 0,
+                        "Currency": "USD"
+                    }
+                }
+            ],
+            "PhoneNumber": "0044208123428657",
+            "Email": "Sales@Partocrs.com"
+        },
+        "BookingNotes": [],
+        "Services": []
+    },
+    "ValidatingAirlineCode": "W5",
+    "DirectionInd": 2
+}

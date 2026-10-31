@@ -1,0 +1,55 @@
+{
+    "Success": true,
+    "Items": {
+        "serviceId": 1,
+        "Passengers": [
+            {
+                "Id": 282998,
+                "Email": "",
+                "Gender": "Male",
+                "Mobile": null,
+                "Comment": null,
+                "Eticket": [
+                    "1447526"
+                ],
+                "SurName": "ALGBURI",
+                "BirthDate": "1981-11-10",
+                "GivenName": "RAED",
+                "MobileCode": null,
+                "NamePrefix": "MR",
+                "NationalId": "A20679879",
+                "PassportNO": "A20679879",
+                "Nationality": "IQ",
+                "PassengerId": 148554,
+                "ReferenceId": "BCQJ4O",
+                "InnerDocType": "Passport",
+                "PassengerTypeCode": "ADT",
+                "PassportExpireDate": "2030-10-06"
+            },
+            {
+                "Id": 282999,
+                "Email": "",
+                "Gender": "Female",
+                "Mobile": null,
+                "Comment": null,
+                "Eticket": [
+                    "1447527"
+                ],
+                "SurName": "ALAFLOOKEE",
+                "BirthDate": "1972-02-05",
+                "GivenName": "SAJIDA",
+                "MobileCode": null,
+                "NamePrefix": "MS",
+                "NationalId": "A9331853",
+                "PassportNO": "A9331853",
+                "Nationality": "IQ",
+                "PassengerId": 148555,
+                "ReferenceId": "BCQJ4O",
+                "InnerDocType": "Passport",
+                "PassengerTypeCode": "ADT",
+                "PassportExpireDate": "2023-10-11"
+            }
+        ],
+        "Rooms": null
+    }
+}
